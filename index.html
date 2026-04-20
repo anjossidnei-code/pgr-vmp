@@ -368,7 +368,7 @@ tbody td{padding:9px 14px;font-size:12px;}
       </div>
       <div>
         <div style="font-size:10px;color:var(--text3);margin-bottom:3px">Revisão SESMT</div>
-        <input type="text" id="data-revisao" value="15/11/2025" placeholder="DD/MM/AAAA"
+        <input type="text" id="data-revisao" value="15/01/2026" placeholder="DD/MM/AAAA"
           style="width:100%;padding:6px 8px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:5px;font-size:11px;font-family:'Inter',sans-serif;outline:none;"
           oninput="onDateChange()" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border2)'">
       </div>
@@ -518,7 +518,7 @@ let S={
 
 // ===== DATE & SESSION HELPERS =====
 function getDataAprovacao(){ return (document.getElementById('data-aprovacao')||{}).value||'01/01/2022'; }
-function getDataRevisao(){ return (document.getElementById('data-revisao')||{}).value||'15/11/2025'; }
+function getDataRevisao(){ return (document.getElementById('data-revisao')||{}).value||'15/01/2026'; }
 function getRespElaboracao(){
   const raw=(document.getElementById('resp-elaboracao')||{}).value||'Edgard Giannini – Eng. de Segurança do Trabalho\nSidnei Martins dos Anjos – Eng. de Segurança do Trab.';
   return raw.split('\n').filter(l=>l.trim()).map(l=>`<div>${l.trim()}</div>`).join('');
