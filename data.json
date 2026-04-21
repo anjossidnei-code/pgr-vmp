@@ -28707,8 +28707,8 @@
       "setor": "ABASTECIMENTO",
       "nivel_db": 73.0423960354387,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.7,
+      "tempo_medicao": 2.7
     },
     {
       "unidade": "BRAS",
@@ -28730,9 +28730,9 @@
       "unidade": "BRAS",
       "setor": "ALMOXARIFADO",
       "nivel_db": 74.7637190143661,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "BRAS",
@@ -28746,17 +28746,17 @@
       "unidade": "BRAS",
       "setor": "Área de carregamento de ônibus elétricos",
       "nivel_db": 74.7637190143661,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "BRAS",
       "setor": "BORRACHARIA",
       "nivel_db": 76.73695411094131,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 5.5,
+      "tempo_medicao": 5.5
     },
     {
       "unidade": "BRAS",
@@ -28787,24 +28787,24 @@
       "setor": "COBRADOR",
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.4,
+      "tempo_medicao": 3.4
     },
     {
       "unidade": "BRAS",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 75.81729490059426,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "BRAS",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 78.71816526258898,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 7.5,
+      "tempo_medicao": 7.5
     },
     {
       "unidade": "BRAS",
@@ -28818,17 +28818,17 @@
       "unidade": "BRAS",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 74.07764072845684,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 5.5,
+      "tempo_medicao": 5.5
     },
     {
       "unidade": "BRAS",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 77.0397414079145,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.5,
+      "tempo_medicao": 8.5
     },
     {
       "unidade": "BRAS",
@@ -28842,25 +28842,25 @@
       "unidade": "BRAS",
       "setor": "ENC DE OFICINA",
       "nivel_db": 75.39284122530789,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.3,
+      "tempo_medicao": 3.3
     },
     {
       "unidade": "BRAS",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "BRAS",
       "setor": "FUNILARIA",
       "nivel_db": 77.90997262366344,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.2,
+      "tempo_medicao": 9.2
     },
     {
       "unidade": "BRAS",
@@ -28883,64 +28883,64 @@
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 77.99237155796243,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.7,
+      "tempo_medicao": 9.7
     },
     {
       "unidade": "BRAS",
       "setor": "MANOBRISTA",
       "nivel_db": 73.15357453428506,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "BRAS",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 71.78043291191491,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "BRAS",
       "setor": "MARCENARIA",
       "nivel_db": 75.37682871852343,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 4.5,
+      "tempo_medicao": 4.5
     },
     {
       "unidade": "BRAS",
       "setor": "MECANICA",
       "nivel_db": 77.99237155796243,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.7,
+      "tempo_medicao": 9.7
     },
     {
       "unidade": "BRAS",
       "setor": "MOLA",
       "nivel_db": 78.26989532713897,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.9,
+      "tempo_medicao": 10.9
     },
     {
       "unidade": "BRAS",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 73.15357453428506,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "BRAS",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.9,
+      "tempo_medicao": 3.9
     },
     {
       "unidade": "BRAS",
@@ -28954,9 +28954,9 @@
       "unidade": "BRAS",
       "setor": "PINTURA",
       "nivel_db": 76.3411678494762,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 6.9,
+      "tempo_medicao": 6.9
     },
     {
       "unidade": "BRAS",
@@ -28971,16 +28971,16 @@
       "setor": "PISTA (catracaria)",
       "nivel_db": 74.94184241852345,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.1,
+      "tempo_medicao": 3.1
     },
     {
       "unidade": "BRAS",
       "setor": "PORTARIA",
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.5,
+      "tempo_medicao": 1.5
     },
     {
       "unidade": "BRAS",
@@ -29018,9 +29018,9 @@
       "unidade": "BRAS",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 75.17086582382981,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "BRAS",
@@ -29035,8 +29035,8 @@
       "setor": "ABASTECIMENTO",
       "nivel_db": 73.67303199373147,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 5.2,
+      "tempo_medicao": 5.2
     },
     {
       "unidade": "AEC",
@@ -29083,8 +29083,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 79.39840758423095,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 11.5,
+      "tempo_medicao": 11.5
     },
     {
       "unidade": "AEC",
@@ -29115,24 +29115,24 @@
       "setor": "COBRADOR",
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.8,
+      "tempo_medicao": 3.8
     },
     {
       "unidade": "AEC",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "AEC",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 78.39021645595746,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 5,
+      "tempo_medicao": 5
     },
     {
       "unidade": "AEC",
@@ -29147,16 +29147,16 @@
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "AEC",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.02020553980522,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.5,
+      "tempo_medicao": 9.5
     },
     {
       "unidade": "AEC",
@@ -29171,24 +29171,24 @@
       "setor": "ENC DE OFICINA",
       "nivel_db": 70.85263456382125,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.7,
+      "tempo_medicao": 1.7
     },
     {
       "unidade": "AEC",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "AEC",
       "setor": "FUNILARIA",
       "nivel_db": 77.46807364037176,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.8,
+      "tempo_medicao": 8.8
     },
     {
       "unidade": "AEC",
@@ -29211,64 +29211,64 @@
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.20758312271015,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.5,
+      "tempo_medicao": 6.5
     },
     {
       "unidade": "AEC",
       "setor": "MANOBRISTA",
       "nivel_db": 77.77025945053194,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.5,
+      "tempo_medicao": 6.5
     },
     {
       "unidade": "AEC",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "AEC",
       "setor": "MARCENARIA",
       "nivel_db": 78.02020553980522,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.5,
+      "tempo_medicao": 9.5
     },
     {
       "unidade": "AEC",
       "setor": "MECANICA",
       "nivel_db": 78.5330653089229,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.2,
+      "tempo_medicao": 10.2
     },
     {
       "unidade": "AEC",
       "setor": "MOLA",
       "nivel_db": 77.94387010424845,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.4,
+      "tempo_medicao": 9.4
     },
     {
       "unidade": "AEC",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 74.98823249058252,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.6,
+      "tempo_medicao": 2.6
     },
     {
       "unidade": "AEC",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.9,
+      "tempo_medicao": 6.9
     },
     {
       "unidade": "AEC",
@@ -29283,32 +29283,32 @@
       "setor": "PINTURA",
       "nivel_db": 77.46807364037176,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.8,
+      "tempo_medicao": 8.8
     },
     {
       "unidade": "AEC",
       "setor": "PINTURA OBRA",
       "nivel_db": 77.13249539744531,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.2,
+      "tempo_medicao": 4.2
     },
     {
       "unidade": "AEC",
       "setor": "PISTA (catracaria)",
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.5,
+      "tempo_medicao": 1.5
     },
     {
       "unidade": "AEC",
       "setor": "PORTARIA",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "AEC",
@@ -29339,32 +29339,32 @@
       "setor": "TAPEÇARIA",
       "nivel_db": 78.17486818525731,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 5.5,
+      "tempo_medicao": 5.5
     },
     {
       "unidade": "AEC",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 75.29854404797692,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.9,
+      "tempo_medicao": 1.9
     },
     {
       "unidade": "AEC",
       "setor": "TORNO",
       "nivel_db": 79.07774895643557,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 5.5,
+      "tempo_medicao": 5.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "ABASTECIMENTO",
       "nivel_db": 74.46075542903785,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.9,
+      "tempo_medicao": 2.9
     },
     {
       "unidade": "IMPERADOR",
@@ -29387,8 +29387,8 @@
       "setor": "ALMOXARIFADO",
       "nivel_db": 73.17714423472366,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.9,
+      "tempo_medicao": 8.9
     },
     {
       "unidade": "IMPERADOR",
@@ -29411,8 +29411,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 79.47080663770092,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 12.1,
+      "tempo_medicao": 12.1
     },
     {
       "unidade": "IMPERADOR",
@@ -29435,32 +29435,32 @@
       "setor": "CARRETA",
       "nivel_db": 73.88335684407234,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.9,
+      "tempo_medicao": 2.9
     },
     {
       "unidade": "IMPERADOR",
       "setor": "COBRADOR",
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.8,
+      "tempo_medicao": 3.8
     },
     {
       "unidade": "IMPERADOR",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 77.13249539744531,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.2,
+      "tempo_medicao": 4.2
     },
     {
       "unidade": "IMPERADOR",
@@ -29474,17 +29474,17 @@
       "unidade": "IMPERADOR",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 72.81270964301322,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 75.28270730979528,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.5,
+      "tempo_medicao": 6.5
     },
     {
       "unidade": "IMPERADOR",
@@ -29498,25 +29498,25 @@
       "unidade": "IMPERADOR",
       "setor": "ENC DE OFICINA",
       "nivel_db": 73.39010822797873,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "FUNILARIA",
       "nivel_db": 80.91972585616003,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 14.2,
+      "tempo_medicao": 14.2
     },
     {
       "unidade": "IMPERADOR",
@@ -29539,64 +29539,64 @@
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 76.87015261953182,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.1,
+      "tempo_medicao": 8.1
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MANOBRISTA",
       "nivel_db": 74.70530872482978,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.4,
+      "tempo_medicao": 3.4
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 75.4653406430426,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MARCENARIA",
       "nivel_db": 74.8245450154863,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 6.1,
+      "tempo_medicao": 6.1
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MECANICA",
       "nivel_db": 78.02324221900999,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.9,
+      "tempo_medicao": 9.9
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MOLA",
       "nivel_db": 79.82465324346502,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 12.2,
+      "tempo_medicao": 12.2
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.9,
+      "tempo_medicao": 3.9
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.9,
+      "tempo_medicao": 6.9
     },
     {
       "unidade": "IMPERADOR",
@@ -29611,8 +29611,8 @@
       "setor": "PINTURA",
       "nivel_db": 78.02020553980522,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.5,
+      "tempo_medicao": 9.5
     },
     {
       "unidade": "IMPERADOR",
@@ -29627,16 +29627,16 @@
       "setor": "PISTA (catracaria)",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "IMPERADOR",
       "setor": "PORTARIA",
       "nivel_db": 72.13238716946658,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.1,
+      "tempo_medicao": 2.1
     },
     {
       "unidade": "IMPERADOR",
@@ -29667,16 +29667,16 @@
       "setor": "TAPEÇARIA",
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "IMPERADOR",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 74.70530872482978,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3,
+      "tempo_medicao": 3
     },
     {
       "unidade": "IMPERADOR",
@@ -29691,16 +29691,16 @@
       "setor": "ABASTECIMENTO",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "ITAIM",
       "setor": "ADMINISTRAÇÃO",
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.5,
+      "tempo_medicao": 1.5
     },
     {
       "unidade": "ITAIM",
@@ -29715,8 +29715,8 @@
       "setor": "ALMOXARIFADO",
       "nivel_db": 76.51819836198015,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.5,
+      "tempo_medicao": 4.5
     },
     {
       "unidade": "ITAIM",
@@ -29739,8 +29739,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 79.07774895643557,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 16.5,
+      "tempo_medicao": 16.5
     },
     {
       "unidade": "ITAIM",
@@ -29763,32 +29763,32 @@
       "setor": "CARRETA",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "ITAIM",
       "setor": "COBRADOR",
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.8,
+      "tempo_medicao": 3.8
     },
     {
       "unidade": "ITAIM",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 73.36787822165145,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.7,
+      "tempo_medicao": 2.7
     },
     {
       "unidade": "ITAIM",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 79.7054169528085,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 12.5,
+      "tempo_medicao": 12.5
     },
     {
       "unidade": "ITAIM",
@@ -29803,16 +29803,16 @@
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 71.89056682742752,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.2,
+      "tempo_medicao": 2.2
     },
     {
       "unidade": "ITAIM",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 80.5550603506595,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 13.5,
+      "tempo_medicao": 13.5
     },
     {
       "unidade": "ITAIM",
@@ -29826,25 +29826,25 @@
       "unidade": "ITAIM",
       "setor": "ENC DE OFICINA",
       "nivel_db": 75.81729490059426,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "ITAIM",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "ITAIM",
       "setor": "FUNILARIA",
       "nivel_db": 79.99989177202127,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 12.5,
+      "tempo_medicao": 12.5
     },
     {
       "unidade": "ITAIM",
@@ -29867,64 +29867,64 @@
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 80.68503920673311,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 12.6,
+      "tempo_medicao": 12.6
     },
     {
       "unidade": "ITAIM",
       "setor": "MANOBRISTA",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "ITAIM",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 76.02050922168083,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.6,
+      "tempo_medicao": 3.6
     },
     {
       "unidade": "ITAIM",
       "setor": "MARCENARIA",
       "nivel_db": 78.432525265478,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 5.7,
+      "tempo_medicao": 5.7
     },
     {
       "unidade": "ITAIM",
       "setor": "MECANICA",
       "nivel_db": 79.2590706010995,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 18.8,
+      "tempo_medicao": 18.8
     },
     {
       "unidade": "ITAIM",
       "setor": "MOLA",
       "nivel_db": 79.33540603665627,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 19,
+      "tempo_medicao": 19
     },
     {
       "unidade": "ITAIM",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 75.72942985150435,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.4,
+      "tempo_medicao": 3.4
     },
     {
       "unidade": "ITAIM",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.9,
+      "tempo_medicao": 6.9
     },
     {
       "unidade": "ITAIM",
@@ -29939,40 +29939,40 @@
       "setor": "PINTURA",
       "nivel_db": 79.7054169528085,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 7.5,
+      "tempo_medicao": 7.5
     },
     {
       "unidade": "ITAIM",
       "setor": "PINTURA OBRA",
       "nivel_db": 76.02050922168083,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.6,
+      "tempo_medicao": 3.6
     },
     {
       "unidade": "ITAIM",
       "setor": "PISTA (catracaria)",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "ITAIM",
       "setor": "PORTARIA",
       "nivel_db": 73.09563340876596,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.4,
+      "tempo_medicao": 2.4
     },
     {
       "unidade": "ITAIM",
       "setor": "REBITADOR",
       "nivel_db": 83.74227894148785,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "ITAIM",
@@ -29994,33 +29994,33 @@
       "unidade": "ITAIM",
       "setor": "TAPEÇARIA",
       "nivel_db": 75.81729490059426,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "ITAIM",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 76.9837554609802,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.4,
+      "tempo_medicao": 2.4
     },
     {
       "unidade": "ITAIM",
       "setor": "TORNO",
       "nivel_db": 82.63029276572337,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 18,
+      "tempo_medicao": 18
     },
     {
       "unidade": "IGUATEMI",
       "setor": "ABASTECIMENTO",
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "IGUATEMI",
@@ -30043,8 +30043,8 @@
       "setor": "ALMOXARIFADO",
       "nivel_db": 73.94527680661696,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.7,
+      "tempo_medicao": 2.7
     },
     {
       "unidade": "IGUATEMI",
@@ -30067,8 +30067,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 78.81054687800528,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.6,
+      "tempo_medicao": 10.6
     },
     {
       "unidade": "IGUATEMI",
@@ -30099,24 +30099,24 @@
       "setor": "COBRADOR",
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.8,
+      "tempo_medicao": 3.8
     },
     {
       "unidade": "IGUATEMI",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 76.02050922168083,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 7.2,
+      "tempo_medicao": 7.2
     },
     {
       "unidade": "IGUATEMI",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 78.5330653089229,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 10.2,
+      "tempo_medicao": 10.2
     },
     {
       "unidade": "IGUATEMI",
@@ -30130,17 +30130,17 @@
       "unidade": "IGUATEMI",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 74.20761958453045,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.8,
+      "tempo_medicao": 2.8
     },
     {
       "unidade": "IGUATEMI",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 79.7652814569137,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 12.1,
+      "tempo_medicao": 12.1
     },
     {
       "unidade": "IGUATEMI",
@@ -30154,25 +30154,25 @@
       "unidade": "IGUATEMI",
       "setor": "ENC DE OFICINA",
       "nivel_db": 75.17086582382981,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "IGUATEMI",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "IGUATEMI",
       "setor": "FUNILARIA",
       "nivel_db": 79.01187058675121,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.9,
+      "tempo_medicao": 10.9
     },
     {
       "unidade": "IGUATEMI",
@@ -30195,64 +30195,64 @@
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.50035037147006,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 5.5,
+      "tempo_medicao": 5.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MANOBRISTA",
       "nivel_db": 75.4653406430426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 74.22422173534417,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.9,
+      "tempo_medicao": 2.9
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MARCENARIA",
       "nivel_db": 75.8686376891846,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 4.7,
+      "tempo_medicao": 4.7
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MECANICA",
       "nivel_db": 79.3305985514104,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 7.5,
+      "tempo_medicao": 7.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MOLA",
       "nivel_db": 79.39840758423095,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 11.5,
+      "tempo_medicao": 11.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.8,
+      "tempo_medicao": 2.8
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.9,
+      "tempo_medicao": 6.9
     },
     {
       "unidade": "IGUATEMI",
@@ -30267,32 +30267,32 @@
       "setor": "PINTURA",
       "nivel_db": 78.80253618163024,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 7.5,
+      "tempo_medicao": 7.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "PINTURA OBRA",
       "nivel_db": 73.39010822797873,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "IGUATEMI",
       "setor": "PISTA (catracaria)",
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.8,
+      "tempo_medicao": 2.8
     },
     {
       "unidade": "IGUATEMI",
       "setor": "PORTARIA",
       "nivel_db": 71.41042199576268,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 1.9,
+      "tempo_medicao": 1.9
     },
     {
       "unidade": "IGUATEMI",
@@ -30322,17 +30322,17 @@
       "unidade": "IGUATEMI",
       "setor": "TAPEÇARIA",
       "nivel_db": 74.81891156627815,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "IGUATEMI",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 75.29854404797692,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 1.9,
+      "tempo_medicao": 1.9
     },
     {
       "unidade": "IGUATEMI",
@@ -30347,8 +30347,8 @@
       "setor": "ABASTECIMENTO",
       "nivel_db": 75.5228200813815,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.2,
+      "tempo_medicao": 4.2
     },
     {
       "unidade": "PINEDO",
@@ -30370,9 +30370,9 @@
       "unidade": "PINEDO",
       "setor": "ALMOXARIFADO",
       "nivel_db": 76.41587563439312,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 4.5,
+      "tempo_medicao": 4.5
     },
     {
       "unidade": "PINEDO",
@@ -30395,8 +30395,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 78.27661361450907,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "PINEDO",
@@ -30427,24 +30427,24 @@
       "setor": "COBRADOR",
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.4,
+      "tempo_medicao": 3.4
     },
     {
       "unidade": "PINEDO",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 76.89596170375164,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.2,
+      "tempo_medicao": 4.2
     },
     {
       "unidade": "PINEDO",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 79.03906987532392,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "PINEDO",
@@ -30458,17 +30458,17 @@
       "unidade": "PINEDO",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 74.70530872482978,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.9,
+      "tempo_medicao": 2.9
     },
     {
       "unidade": "PINEDO",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.27661361450907,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "PINEDO",
@@ -30482,25 +30482,25 @@
       "unidade": "PINEDO",
       "setor": "ENC DE OFICINA",
       "nivel_db": 75.63739452109982,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.3,
+      "tempo_medicao": 3.3
     },
     {
       "unidade": "PINEDO",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 74.82260612786693,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.1,
+      "tempo_medicao": 3.1
     },
     {
       "unidade": "PINEDO",
       "setor": "FUNILARIA",
       "nivel_db": 78.41382901826638,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.2,
+      "tempo_medicao": 10.2
     },
     {
       "unidade": "PINEDO",
@@ -30515,72 +30515,72 @@
       "setor": "LETRISTA",
       "nivel_db": 76.62199340947114,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 7.5,
+      "tempo_medicao": 7.5
     },
     {
       "unidade": "PINEDO",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 79.47639354750214,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "PINEDO",
       "setor": "MANOBRISTA",
       "nivel_db": 73.51134858347504,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "PINEDO",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 72.43243021075777,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 2.7,
+      "tempo_medicao": 2.7
     },
     {
       "unidade": "PINEDO",
       "setor": "MARCENARIA",
       "nivel_db": 74.64736759931068,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "PINEDO",
       "setor": "MECANICA",
       "nivel_db": 79.47639354750214,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "PINEDO",
       "setor": "MOLA",
       "nivel_db": 79.47639354750214,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 6.2,
+      "tempo_medicao": 6.2
     },
     {
       "unidade": "PINEDO",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 73.41160938054203,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.8,
+      "tempo_medicao": 2.8
     },
     {
       "unidade": "PINEDO",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.9,
+      "tempo_medicao": 3.9
     },
     {
       "unidade": "PINEDO",
@@ -30594,33 +30594,33 @@
       "unidade": "PINEDO",
       "setor": "PINTURA",
       "nivel_db": 77.66825128225355,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 9.5,
+      "tempo_medicao": 9.5
     },
     {
       "unidade": "PINEDO",
       "setor": "PINTURA OBRA",
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.5,
+      "tempo_medicao": 2.5
     },
     {
       "unidade": "PINEDO",
       "setor": "PISTA (catracaria)",
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.1,
+      "tempo_medicao": 2.1
     },
     {
       "unidade": "PINEDO",
       "setor": "PORTARIA",
       "nivel_db": 72.2536275249629,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.1,
+      "tempo_medicao": 2.1
     },
     {
       "unidade": "PINEDO",
@@ -30651,32 +30651,32 @@
       "setor": "TAPEÇARIA",
       "nivel_db": 74.08838329387393,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.8,
+      "tempo_medicao": 2.8
     },
     {
       "unidade": "PINEDO",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 75.42727389853368,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 2.1,
+      "tempo_medicao": 2.1
     },
     {
       "unidade": "PINEDO",
       "setor": "TORNO",
       "nivel_db": 81.41063845172013,
       "protetor": "aconselhavel",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9.5,
+      "tempo_medicao": 9.5
     },
     {
       "unidade": "MBOI",
       "setor": "ABASTECIMENTO",
       "nivel_db": 75.29210617932613,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "MBOI",
@@ -30699,8 +30699,8 @@
       "setor": "ALMOXARIFADO",
       "nivel_db": 73.21687376426226,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.8,
+      "tempo_medicao": 4.8
     },
     {
       "unidade": "MBOI",
@@ -30723,8 +30723,8 @@
       "setor": "BORRACHARIA",
       "nivel_db": 75.05726298238145,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4.2,
+      "tempo_medicao": 4.2
     },
     {
       "unidade": "MBOI",
@@ -30755,24 +30755,24 @@
       "setor": "COBRADOR",
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.4,
+      "tempo_medicao": 3.4
     },
     {
       "unidade": "MBOI",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 76.62199340947114,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 4.5,
+      "tempo_medicao": 4.5
     },
     {
       "unidade": "MBOI",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 79.2243299633229,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 5.8,
+      "tempo_medicao": 5.8
     },
     {
       "unidade": "MBOI",
@@ -30786,17 +30786,17 @@
       "unidade": "MBOI",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 78.06750820992286,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 5.1,
+      "tempo_medicao": 5.1
     },
     {
       "unidade": "MBOI",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.66380822643148,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.3,
+      "tempo_medicao": 10.3
     },
     {
       "unidade": "MBOI",
@@ -30810,25 +30810,25 @@
       "unidade": "MBOI",
       "setor": "ENC DE OFICINA",
       "nivel_db": 75.81729490059426,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "MBOI",
       "setor": "FISCALIZAÇÃO",
       "nivel_db": 76.84246110243826,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.9,
+      "tempo_medicao": 3.9
     },
     {
       "unidade": "MBOI",
       "setor": "FUNILARIA",
       "nivel_db": 79.08849152185265,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 11.2,
+      "tempo_medicao": 11.2
     },
     {
       "unidade": "MBOI",
@@ -30842,33 +30842,33 @@
       "unidade": "MBOI",
       "setor": "LETRISTA",
       "nivel_db": 76.59790780664633,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 7.8,
+      "tempo_medicao": 7.8
     },
     {
       "unidade": "MBOI",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.44769589429636,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "MBOI",
       "setor": "MANOBRISTA",
       "nivel_db": 76.66130484923711,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 4,
+      "tempo_medicao": 4
     },
     {
       "unidade": "MBOI",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 77.77508300894931,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 8.8,
+      "tempo_medicao": 8.8
     },
     {
       "unidade": "MBOI",
@@ -30883,32 +30883,32 @@
       "setor": "MECANICA",
       "nivel_db": 78.44769589429636,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "MBOI",
       "setor": "MOLA",
       "nivel_db": 78.44769589429636,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 10.5,
+      "tempo_medicao": 10.5
     },
     {
       "unidade": "MBOI",
       "setor": "MOTORISTA APOIO",
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "MBOI",
       "setor": "MOTORISTA ONIBUS",
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.9,
+      "tempo_medicao": 3.9
     },
     {
       "unidade": "MBOI",
@@ -30923,8 +30923,8 @@
       "setor": "PINTURA",
       "nivel_db": 77.54958446632946,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 8.9,
+      "tempo_medicao": 8.9
     },
     {
       "unidade": "MBOI",
@@ -30939,16 +30939,16 @@
       "setor": "PISTA (catracaria)",
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "MBOI",
       "setor": "PORTARIA",
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 3.5,
+      "tempo_medicao": 3.5
     },
     {
       "unidade": "MBOI",
@@ -30979,16 +30979,16 @@
       "setor": "TAPEÇARIA",
       "nivel_db": 78.59343077704402,
       "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "dose_pct": 9,
+      "tempo_medicao": 9
     },
     {
       "unidade": "MBOI",
       "setor": "TEC. SEGURANÇA TRAB",
       "nivel_db": 75.17086582382981,
-      "protetor": "nao_obrigatorio",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "protetor": "aconselhavel",
+      "dose_pct": 3.2,
+      "tempo_medicao": 3.2
     },
     {
       "unidade": "MBOI",
@@ -31029,6 +31029,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-21T01:51:25.369Z",
+  "timestamp": "2026-04-21T01:52:58.611Z",
   "version": "2026"
 }
