@@ -336,9 +336,111 @@ tbody td{padding:9px 14px;font-size:12px;}
   .pgr-header{border-color:#ccc!important;}
   .pgr-footer-area{border-color:#ccc!important;}
 }
+
+/* ===== LOGIN SCREEN ===== */
+#login-screen{position:fixed;inset:0;background:linear-gradient(135deg,#0a0e1a 0%,#0f1420 50%,#0a0e1a 100%);z-index:9999;display:flex;align-items:center;justify-content:center;}
+#login-screen.hidden{display:none;}
+.login-card{background:var(--bg2);border:1px solid var(--border2);border-radius:16px;padding:40px;width:100%;max-width:400px;box-shadow:0 20px 60px rgba(0,0,0,.6);}
+.login-logo{display:flex;align-items:center;gap:12px;margin-bottom:28px;justify-content:center;}
+.login-logo-icon{width:48px;height:48px;background:linear-gradient(135deg,var(--accent),var(--purple));border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;color:#fff;}
+.login-logo-text{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:24px;letter-spacing:1px;}
+.login-logo-sub{font-size:11px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;}
+.login-title{font-family:'Rajdhani',sans-serif;font-size:18px;font-weight:700;color:var(--text2);text-align:center;margin-bottom:24px;text-transform:uppercase;letter-spacing:2px;}
+.login-field{margin-bottom:16px;}
+.login-field label{display:block;font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:6px;}
+.login-field input{width:100%;padding:10px 14px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:8px;font-size:14px;font-family:'Inter',sans-serif;outline:none;transition:.2s;}
+.login-field input:focus{border-color:var(--accent);background:#1a2035;}
+.login-btn{width:100%;padding:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;border-radius:8px;color:#fff;font-size:15px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif;transition:.2s;margin-top:8px;}
+.login-btn:hover{background:linear-gradient(135deg,var(--accent2),#2d5ab8);transform:translateY(-1px);}
+.login-err{color:#f55050;font-size:12px;text-align:center;margin-top:10px;display:none;}
+.login-footer{text-align:center;margin-top:20px;font-size:11px;color:var(--text3);}
+
+/* ===== TOPBAR USER BADGE ===== */
+.user-badge{display:flex;align-items:center;gap:8px;background:var(--bg3);border:1px solid var(--border2);border-radius:8px;padding:6px 12px;cursor:pointer;transition:.15s;}
+.user-badge:hover{background:var(--card2);}
+.user-role-dot{width:8px;height:8px;border-radius:50%;}
+.user-role-dot.admin{background:#f5a623;}
+.user-role-dot.user{background:#3ddc84;}
+.user-name-text{font-size:12px;font-weight:600;color:var(--text);}
+.user-role-text{font-size:10px;color:var(--text3);}
+
+/* ===== GITHUB CONFIG MODAL ===== */
+#github-modal{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.75);align-items:center;justify-content:center;padding:20px;}
+#github-modal.open{display:flex;}
+.github-modal-box{background:var(--bg2);border:1px solid var(--border2);border-radius:14px;width:100%;max-width:520px;padding:28px;}
+.github-modal-box h3{font-family:'Rajdhani',sans-serif;font-size:20px;font-weight:700;margin-bottom:6px;}
+.github-modal-box p{font-size:12px;color:var(--text3);margin-bottom:20px;line-height:1.6;}
+.gh-field{margin-bottom:14px;}
+.gh-field label{display:block;font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:5px;}
+.gh-field input{width:100%;padding:9px 12px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:7px;font-size:13px;font-family:'Inter',sans-serif;outline:none;transition:.2s;}
+.gh-field input:focus{border-color:var(--accent);}
+.gh-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px;}
+.gh-status{font-size:12px;margin-top:10px;padding:8px 12px;border-radius:6px;display:none;}
+.gh-status.ok{background:#052e16;color:#3ddc84;border:1px solid #22c55e;}
+.gh-status.err{background:#3a0a0a;color:#f55050;border:1px solid #f55050;}
+.gh-status.loading{background:#1a2540;color:#9aa3bc;border:1px solid #3a4570;}
+
+/* ===== UPLOAD ZONE HIDDEN FOR USERS ===== */
+.admin-only{display:block;}
+body.role-user .admin-only{display:none!important;}
 </style>
 </head>
 <body>
+
+<!-- ===== LOGIN SCREEN ===== -->
+<div id="login-screen">
+  <div class="login-card">
+    <div class="login-logo">
+      <div class="login-logo-icon">VMP</div>
+      <div>
+        <div class="login-logo-text">PGR SYSTEM</div>
+        <div class="login-logo-sub">Viação Metrópole Paulista</div>
+      </div>
+    </div>
+    <div class="login-title">Acesso ao Sistema</div>
+    <div class="login-field">
+      <label>Usuário</label>
+      <input type="text" id="login-user" placeholder="Digite seu usuário" autocomplete="username" onkeydown="if(event.key==='Enter')doLogin()">
+    </div>
+    <div class="login-field">
+      <label>Senha</label>
+      <input type="password" id="login-pass" placeholder="Digite sua senha" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()">
+    </div>
+    <button class="login-btn" onclick="doLogin()">Entrar</button>
+    <div class="login-err" id="login-err">Usuário ou senha incorretos.</div>
+    <div class="login-footer">Sistema PGR 2026 — Uso Interno</div>
+  </div>
+</div>
+
+<!-- ===== GITHUB CONFIG MODAL ===== -->
+<div id="github-modal">
+  <div class="github-modal-box">
+    <h3>⚙️ Configuração GitHub</h3>
+    <p>Configure o repositório GitHub para sincronização do banco de dados. O arquivo <code style="background:var(--bg3);padding:2px 6px;border-radius:4px">data.json</code> será substituído ao importar nova planilha.</p>
+    <div class="gh-field">
+      <label>Token GitHub (Personal Access Token)</label>
+      <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+    </div>
+    <div class="gh-field">
+      <label>Usuário / Organização</label>
+      <input type="text" id="gh-owner" placeholder="ex: minha-empresa">
+    </div>
+    <div class="gh-field">
+      <label>Nome do Repositório</label>
+      <input type="text" id="gh-repo" placeholder="ex: pgr-vmp">
+    </div>
+    <div class="gh-field">
+      <label>Branch</label>
+      <input type="text" id="gh-branch" placeholder="main" value="main">
+    </div>
+    <div class="gh-status" id="gh-status"></div>
+    <div class="gh-actions">
+      <button class="btn" style="background:var(--bg3);color:var(--text2);border:1px solid var(--border2)" onclick="closeGithubModal()">Cancelar</button>
+      <button class="btn" style="background:#1e3a5f;color:#93c5fd;border:1px solid #3b82f6" onclick="testGithubConnection()">🔌 Testar Conexão</button>
+      <button class="btn btn-primary" onclick="saveGithubConfig()">💾 Salvar</button>
+    </div>
+  </div>
+</div>
 
 <!-- SIDEBAR -->
 <div id="sidebar">
@@ -347,6 +449,7 @@ tbody td{padding:9px 14px;font-size:12px;}
       <div class="logo-icon">VMP</div>
       <div><div class="logo-text">PGR SYSTEM</div><div class="logo-sub">Metrópole Paulista</div></div>
     </div>
+    <div class="admin-only">
     <label id="upload-zone">
       <input type="file" id="file-input" accept=".xlsx,.xls">
       <div class="up-icon">📂</div>
@@ -354,6 +457,7 @@ tbody td{padding:9px 14px;font-size:12px;}
       <div class="up-file" id="up-file-name"></div>
     </label>
     <div id="upload-status">✅ Dados atualizados!</div>
+    </div>
   </div>
   <div class="filter-section">
     <div class="filter-label">Unidade</div>
@@ -395,7 +499,7 @@ tbody td{padding:9px 14px;font-size:12px;}
   </div>
 
   <!-- ANÁLISE CRÍTICA -->
-  <div class="filter-section" style="padding-bottom:10px">
+  <div class="filter-section admin-only" style="padding-bottom:10px">
     <div class="filter-label">Análise Crítica</div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:6px">
       <div>
@@ -442,6 +546,17 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
     <div class="topbar-right">
       <input type="text" id="search-box" placeholder="Buscar setor, risco, perigo...">
       <div class="count-badge">Exibindo <b id="count-display">—</b> GES</div>
+      <div class="admin-only" style="display:flex;align-items:center;gap:8px">
+        <button onclick="openGithubModal()" title="Configurar GitHub" style="background:var(--bg3);border:1px solid var(--border2);color:var(--text2);padding:6px 10px;border-radius:7px;cursor:pointer;font-size:13px;transition:.15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">⚙️ GitHub</button>
+      </div>
+      <div class="user-badge" onclick="showUserMenu()" id="user-badge-btn">
+        <div class="user-role-dot" id="user-dot"></div>
+        <div>
+          <div class="user-name-text" id="user-name-display">—</div>
+          <div class="user-role-text" id="user-role-display">—</div>
+        </div>
+        <span style="font-size:10px;color:var(--text3)">▼</span>
+      </div>
     </div>
   </div>
 
@@ -756,7 +871,229 @@ function showToast(msg){
   t._timer=setTimeout(()=>t.style.opacity='0',2500);
 }
 
+// ===== USER AUTH SYSTEM =====
+const AUTH_USERS = [
+  { username: 'admin', password: 'vmp@2026', role: 'admin', name: 'Administrador' },
+  { username: 'sesmt', password: 'sesmt2026', role: 'admin', name: 'SESMT' },
+  { username: 'visualizador', password: 'pgr2026', role: 'user', name: 'Visualizador' },
+];
+const AUTH_KEY = 'pgr_auth_session';
+
+function getCurrentUser(){
+  try{ return JSON.parse(sessionStorage.getItem(AUTH_KEY)||'null'); }
+  catch(e){ return null; }
+}
+function setCurrentUser(u){
+  sessionStorage.setItem(AUTH_KEY, JSON.stringify(u));
+}
+function clearCurrentUser(){
+  sessionStorage.removeItem(AUTH_KEY);
+}
+
+function doLogin(){
+  const username = document.getElementById('login-user').value.trim();
+  const password = document.getElementById('login-pass').value;
+  const errEl = document.getElementById('login-err');
+  const found = AUTH_USERS.find(u => u.username === username && u.password === password);
+  if(!found){
+    errEl.style.display = 'block';
+    document.getElementById('login-pass').value = '';
+    return;
+  }
+  errEl.style.display = 'none';
+  setCurrentUser(found);
+  applyUserRole(found);
+  document.getElementById('login-screen').classList.add('hidden');
+  // After login, load data from GitHub if configured
+  loadFromGithub();
+}
+
+function applyUserRole(user){
+  // Set body class
+  document.body.classList.remove('role-admin','role-user');
+  document.body.classList.add('role-'+user.role);
+  // Update badge
+  const dot = document.getElementById('user-dot');
+  const nameEl = document.getElementById('user-name-display');
+  const roleEl = document.getElementById('user-role-display');
+  if(dot){ dot.className = 'user-role-dot '+(user.role==='admin'?'admin':'user'); }
+  if(nameEl) nameEl.textContent = user.name;
+  if(roleEl) roleEl.textContent = user.role==='admin' ? '👑 Administrador' : '👁️ Visualizador';
+}
+
+function showUserMenu(){
+  const user = getCurrentUser();
+  if(!user) return;
+  const menu = document.createElement('div');
+  menu.id = 'user-menu-popup';
+  menu.style.cssText = 'position:fixed;top:56px;right:24px;background:var(--bg2);border:1px solid var(--border2);border-radius:10px;z-index:500;min-width:180px;box-shadow:0 8px 30px rgba(0,0,0,.5);overflow:hidden;';
+  menu.innerHTML = `
+    <div style="padding:12px 16px;border-bottom:1px solid var(--border);font-size:12px;color:var(--text3)">
+      Conectado como <b style="color:var(--text)">${user.name}</b>
+    </div>
+    <button onclick="doLogout()" style="width:100%;padding:10px 16px;background:none;border:none;color:var(--red);cursor:pointer;font-size:13px;font-family:'Inter',sans-serif;text-align:left;transition:.15s" onmouseover="this.style.background='var(--bg3)'" onmouseout="this.style.background='none'">
+      🚪 Sair do sistema
+    </button>`;
+  document.body.appendChild(menu);
+  const close = (e) => { if(!menu.contains(e.target) && e.target.id!=='user-badge-btn'){ menu.remove(); document.removeEventListener('click',close); } };
+  setTimeout(() => document.addEventListener('click', close), 10);
+}
+
+function doLogout(){
+  clearCurrentUser();
+  document.getElementById('login-user').value = '';
+  document.getElementById('login-pass').value = '';
+  document.getElementById('login-screen').classList.remove('hidden');
+  document.body.classList.remove('role-admin','role-user');
+  const pop = document.getElementById('user-menu-popup');
+  if(pop) pop.remove();
+}
+
+// ===== GITHUB CONFIG =====
+const GH_CONFIG_KEY = 'pgr_github_config';
+
+function getGithubConfig(){
+  try{ return JSON.parse(localStorage.getItem(GH_CONFIG_KEY)||'null'); }
+  catch(e){ return null; }
+}
+function saveGithubConfig(){
+  const cfg = {
+    token: document.getElementById('gh-token').value.trim(),
+    owner: document.getElementById('gh-owner').value.trim(),
+    repo:  document.getElementById('gh-repo').value.trim(),
+    branch: document.getElementById('gh-branch').value.trim() || 'main',
+  };
+  if(!cfg.token || !cfg.owner || !cfg.repo){ showGhStatus('Preencha todos os campos.','err'); return; }
+  localStorage.setItem(GH_CONFIG_KEY, JSON.stringify(cfg));
+  showGhStatus('✅ Configuração salva com sucesso!', 'ok');
+  setTimeout(() => closeGithubModal(), 1200);
+}
+function openGithubModal(){
+  const cfg = getGithubConfig();
+  if(cfg){
+    document.getElementById('gh-token').value = cfg.token || '';
+    document.getElementById('gh-owner').value = cfg.owner || '';
+    document.getElementById('gh-repo').value = cfg.repo || '';
+    document.getElementById('gh-branch').value = cfg.branch || 'main';
+  }
+  document.getElementById('gh-status').style.display = 'none';
+  document.getElementById('github-modal').classList.add('open');
+}
+function closeGithubModal(){
+  document.getElementById('github-modal').classList.remove('open');
+}
+function showGhStatus(msg, type){
+  const el = document.getElementById('gh-status');
+  el.textContent = msg;
+  el.className = 'gh-status '+ type;
+  el.style.display = 'block';
+}
+async function testGithubConnection(){
+  const cfg = {
+    token: document.getElementById('gh-token').value.trim(),
+    owner: document.getElementById('gh-owner').value.trim(),
+    repo:  document.getElementById('gh-repo').value.trim(),
+    branch: document.getElementById('gh-branch').value.trim() || 'main',
+  };
+  if(!cfg.token || !cfg.owner || !cfg.repo){ showGhStatus('Preencha todos os campos antes de testar.','err'); return; }
+  showGhStatus('⏳ Testando conexão...', 'loading');
+  try{
+    const r = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}`, {
+      headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if(r.ok){
+      const data = await r.json();
+      showGhStatus(`✅ Conectado! Repositório: ${data.full_name}`, 'ok');
+    } else {
+      const err = await r.json();
+      showGhStatus(`❌ Erro ${r.status}: ${err.message}`, 'err');
+    }
+  } catch(e){
+    showGhStatus('❌ Falha na conexão: '+e.message, 'err');
+  }
+}
+
+// ===== GITHUB DATA SYNC =====
+async function uploadToGithub(dataObj){
+  const cfg = getGithubConfig();
+  if(!cfg || !cfg.token){ showToast('⚠️ Configure o GitHub antes de importar.'); return false; }
+  const path = 'data.json';
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(dataObj, null, 2))));
+  try{
+    // Get current SHA (if file exists)
+    let sha = null;
+    const getR = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`, {
+      headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if(getR.ok){ const gd = await getR.json(); sha = gd.sha; }
+
+    // PUT new content (replace)
+    const body = { message: `PGR: atualização banco de dados ${new Date().toLocaleString('pt-BR')}`, content, branch: cfg.branch };
+    if(sha) body.sha = sha;
+    const putR = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`, {
+      method: 'PUT',
+      headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if(putR.ok){
+      showToast('☁️ Banco de dados atualizado no GitHub!');
+      return true;
+    } else {
+      const err = await putR.json();
+      showToast('❌ GitHub erro: '+(err.message||putR.status));
+      return false;
+    }
+  } catch(e){
+    showToast('❌ Falha GitHub: '+e.message);
+    return false;
+  }
+}
+
+async function loadFromGithub(){
+  const cfg = getGithubConfig();
+  if(!cfg || !cfg.token) return; // no config, use embedded data
+  try{
+    showToast('⏳ Carregando dados do GitHub...');
+    const r = await fetch(`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/data.json?t=${Date.now()}`);
+    if(!r.ok) return;
+    const obj = await r.json();
+    if(obj && obj.gesData && obj.gesData.length){
+      const nd = processData(obj);
+      S.data = nd;
+      populateFilters();
+      applyFilters();
+      if(S.view==='dashboard') renderDashboard();
+      showToast('✅ Dados carregados do GitHub! ('+(obj.gesData.length)+' GES)');
+    }
+  } catch(e){
+    // Silent fail — use embedded data
+  }
+}
+
+function buildDataJson(nd){
+  return {
+    gesData: nd.map(g => {
+      const {unidade_name, max_nivel, tipos_unique, ...rest} = g;
+      return rest;
+    }),
+    ruidoData: nd._ruido || [],
+    cnpjData: (() => {
+      const m = {};
+      nd.forEach(g => { if(g.cnpj) m[g.unidade] = {cnpj: g.cnpj, endereco: g.endereco||''}; });
+      return m;
+    })(),
+    timestamp: new Date().toISOString(),
+    version: '2026',
+  };
+}
+
 function init(){
+  // Check if already logged in via session
+  const existingUser = getCurrentUser();
+  if(existingUser){
+    applyUserRole(existingUser);
+    document.getElementById('login-screen').classList.add('hidden');
+  }
   S.data=processData(EMBEDDED_DATA);
   populateFilters();
   applyFilters();
@@ -769,6 +1106,8 @@ function init(){
   if(dst.options.length<=1){
     Array.from(src.options).forEach(o=>{ const n=o.cloneNode(true); dst.appendChild(n); });
   }
+  // If logged in, try loading latest data from GitHub
+  if(existingUser) loadFromGithub();
 }
 
 function processData(raw){
@@ -1565,7 +1904,10 @@ document.getElementById('file-input').addEventListener('change',function(e){
       if(nd){S.data=nd;populateFilters();applyFilters();
         document.getElementById('upload-status').style.display='block';
         setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);
-        if(S.view==='dashboard')renderDashboard();}}
+        if(S.view==='dashboard')renderDashboard();
+        // Upload to GitHub
+        uploadToGithub(buildDataJson(nd));
+      }}
     catch(err){alert('Erro: '+err.message);}
   };r.readAsArrayBuffer(file);
 });
@@ -1581,7 +1923,11 @@ uz.addEventListener('drop',e=>{e.preventDefault();uz.style.borderColor='';
     try{const wb=XLSX.read(evt.target.result,{type:'array'});const nd=parseWorkbook(wb);
       if(nd){S.data=nd;populateFilters();applyFilters();
         document.getElementById('upload-status').style.display='block';
-        setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);}}
+        setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);
+        if(S.view==='dashboard')renderDashboard();
+        // Upload to GitHub
+        uploadToGithub(buildDataJson(nd));
+      }}
     catch(err){alert('Erro: '+err.message);}
   };r.readAsArrayBuffer(file);
 });
