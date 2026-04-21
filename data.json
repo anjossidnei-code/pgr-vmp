@@ -28708,7 +28708,7 @@
       "nivel_db": 73.0423960354387,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.7,
-      "tempo_medicao": 2.7
+      "tempo_medicao": 68
     },
     {
       "unidade": "BRAS",
@@ -28732,7 +28732,7 @@
       "nivel_db": 74.7637190143661,
       "protetor": "aconselhavel",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
@@ -28748,7 +28748,7 @@
       "nivel_db": 74.7637190143661,
       "protetor": "aconselhavel",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
@@ -28756,7 +28756,7 @@
       "nivel_db": 76.73695411094131,
       "protetor": "aconselhavel",
       "dose_pct": 5.5,
-      "tempo_medicao": 5.5
+      "tempo_medicao": 83
     },
     {
       "unidade": "BRAS",
@@ -28788,15 +28788,15 @@
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.4,
-      "tempo_medicao": 3.4
+      "tempo_medicao": 63
     },
     {
       "unidade": "BRAS",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 75.81729490059426,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "BRAS",
@@ -28804,7 +28804,7 @@
       "nivel_db": 78.71816526258898,
       "protetor": "aconselhavel",
       "dose_pct": 7.5,
-      "tempo_medicao": 7.5
+      "tempo_medicao": 86
     },
     {
       "unidade": "BRAS",
@@ -28820,15 +28820,15 @@
       "nivel_db": 74.07764072845684,
       "protetor": "aconselhavel",
       "dose_pct": 5.5,
-      "tempo_medicao": 5.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "BRAS",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 77.0397414079145,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 8.5,
-      "tempo_medicao": 8.5
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
@@ -28844,7 +28844,7 @@
       "nivel_db": 75.39284122530789,
       "protetor": "aconselhavel",
       "dose_pct": 3.3,
-      "tempo_medicao": 3.3
+      "tempo_medicao": 60
     },
     {
       "unidade": "BRAS",
@@ -28852,15 +28852,15 @@
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 65
     },
     {
       "unidade": "BRAS",
       "setor": "FUNILARIA",
       "nivel_db": 77.90997262366344,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.2,
-      "tempo_medicao": 9.2
+      "tempo_medicao": 118
     },
     {
       "unidade": "BRAS",
@@ -28882,9 +28882,9 @@
       "unidade": "BRAS",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 77.99237155796243,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.7,
-      "tempo_medicao": 9.7
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
@@ -28892,15 +28892,15 @@
       "nivel_db": 73.15357453428506,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 62
     },
     {
       "unidade": "BRAS",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 71.78043291191491,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 75
     },
     {
       "unidade": "BRAS",
@@ -28908,23 +28908,23 @@
       "nivel_db": 75.37682871852343,
       "protetor": "aconselhavel",
       "dose_pct": 4.5,
-      "tempo_medicao": 4.5
+      "tempo_medicao": 82
     },
     {
       "unidade": "BRAS",
       "setor": "MECANICA",
       "nivel_db": 77.99237155796243,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.7,
-      "tempo_medicao": 9.7
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
       "setor": "MOLA",
       "nivel_db": 78.26989532713897,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.9,
-      "tempo_medicao": 10.9
+      "tempo_medicao": 133
     },
     {
       "unidade": "BRAS",
@@ -28932,7 +28932,7 @@
       "nivel_db": 73.15357453428506,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 62
     },
     {
       "unidade": "BRAS",
@@ -28940,7 +28940,7 @@
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.9,
-      "tempo_medicao": 3.9
+      "tempo_medicao": 63
     },
     {
       "unidade": "BRAS",
@@ -28956,7 +28956,7 @@
       "nivel_db": 76.3411678494762,
       "protetor": "aconselhavel",
       "dose_pct": 6.9,
-      "tempo_medicao": 6.9
+      "tempo_medicao": 110
     },
     {
       "unidade": "BRAS",
@@ -28972,7 +28972,7 @@
       "nivel_db": 74.94184241852345,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.1,
-      "tempo_medicao": 3.1
+      "tempo_medicao": 60
     },
     {
       "unidade": "BRAS",
@@ -28980,7 +28980,7 @@
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.5,
-      "tempo_medicao": 1.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "BRAS",
@@ -29020,7 +29020,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "aconselhavel",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "BRAS",
@@ -29036,7 +29036,7 @@
       "nivel_db": 73.67303199373147,
       "protetor": "nao_obrigatorio",
       "dose_pct": 5.2,
-      "tempo_medicao": 5.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29082,9 +29082,9 @@
       "unidade": "AEC",
       "setor": "BORRACHARIA",
       "nivel_db": 79.39840758423095,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 11.5,
-      "tempo_medicao": 11.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29116,15 +29116,15 @@
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.8,
-      "tempo_medicao": 3.8
+      "tempo_medicao": 56
     },
     {
       "unidade": "AEC",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 73.39010822797873,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
@@ -29132,7 +29132,7 @@
       "nivel_db": 78.39021645595746,
       "protetor": "aconselhavel",
       "dose_pct": 5,
-      "tempo_medicao": 5
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
@@ -29146,17 +29146,17 @@
       "unidade": "AEC",
       "setor": "ELETRCISTA PREDIAL",
       "nivel_db": 74.5934672388643,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 65
     },
     {
       "unidade": "AEC",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.02020553980522,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.5,
-      "tempo_medicao": 9.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29172,7 +29172,7 @@
       "nivel_db": 70.85263456382125,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.7,
-      "tempo_medicao": 1.7
+      "tempo_medicao": 58
     },
     {
       "unidade": "AEC",
@@ -29180,15 +29180,15 @@
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 65
     },
     {
       "unidade": "AEC",
       "setor": "FUNILARIA",
       "nivel_db": 77.46807364037176,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 8.8,
-      "tempo_medicao": 8.8
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29210,9 +29210,9 @@
       "unidade": "AEC",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.20758312271015,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 6.5,
-      "tempo_medicao": 6.5
+      "tempo_medicao": 80
     },
     {
       "unidade": "AEC",
@@ -29220,39 +29220,39 @@
       "nivel_db": 77.77025945053194,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.5,
-      "tempo_medicao": 6.5
+      "tempo_medicao": 85
     },
     {
       "unidade": "AEC",
       "setor": "MANUTENÇÃO PREDIAL",
       "nivel_db": 75.81729490059426,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
       "setor": "MARCENARIA",
       "nivel_db": 78.02020553980522,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.5,
-      "tempo_medicao": 9.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
       "setor": "MECANICA",
       "nivel_db": 78.5330653089229,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.2,
-      "tempo_medicao": 10.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
       "setor": "MOLA",
       "nivel_db": 77.94387010424845,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.4,
-      "tempo_medicao": 9.4
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29260,7 +29260,7 @@
       "nivel_db": 74.98823249058252,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.6,
-      "tempo_medicao": 2.6
+      "tempo_medicao": 50
     },
     {
       "unidade": "AEC",
@@ -29268,7 +29268,7 @@
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.9,
-      "tempo_medicao": 6.9
+      "tempo_medicao": 71
     },
     {
       "unidade": "AEC",
@@ -29282,9 +29282,9 @@
       "unidade": "AEC",
       "setor": "PINTURA",
       "nivel_db": 77.46807364037176,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 8.8,
-      "tempo_medicao": 8.8
+      "tempo_medicao": 120
     },
     {
       "unidade": "AEC",
@@ -29292,7 +29292,7 @@
       "nivel_db": 77.13249539744531,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4.2,
-      "tempo_medicao": 4.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
@@ -29300,7 +29300,7 @@
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.5,
-      "tempo_medicao": 1.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
@@ -29308,7 +29308,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "AEC",
@@ -29340,7 +29340,7 @@
       "nivel_db": 78.17486818525731,
       "protetor": "nao_obrigatorio",
       "dose_pct": 5.5,
-      "tempo_medicao": 5.5
+      "tempo_medicao": 68
     },
     {
       "unidade": "AEC",
@@ -29348,7 +29348,7 @@
       "nivel_db": 75.29854404797692,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.9,
-      "tempo_medicao": 1.9
+      "tempo_medicao": 35
     },
     {
       "unidade": "AEC",
@@ -29356,7 +29356,7 @@
       "nivel_db": 79.07774895643557,
       "protetor": "nao_obrigatorio",
       "dose_pct": 5.5,
-      "tempo_medicao": 5.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29364,7 +29364,7 @@
       "nivel_db": 74.46075542903785,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.9,
-      "tempo_medicao": 2.9
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29388,7 +29388,7 @@
       "nivel_db": 73.17714423472366,
       "protetor": "nao_obrigatorio",
       "dose_pct": 8.9,
-      "tempo_medicao": 8.9
+      "tempo_medicao": 220
     },
     {
       "unidade": "IMPERADOR",
@@ -29410,9 +29410,9 @@
       "unidade": "IMPERADOR",
       "setor": "BORRACHARIA",
       "nivel_db": 79.47080663770092,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 12.1,
-      "tempo_medicao": 12.1
+      "tempo_medicao": 125
     },
     {
       "unidade": "IMPERADOR",
@@ -29436,7 +29436,7 @@
       "nivel_db": 73.88335684407234,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.9,
-      "tempo_medicao": 2.9
+      "tempo_medicao": 65
     },
     {
       "unidade": "IMPERADOR",
@@ -29444,23 +29444,23 @@
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.8,
-      "tempo_medicao": 3.8
+      "tempo_medicao": 56
     },
     {
       "unidade": "IMPERADOR",
       "setor": "CONS E LIMPEZA",
       "nivel_db": 73.39010822797873,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
       "setor": "CONS E LIMPEZA - Limpeza de Chassi com Água Pressurizada",
       "nivel_db": 77.13249539744531,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 4.2,
-      "tempo_medicao": 4.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29476,15 +29476,15 @@
       "nivel_db": 72.81270964301322,
       "protetor": "aconselhavel",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 65
     },
     {
       "unidade": "IMPERADOR",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 75.28270730979528,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 6.5,
-      "tempo_medicao": 6.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
@@ -29500,7 +29500,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "aconselhavel",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29508,15 +29508,15 @@
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
       "setor": "FUNILARIA",
       "nivel_db": 80.91972585616003,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 14.2,
-      "tempo_medicao": 14.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
@@ -29538,17 +29538,17 @@
       "unidade": "IMPERADOR",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 76.87015261953182,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 8.1,
-      "tempo_medicao": 8.1
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MANOBRISTA",
       "nivel_db": 74.70530872482978,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 3.4,
-      "tempo_medicao": 3.4
+      "tempo_medicao": 68
     },
     {
       "unidade": "IMPERADOR",
@@ -29556,7 +29556,7 @@
       "nivel_db": 75.4653406430426,
       "protetor": "aconselhavel",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 63
     },
     {
       "unidade": "IMPERADOR",
@@ -29564,23 +29564,23 @@
       "nivel_db": 74.8245450154863,
       "protetor": "aconselhavel",
       "dose_pct": 6.1,
-      "tempo_medicao": 6.1
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MECANICA",
       "nivel_db": 78.02324221900999,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.9,
-      "tempo_medicao": 9.9
+      "tempo_medicao": 125
     },
     {
       "unidade": "IMPERADOR",
       "setor": "MOLA",
       "nivel_db": 79.82465324346502,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 12.2,
-      "tempo_medicao": 12.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
@@ -29588,7 +29588,7 @@
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.9,
-      "tempo_medicao": 3.9
+      "tempo_medicao": 63
     },
     {
       "unidade": "IMPERADOR",
@@ -29596,7 +29596,7 @@
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.9,
-      "tempo_medicao": 6.9
+      "tempo_medicao": 71
     },
     {
       "unidade": "IMPERADOR",
@@ -29610,9 +29610,9 @@
       "unidade": "IMPERADOR",
       "setor": "PINTURA",
       "nivel_db": 78.02020553980522,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9.5,
-      "tempo_medicao": 9.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "IMPERADOR",
@@ -29628,7 +29628,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29636,7 +29636,7 @@
       "nivel_db": 72.13238716946658,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.1,
-      "tempo_medicao": 2.1
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29668,7 +29668,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29676,7 +29676,7 @@
       "nivel_db": 74.70530872482978,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3,
-      "tempo_medicao": 3
+      "tempo_medicao": 60
     },
     {
       "unidade": "IMPERADOR",
@@ -29692,7 +29692,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29700,7 +29700,7 @@
       "nivel_db": 69.70520049685105,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.5,
-      "tempo_medicao": 1.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29716,7 +29716,7 @@
       "nivel_db": 76.51819836198015,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4.5,
-      "tempo_medicao": 4.5
+      "tempo_medicao": 70
     },
     {
       "unidade": "ITAIM",
@@ -29738,9 +29738,9 @@
       "unidade": "ITAIM",
       "setor": "BORRACHARIA",
       "nivel_db": 79.07774895643557,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 16.5,
-      "tempo_medicao": 16.5
+      "tempo_medicao": 180
     },
     {
       "unidade": "ITAIM",
@@ -29764,7 +29764,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29772,7 +29772,7 @@
       "nivel_db": 76.90821936404073,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.8,
-      "tempo_medicao": 3.8
+      "tempo_medicao": 56
     },
     {
       "unidade": "ITAIM",
@@ -29780,7 +29780,7 @@
       "nivel_db": 73.36787822165145,
       "protetor": "aconselhavel",
       "dose_pct": 2.7,
-      "tempo_medicao": 2.7
+      "tempo_medicao": 65
     },
     {
       "unidade": "ITAIM",
@@ -29788,7 +29788,7 @@
       "nivel_db": 79.7054169528085,
       "protetor": "aconselhavel",
       "dose_pct": 12.5,
-      "tempo_medicao": 12.5
+      "tempo_medicao": 125
     },
     {
       "unidade": "ITAIM",
@@ -29804,15 +29804,15 @@
       "nivel_db": 71.89056682742752,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.2,
-      "tempo_medicao": 2.2
+      "tempo_medicao": 65
     },
     {
       "unidade": "ITAIM",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 80.5550603506595,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 13.5,
-      "tempo_medicao": 13.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "ITAIM",
@@ -29828,7 +29828,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "aconselhavel",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29836,15 +29836,15 @@
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
       "setor": "FUNILARIA",
       "nivel_db": 79.99989177202127,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 12.5,
-      "tempo_medicao": 12.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "ITAIM",
@@ -29868,7 +29868,7 @@
       "nivel_db": 80.68503920673311,
       "protetor": "aconselhavel",
       "dose_pct": 12.6,
-      "tempo_medicao": 12.6
+      "tempo_medicao": 110
     },
     {
       "unidade": "ITAIM",
@@ -29876,7 +29876,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29884,31 +29884,31 @@
       "nivel_db": 76.02050922168083,
       "protetor": "aconselhavel",
       "dose_pct": 3.6,
-      "tempo_medicao": 3.6
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
       "setor": "MARCENARIA",
       "nivel_db": 78.432525265478,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 5.7,
-      "tempo_medicao": 5.7
+      "tempo_medicao": 68
     },
     {
       "unidade": "ITAIM",
       "setor": "MECANICA",
       "nivel_db": 79.2590706010995,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 18.8,
-      "tempo_medicao": 18.8
+      "tempo_medicao": 200
     },
     {
       "unidade": "ITAIM",
       "setor": "MOLA",
       "nivel_db": 79.33540603665627,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 19,
-      "tempo_medicao": 19
+      "tempo_medicao": 200
     },
     {
       "unidade": "ITAIM",
@@ -29916,7 +29916,7 @@
       "nivel_db": 75.72942985150435,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.4,
-      "tempo_medicao": 3.4
+      "tempo_medicao": 59
     },
     {
       "unidade": "ITAIM",
@@ -29924,7 +29924,7 @@
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.9,
-      "tempo_medicao": 6.9
+      "tempo_medicao": 71
     },
     {
       "unidade": "ITAIM",
@@ -29938,9 +29938,9 @@
       "unidade": "ITAIM",
       "setor": "PINTURA",
       "nivel_db": 79.7054169528085,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 7.5,
-      "tempo_medicao": 7.5
+      "tempo_medicao": 75
     },
     {
       "unidade": "ITAIM",
@@ -29948,7 +29948,7 @@
       "nivel_db": 76.02050922168083,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.6,
-      "tempo_medicao": 3.6
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29956,7 +29956,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29964,15 +29964,15 @@
       "nivel_db": 73.09563340876596,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.4,
-      "tempo_medicao": 2.4
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
       "setor": "REBITADOR",
       "nivel_db": 83.74227894148785,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -29996,7 +29996,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "aconselhavel",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "ITAIM",
@@ -30004,15 +30004,15 @@
       "nivel_db": 76.9837554609802,
       "protetor": "aconselhavel",
       "dose_pct": 2.4,
-      "tempo_medicao": 2.4
+      "tempo_medicao": 35
     },
     {
       "unidade": "ITAIM",
       "setor": "TORNO",
       "nivel_db": 82.63029276572337,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 18,
-      "tempo_medicao": 18
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30020,7 +30020,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30044,7 +30044,7 @@
       "nivel_db": 73.94527680661696,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.7,
-      "tempo_medicao": 2.7
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30066,9 +30066,9 @@
       "unidade": "IGUATEMI",
       "setor": "BORRACHARIA",
       "nivel_db": 78.81054687800528,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.6,
-      "tempo_medicao": 10.6
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30098,9 +30098,9 @@
       "unidade": "IGUATEMI",
       "setor": "COBRADOR",
       "nivel_db": 76.90821936404073,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 3.8,
-      "tempo_medicao": 3.8
+      "tempo_medicao": 56
     },
     {
       "unidade": "IGUATEMI",
@@ -30108,7 +30108,7 @@
       "nivel_db": 76.02050922168083,
       "protetor": "aconselhavel",
       "dose_pct": 7.2,
-      "tempo_medicao": 7.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30116,7 +30116,7 @@
       "nivel_db": 78.5330653089229,
       "protetor": "aconselhavel",
       "dose_pct": 10.2,
-      "tempo_medicao": 10.2
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30132,15 +30132,15 @@
       "nivel_db": 74.20761958453045,
       "protetor": "aconselhavel",
       "dose_pct": 2.8,
-      "tempo_medicao": 2.8
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 79.7652814569137,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 12.1,
-      "tempo_medicao": 12.1
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30156,7 +30156,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "aconselhavel",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30164,15 +30164,15 @@
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
       "setor": "FUNILARIA",
       "nivel_db": 79.01187058675121,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.9,
-      "tempo_medicao": 10.9
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30194,9 +30194,9 @@
       "unidade": "IGUATEMI",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.50035037147006,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 5.5,
-      "tempo_medicao": 5.5
+      "tempo_medicao": 65
     },
     {
       "unidade": "IGUATEMI",
@@ -30204,7 +30204,7 @@
       "nivel_db": 75.4653406430426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 63
     },
     {
       "unidade": "IGUATEMI",
@@ -30212,7 +30212,7 @@
       "nivel_db": 74.22422173534417,
       "protetor": "aconselhavel",
       "dose_pct": 2.9,
-      "tempo_medicao": 2.9
+      "tempo_medicao": 62
     },
     {
       "unidade": "IGUATEMI",
@@ -30220,23 +30220,23 @@
       "nivel_db": 75.8686376891846,
       "protetor": "aconselhavel",
       "dose_pct": 4.7,
-      "tempo_medicao": 4.7
+      "tempo_medicao": 80
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MECANICA",
       "nivel_db": 79.3305985514104,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 7.5,
-      "tempo_medicao": 7.5
+      "tempo_medicao": 79
     },
     {
       "unidade": "IGUATEMI",
       "setor": "MOLA",
       "nivel_db": 79.39840758423095,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 11.5,
-      "tempo_medicao": 11.5
+      "tempo_medicao": 120
     },
     {
       "unidade": "IGUATEMI",
@@ -30244,7 +30244,7 @@
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.8,
-      "tempo_medicao": 2.8
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30252,7 +30252,7 @@
       "nivel_db": 79.49929917773048,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.9,
-      "tempo_medicao": 6.9
+      "tempo_medicao": 71
     },
     {
       "unidade": "IGUATEMI",
@@ -30266,9 +30266,9 @@
       "unidade": "IGUATEMI",
       "setor": "PINTURA",
       "nivel_db": 78.80253618163024,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 7.5,
-      "tempo_medicao": 7.5
+      "tempo_medicao": 85
     },
     {
       "unidade": "IGUATEMI",
@@ -30276,7 +30276,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "aconselhavel",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30284,7 +30284,7 @@
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.8,
-      "tempo_medicao": 2.8
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30292,7 +30292,7 @@
       "nivel_db": 71.41042199576268,
       "protetor": "nao_obrigatorio",
       "dose_pct": 1.9,
-      "tempo_medicao": 1.9
+      "tempo_medicao": 60
     },
     {
       "unidade": "IGUATEMI",
@@ -30324,7 +30324,7 @@
       "nivel_db": 74.81891156627815,
       "protetor": "aconselhavel",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 63
     },
     {
       "unidade": "IGUATEMI",
@@ -30332,7 +30332,7 @@
       "nivel_db": 75.29854404797692,
       "protetor": "aconselhavel",
       "dose_pct": 1.9,
-      "tempo_medicao": 1.9
+      "tempo_medicao": 35
     },
     {
       "unidade": "IGUATEMI",
@@ -30348,7 +30348,7 @@
       "nivel_db": 75.5228200813815,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4.2,
-      "tempo_medicao": 4.2
+      "tempo_medicao": 75
     },
     {
       "unidade": "PINEDO",
@@ -30372,7 +30372,7 @@
       "nivel_db": 76.41587563439312,
       "protetor": "aconselhavel",
       "dose_pct": 4.5,
-      "tempo_medicao": 4.5
+      "tempo_medicao": 71
     },
     {
       "unidade": "PINEDO",
@@ -30394,9 +30394,9 @@
       "unidade": "PINEDO",
       "setor": "BORRACHARIA",
       "nivel_db": 78.27661361450907,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 128
     },
     {
       "unidade": "PINEDO",
@@ -30428,7 +30428,7 @@
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.4,
-      "tempo_medicao": 3.4
+      "tempo_medicao": 63
     },
     {
       "unidade": "PINEDO",
@@ -30436,7 +30436,7 @@
       "nivel_db": 76.89596170375164,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4.2,
-      "tempo_medicao": 4.2
+      "tempo_medicao": 62
     },
     {
       "unidade": "PINEDO",
@@ -30444,7 +30444,7 @@
       "nivel_db": 79.03906987532392,
       "protetor": "nao_obrigatorio",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 68
     },
     {
       "unidade": "PINEDO",
@@ -30460,15 +30460,15 @@
       "nivel_db": 74.70530872482978,
       "protetor": "aconselhavel",
       "dose_pct": 2.9,
-      "tempo_medicao": 2.9
+      "tempo_medicao": 58
     },
     {
       "unidade": "PINEDO",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.27661361450907,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 128
     },
     {
       "unidade": "PINEDO",
@@ -30484,7 +30484,7 @@
       "nivel_db": 75.63739452109982,
       "protetor": "aconselhavel",
       "dose_pct": 3.3,
-      "tempo_medicao": 3.3
+      "tempo_medicao": 58
     },
     {
       "unidade": "PINEDO",
@@ -30492,15 +30492,15 @@
       "nivel_db": 74.82260612786693,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.1,
-      "tempo_medicao": 3.1
+      "tempo_medicao": 61
     },
     {
       "unidade": "PINEDO",
       "setor": "FUNILARIA",
       "nivel_db": 78.41382901826638,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.2,
-      "tempo_medicao": 10.2
+      "tempo_medicao": 122
     },
     {
       "unidade": "PINEDO",
@@ -30514,17 +30514,17 @@
       "unidade": "PINEDO",
       "setor": "LETRISTA",
       "nivel_db": 76.62199340947114,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 7.5,
-      "tempo_medicao": 7.5
+      "tempo_medicao": 115
     },
     {
       "unidade": "PINEDO",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 79.47639354750214,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 64
     },
     {
       "unidade": "PINEDO",
@@ -30532,7 +30532,7 @@
       "nivel_db": 73.51134858347504,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 59
     },
     {
       "unidade": "PINEDO",
@@ -30540,7 +30540,7 @@
       "nivel_db": 72.43243021075777,
       "protetor": "aconselhavel",
       "dose_pct": 2.7,
-      "tempo_medicao": 2.7
+      "tempo_medicao": 74
     },
     {
       "unidade": "PINEDO",
@@ -30548,23 +30548,23 @@
       "nivel_db": 74.64736759931068,
       "protetor": "aconselhavel",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 125
     },
     {
       "unidade": "PINEDO",
       "setor": "MECANICA",
       "nivel_db": 79.47639354750214,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 64
     },
     {
       "unidade": "PINEDO",
       "setor": "MOLA",
       "nivel_db": 79.47639354750214,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 6.2,
-      "tempo_medicao": 6.2
+      "tempo_medicao": 64
     },
     {
       "unidade": "PINEDO",
@@ -30572,7 +30572,7 @@
       "nivel_db": 73.41160938054203,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.8,
-      "tempo_medicao": 2.8
+      "tempo_medicao": 67
     },
     {
       "unidade": "PINEDO",
@@ -30580,7 +30580,7 @@
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.9,
-      "tempo_medicao": 3.9
+      "tempo_medicao": 63
     },
     {
       "unidade": "PINEDO",
@@ -30596,7 +30596,7 @@
       "nivel_db": 77.66825128225355,
       "protetor": "aconselhavel",
       "dose_pct": 9.5,
-      "tempo_medicao": 9.5
+      "tempo_medicao": 126
     },
     {
       "unidade": "PINEDO",
@@ -30604,7 +30604,7 @@
       "nivel_db": 73.39010822797873,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.5,
-      "tempo_medicao": 2.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "PINEDO",
@@ -30612,7 +30612,7 @@
       "nivel_db": 74.20761958453045,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.1,
-      "tempo_medicao": 2.1
+      "tempo_medicao": 45
     },
     {
       "unidade": "PINEDO",
@@ -30620,7 +30620,7 @@
       "nivel_db": 72.2536275249629,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.1,
-      "tempo_medicao": 2.1
+      "tempo_medicao": 59
     },
     {
       "unidade": "PINEDO",
@@ -30652,7 +30652,7 @@
       "nivel_db": 74.08838329387393,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.8,
-      "tempo_medicao": 2.8
+      "tempo_medicao": 61
     },
     {
       "unidade": "PINEDO",
@@ -30660,15 +30660,15 @@
       "nivel_db": 75.42727389853368,
       "protetor": "nao_obrigatorio",
       "dose_pct": 2.1,
-      "tempo_medicao": 2.1
+      "tempo_medicao": 38
     },
     {
       "unidade": "PINEDO",
       "setor": "TORNO",
       "nivel_db": 81.41063845172013,
-      "protetor": "aconselhavel",
+      "protetor": "obrigatorio",
       "dose_pct": 9.5,
-      "tempo_medicao": 9.5
+      "tempo_medicao": 75
     },
     {
       "unidade": "MBOI",
@@ -30676,7 +30676,7 @@
       "nivel_db": 75.29210617932613,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 59
     },
     {
       "unidade": "MBOI",
@@ -30700,7 +30700,7 @@
       "nivel_db": 73.21687376426226,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4.8,
-      "tempo_medicao": 4.8
+      "tempo_medicao": 118
     },
     {
       "unidade": "MBOI",
@@ -30722,9 +30722,9 @@
       "unidade": "MBOI",
       "setor": "BORRACHARIA",
       "nivel_db": 75.05726298238145,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 4.2,
-      "tempo_medicao": 4.2
+      "tempo_medicao": 80
     },
     {
       "unidade": "MBOI",
@@ -30756,7 +30756,7 @@
       "nivel_db": 75.25623523845637,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.4,
-      "tempo_medicao": 3.4
+      "tempo_medicao": 63
     },
     {
       "unidade": "MBOI",
@@ -30764,7 +30764,7 @@
       "nivel_db": 76.62199340947114,
       "protetor": "aconselhavel",
       "dose_pct": 4.5,
-      "tempo_medicao": 4.5
+      "tempo_medicao": 69
     },
     {
       "unidade": "MBOI",
@@ -30772,7 +30772,7 @@
       "nivel_db": 79.2243299633229,
       "protetor": "aconselhavel",
       "dose_pct": 5.8,
-      "tempo_medicao": 5.8
+      "tempo_medicao": 62
     },
     {
       "unidade": "MBOI",
@@ -30788,15 +30788,15 @@
       "nivel_db": 78.06750820992286,
       "protetor": "aconselhavel",
       "dose_pct": 5.1,
-      "tempo_medicao": 5.1
+      "tempo_medicao": 64
     },
     {
       "unidade": "MBOI",
       "setor": "ELETRICISTA DE VEICULO",
       "nivel_db": 78.66380822643148,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.3,
-      "tempo_medicao": 10.3
+      "tempo_medicao": 119
     },
     {
       "unidade": "MBOI",
@@ -30812,7 +30812,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "aconselhavel",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "MBOI",
@@ -30820,15 +30820,15 @@
       "nivel_db": 76.84246110243826,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.9,
-      "tempo_medicao": 3.9
+      "tempo_medicao": 58
     },
     {
       "unidade": "MBOI",
       "setor": "FUNILARIA",
       "nivel_db": 79.08849152185265,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 11.2,
-      "tempo_medicao": 11.2
+      "tempo_medicao": 122
     },
     {
       "unidade": "MBOI",
@@ -30844,15 +30844,15 @@
       "nivel_db": 76.59790780664633,
       "protetor": "aconselhavel",
       "dose_pct": 7.8,
-      "tempo_medicao": 7.8
+      "tempo_medicao": 120
     },
     {
       "unidade": "MBOI",
       "setor": "LUBRIFICAÇÃO",
       "nivel_db": 78.44769589429636,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 125
     },
     {
       "unidade": "MBOI",
@@ -30860,7 +30860,7 @@
       "nivel_db": 76.66130484923711,
       "protetor": "nao_obrigatorio",
       "dose_pct": 4,
-      "tempo_medicao": 4
+      "tempo_medicao": 61
     },
     {
       "unidade": "MBOI",
@@ -30868,7 +30868,7 @@
       "nivel_db": 77.77508300894931,
       "protetor": "aconselhavel",
       "dose_pct": 8.8,
-      "tempo_medicao": 8.8
+      "tempo_medicao": 115
     },
     {
       "unidade": "MBOI",
@@ -30882,17 +30882,17 @@
       "unidade": "MBOI",
       "setor": "MECANICA",
       "nivel_db": 78.44769589429636,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 125
     },
     {
       "unidade": "MBOI",
       "setor": "MOLA",
       "nivel_db": 78.44769589429636,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 10.5,
-      "tempo_medicao": 10.5
+      "tempo_medicao": 125
     },
     {
       "unidade": "MBOI",
@@ -30900,7 +30900,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "MBOI",
@@ -30908,7 +30908,7 @@
       "nivel_db": 76.24595354909466,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.9,
-      "tempo_medicao": 3.9
+      "tempo_medicao": 63
     },
     {
       "unidade": "MBOI",
@@ -30922,9 +30922,9 @@
       "unidade": "MBOI",
       "setor": "PINTURA",
       "nivel_db": 77.54958446632946,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 8.9,
-      "tempo_medicao": 8.9
+      "tempo_medicao": 120
     },
     {
       "unidade": "MBOI",
@@ -30940,7 +30940,7 @@
       "nivel_db": 74.5934672388643,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 65
     },
     {
       "unidade": "MBOI",
@@ -30948,7 +30948,7 @@
       "nivel_db": 75.81729490059426,
       "protetor": "nao_obrigatorio",
       "dose_pct": 3.5,
-      "tempo_medicao": 3.5
+      "tempo_medicao": 60
     },
     {
       "unidade": "MBOI",
@@ -30978,9 +30978,9 @@
       "unidade": "MBOI",
       "setor": "TAPEÇARIA",
       "nivel_db": 78.59343077704402,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 9,
-      "tempo_medicao": 9
+      "tempo_medicao": 105
     },
     {
       "unidade": "MBOI",
@@ -30988,7 +30988,7 @@
       "nivel_db": 75.17086582382981,
       "protetor": "aconselhavel",
       "dose_pct": 3.2,
-      "tempo_medicao": 3.2
+      "tempo_medicao": 60
     },
     {
       "unidade": "MBOI",
@@ -31029,6 +31029,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-21T01:52:58.611Z",
+  "timestamp": "2026-04-21T02:05:46.513Z",
   "version": "2026"
 }
