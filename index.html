@@ -496,6 +496,8 @@ body.role-user .admin-only{display:none!important;}
     <button class="nav-btn" onclick="switchView('table')" id="nav-table"><span class="nav-icon">📋</span>Tabela</button>
     <button class="nav-btn" onclick="switchView('report')" id="nav-report"><span class="nav-icon">📄</span>Relatórios PDF</button>
     <button class="nav-btn" onclick="switchView('ruido')" id="nav-ruido"><span class="nav-icon">🔊</span>Planilha de Ruído</button>
+    <button class="nav-btn" onclick="switchView('ambiental')" id="nav-ambiental"><span class="nav-icon">🧪</span>Avaliação Ambiental</button>
+    <button class="nav-btn" onclick="switchView('vibracao')" id="nav-vibracao"><span class="nav-icon">📳</span>Avaliação de Vibração</button>
   </div>
 
   <!-- ANÁLISE CRÍTICA -->
@@ -613,6 +615,14 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
     <!-- RUIDO VIEW -->
     <div id="ruido-view" style="display:none">
       <div id="ruido-content"></div>
+    </div>
+    <!-- AMBIENTAL VIEW -->
+    <div id="ambiental-view" style="display:none">
+      <div id="ambiental-content"></div>
+    </div>
+    <!-- VIBRACAO VIEW -->
+    <div id="vibracao-view" style="display:none">
+      <div id="vibracao-content"></div>
     </div>
   </div>
 </div>
@@ -1076,7 +1086,9 @@ function buildDataJson(nd){
       const {unidade_name, max_nivel, tipos_unique, ...rest} = g;
       return rest;
     }),
-    ruidoData: nd._ruido || [],
+    ruidoData:     nd._ruido     || [],
+    ambientalData: nd._ambiental || [],
+    vibracaoData:  nd._vibracao  || [],
     cnpjData: (() => {
       const m = {};
       nd.forEach(g => { if(g.cnpj) m[g.unidade] = {cnpj: g.cnpj, endereco: g.endereco||''}; });
@@ -1121,6 +1133,8 @@ function processData(raw){
     endereco:(raw.cnpjData[g.unidade]||{}).endereco||'',
   }));
   result._ruido=raw.ruidoData||[];
+  result._ambiental=raw.ambientalData||[];
+  result._vibracao=raw.vibracaoData||[];
   return result;
 }
 
@@ -1200,7 +1214,7 @@ function updateStats(){
 
 function switchView(v){
   S.view=v;
-  ['dashboard','cards','table','report','ruido'].forEach(n=>{
+  ['dashboard','cards','table','report','ruido','ambiental','vibracao'].forEach(n=>{
     const el=document.getElementById(n+'-view');
     if(el)el.style.display='none';
     const nb=document.getElementById('nav-'+n);
@@ -1217,6 +1231,8 @@ function renderCurrentView(){
   else if(S.view==='cards')renderCards();
   else if(S.view==='table')renderTable();
   else if(S.view==='ruido')renderRuido();
+  else if(S.view==='ambiental')renderAmbiental();
+  else if(S.view==='vibracao')renderVibracao();
 }
 
 // ===== DASHBOARD =====
@@ -1781,7 +1797,173 @@ function renderRuido(){
 }
 function setRuidoFiltro(f){ruidoFiltro=f;renderRuido();}
 
-// ===== FILE UPLOAD =====
+// ===== AVALIAÇÃO AMBIENTAL =====
+function renderAmbiental(){
+  const dados = S.data && S.data._ambiental ? S.data._ambiental : [];
+  const el = document.getElementById('ambiental-content');
+  if(!dados.length){
+    el.innerHTML='<div style="text-align:center;padding:60px;color:var(--text3)"><div style="font-size:40px;margin-bottom:12px">🧪</div><p>Nenhum dado de Avaliação Ambiental disponível.<br>Importe a planilha para carregar os dados.</p></div>';
+    return;
+  }
+  // Classificação → cor
+  const classCor=c=>{
+    const t=c.toLowerCase();
+    if(t.includes('aceit')||t.includes('✅')) return '#15803d';
+    if(t.includes('atenção')||t.includes('⚠️')||t.includes('acao')||t.includes('ação')) return '#b45309';
+    if(t.includes('crít')||t.includes('❌')||t.includes('supera')) return '#b91c1c';
+    return '#374151';
+  };
+  const classLabel=c=>{
+    const t=c.toLowerCase();
+    if(t.includes('aceit')||t.includes('✅')) return {bg:'#052e16',color:'#3ddc84',border:'#22c55e'};
+    if(t.includes('atenção')||t.includes('⚠️')||t.includes('acao')||t.includes('ação')) return {bg:'#3a2500',color:'#f5a623',border:'#f59e0b'};
+    return {bg:'#3a0a0a',color:'#f55050',border:'#ef4444'};
+  };
+  // Agrupar por unidade
+  const byUnidade={};
+  dados.forEach(r=>{
+    const u=r.unidade||'—';
+    if(!byUnidade[u])byUnidade[u]=[];
+    byUnidade[u].push(r);
+  });
+  const totalAceit=dados.filter(r=>r.classificacao.toLowerCase().includes('aceit')||r.classificacao.includes('✅')).length;
+  const totalAlert=dados.length-totalAceit;
+  el.innerHTML=`
+    <div style="margin-bottom:20px">
+      <h2 style="font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;margin-bottom:4px">🧪 Avaliação Ambiental</h2>
+      <div style="font-size:12px;color:var(--text3);margin-bottom:16px">Exposição Ocupacional a Agentes Químicos — VMP 2026</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">TOTAL AVALIAÇÕES</div>
+          <div style="font-size:28px;font-weight:700;color:var(--accent);font-family:'Rajdhani',sans-serif">${dados.length}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #22c55e;border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">✅ ACEITÁVEL</div>
+          <div style="font-size:28px;font-weight:700;color:#3ddc84;font-family:'Rajdhani',sans-serif">${totalAceit}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #f59e0b;border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">⚠️ ATENÇÃO / AÇÃO</div>
+          <div style="font-size:28px;font-weight:700;color:#f5a623;font-family:'Rajdhani',sans-serif">${totalAlert}</div>
+        </div>
+      </div>
+    </div>
+    ${Object.entries(byUnidade).map(([unidade,rows])=>`
+      <div style="margin-bottom:24px">
+        <div style="font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;color:var(--accent);margin-bottom:10px;padding:8px 14px;background:var(--bg3);border-radius:8px;border-left:3px solid var(--accent)">
+          🏭 ${unidade} <span style="font-size:12px;color:var(--text3);font-weight:400">${rows.length} avaliações</span>
+        </div>
+        <div style="overflow-x:auto;border-radius:8px;border:1px solid var(--border)">
+          <table style="width:100%;border-collapse:collapse;font-size:12px">
+            <thead><tr style="background:var(--bg3)">
+              <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);white-space:nowrap">Nº</th>
+              <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Setor / Depto.</th>
+              <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Funcionário</th>
+              <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Agente Químico</th>
+              <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Resultado</th>
+              <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">LEO</th>
+              <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">IE</th>
+              <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Classificação</th>
+              <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Ação Recomendada</th>
+            </tr></thead>
+            <tbody>
+              ${rows.map((r,i)=>{
+                const cl=classLabel(r.classificacao);
+                return `<tr style="border-bottom:1px solid var(--border);${i%2===1?'background:var(--bg3)':''}">
+                  <td style="padding:8px 12px;color:var(--text3)">${r.num}</td>
+                  <td style="padding:8px 12px;font-weight:600;font-family:'Rajdhani',sans-serif;font-size:13px">${r.setor}</td>
+                  <td style="padding:8px 12px;color:var(--text2);font-size:11px">${r.funcionario}</td>
+                  <td style="padding:8px 12px;color:var(--text)">${r.agente}</td>
+                  <td style="padding:8px 12px;text-align:center;font-weight:700;color:var(--text)">${r.resultado}</td>
+                  <td style="padding:8px 12px;text-align:center;color:var(--text2)">${r.leo}</td>
+                  <td style="padding:8px 12px;text-align:center;font-weight:700;color:var(--accent)">${r.ie}</td>
+                  <td style="padding:8px 12px;text-align:center">
+                    <span style="display:inline-block;padding:3px 10px;border-radius:8px;font-size:10px;font-weight:700;background:${cl.bg};color:${cl.color};border:1px solid ${cl.border}">${r.classificacao.replace('✅','').replace('⚠️','').trim()}</span>
+                  </td>
+                  <td style="padding:8px 12px;font-size:11px;color:var(--text2)">${r.acao}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `).join('')}`;
+}
+
+// ===== AVALIAÇÃO DE VIBRAÇÃO =====
+function renderVibracao(){
+  const dados = S.data && S.data._vibracao ? S.data._vibracao : [];
+  const el = document.getElementById('vibracao-content');
+  if(!dados.length){
+    el.innerHTML='<div style="text-align:center;padding:60px;color:var(--text3)"><div style="font-size:40px;margin-bottom:12px">📳</div><p>Nenhum dado de Avaliação de Vibração disponível.<br>Importe a planilha para carregar os dados.</p></div>';
+    return;
+  }
+  const classLabel=c=>{
+    const t=c.toLowerCase();
+    if(t.includes('aceit')||t.includes('✅')) return {bg:'#052e16',color:'#3ddc84',border:'#22c55e',icon:'✅'};
+    if(t.includes('ação')||t.includes('acao')||t.includes('⚠️')||t.includes('acima')) return {bg:'#3a2500',color:'#f5a623',border:'#f59e0b',icon:'⚠️'};
+    return {bg:'#3a0a0a',color:'#f55050',border:'#ef4444',icon:'❌'};
+  };
+  const totalAceit=dados.filter(r=>{const t=r.classificacao.toLowerCase();return t.includes('aceit')||t.includes('✅');}).length;
+  const totalAlert=dados.length-totalAceit;
+  el.innerHTML=`
+    <div style="margin-bottom:20px">
+      <h2 style="font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;margin-bottom:4px">📳 Avaliação de Vibração</h2>
+      <div style="font-size:12px;color:var(--text3);margin-bottom:16px">Exposição Ocupacional a Vibrações de Corpo Inteiro (VCI) — VMP 2026</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">TOTAL AVALIAÇÕES</div>
+          <div style="font-size:28px;font-weight:700;color:var(--accent);font-family:'Rajdhani',sans-serif">${dados.length}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #22c55e;border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">✅ ACEITÁVEL</div>
+          <div style="font-size:28px;font-weight:700;color:#3ddc84;font-family:'Rajdhani',sans-serif">${totalAceit}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #f59e0b;border-radius:10px;padding:14px 20px;min-width:140px">
+          <div style="font-size:11px;color:var(--text3);margin-bottom:4px">⚠️ ACIMA NÍVEL AÇÃO</div>
+          <div style="font-size:28px;font-weight:700;color:#f5a623;font-family:'Rajdhani',sans-serif">${totalAlert}</div>
+        </div>
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:10px;border:1px solid var(--border)">
+      <table style="width:100%;border-collapse:collapse;font-size:12px">
+        <thead><tr style="background:var(--bg3)">
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);white-space:nowrap">Nº</th>
+          <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Setor</th>
+          <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Função</th>
+          <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Trabalhador</th>
+          <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Equipamento</th>
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Tempo Exp.</th>
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">AREP</th>
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">AREN</th>
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Nível Ação</th>
+          <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Classificação</th>
+          <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Ação Recomendada</th>
+        </tr></thead>
+        <tbody>
+          ${dados.map((r,i)=>{
+            const cl=classLabel(r.classificacao);
+            return `<tr style="border-bottom:1px solid var(--border);${i%2===1?'background:var(--bg3)':''}">
+              <td style="padding:8px 12px;text-align:center;color:var(--text3)">${r.num}</td>
+              <td style="padding:8px 12px;font-weight:600;font-family:'Rajdhani',sans-serif;font-size:13px">${r.setor}</td>
+              <td style="padding:8px 12px;color:var(--text)">${r.funcao}</td>
+              <td style="padding:8px 12px;color:var(--text2);font-size:11px">${r.trabalhador}</td>
+              <td style="padding:8px 12px;color:var(--text2);font-size:11px;max-width:200px">${r.equipamento}</td>
+              <td style="padding:8px 12px;text-align:center;font-weight:700;color:var(--text)">${r.tempo_exp}</td>
+              <td style="padding:8px 12px;text-align:center;color:var(--text2)">${r.arep||'—'}</td>
+              <td style="padding:8px 12px;text-align:center;font-weight:700;color:var(--accent)">${r.aren}</td>
+              <td style="padding:8px 12px;text-align:center;color:var(--text2)">${r.nivel_acao}</td>
+              <td style="padding:8px 12px;text-align:center">
+                <span style="display:inline-block;padding:3px 10px;border-radius:8px;font-size:10px;font-weight:700;background:${cl.bg};color:${cl.color};border:1px solid ${cl.border};white-space:nowrap">${cl.icon} ${r.classificacao.replace('✅','').replace('⚠️','').replace('ACIMA DO','').replace('NÍVEL DE AÇÃO','NÍVEL AÇÃO').trim()}</span>
+              </td>
+              <td style="padding:8px 12px;font-size:11px;color:var(--text2);max-width:200px">${r.acao}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+
 const SETOR_MAP={'COBRADOR':'COBRADOR ONIBUS','ADMINISTRAÇÃO':'ADMINISTRATIVO','AJ. DE MANUTENÇÃO':'AJ. MANUTENÇÃO','CONS E LIMPEZA':'CONSERV E LIMPEZA','CONS E LIMPEZA - LIMPEZA DE CHASSI COM ÁGUA PRESSURIZADA':'LIMPEZA DE CHASSIS','ELETRCISTA PREDIAL':'ELETRICA PREDIAL','ELETRICISTA DE VEICULO (ELÉTRICO)':'ELETRICISTA DE VEICULO','ENC DE OFICINA':'ENC. OFICINA','LAVADOR DE PEÇA':'LAVADOR','PISTA (CATRACARIA)':'PISTA','TEC. SEGURANÇA TRAB':'TST','PEDREIRO DE MANUTENÇÃO E CONSERVAÇÃO':'CONSERV E LIMPEZA'};
 const UN_MAP={'AE CARVALHO':'AEC','BRÁS':'BRAS','BRAS':'BRAS','M BOI':'MBOI','M BOI MIRIM':'MBOI','ITAIM':'ITAIM','IGUATEMI':'IGUATEMI','IMPERADOR':'IMPERADOR','PINEDO':'PINEDO','MATRIZ':'MATRIZ'};
 
@@ -1790,6 +1972,11 @@ function parseWorkbook(wb){
   // Find ruido sheet by checking multiple possible names
   const ruidoSheetName=wb.SheetNames.find(n=>/ru[ií]do/i.test(n))||wb.SheetNames.find(n=>/ruido/i.test(n));
   const rS=ruidoSheetName?wb.Sheets[ruidoSheetName]:null;
+  // Find ambiental and vibracao sheets
+  const ambientalSheetName=wb.SheetNames.find(n=>/ambiental/i.test(n));
+  const vibracaoSheetName=wb.SheetNames.find(n=>/vibra/i.test(n));
+  const ambS=ambientalSheetName?wb.Sheets[ambientalSheetName]:null;
+  const vibS=vibracaoSheetName?wb.Sheets[vibracaoSheetName]:null;
   if(!pS){alert('Planilha PGR não encontrada!');return null;}
   const pR=XLSX.utils.sheet_to_json(pS,{header:1,defval:''}),
         eR=eS?XLSX.utils.sheet_to_json(eS,{header:1,defval:''}):[],
@@ -1922,6 +2109,73 @@ function parseWorkbook(wb){
     }catch(err){console.warn('Erro ao parsear planilha de ruído:',err);}
   }
   result._ruido=ruidoParsed.length>0?ruidoParsed:(S.data&&S.data._ruido?S.data._ruido:[]);
+
+  // ===== PARSE AVALIAÇÃO AMBIENTAL =====
+  let ambientalParsed=[];
+  if(ambS){
+    try{
+      const aR=XLSX.utils.sheet_to_json(ambS,{header:1,defval:''});
+      // Header na linha 3 (índice 2): Unidade, Nº, Setor/Depto, Funcionário, Atividade, Agente Químico, Resultado, LEO, IE, Nível Ação, Classificação, Ação Recomendada
+      let hi=0;
+      for(let i=0;i<Math.min(6,aR.length);i++){
+        if(aR[i].some(c=>/(unidade|setor|agente)/i.test(String(c)))){hi=i;break;}
+      }
+      aR.slice(hi+1).forEach(row=>{
+        const unidade=String(row[0]||'').trim();
+        const setor=String(row[2]||'').trim();
+        if(!unidade&&!setor)return;
+        ambientalParsed.push({
+          unidade: unidade,
+          num:     String(row[1]||'').trim(),
+          setor:   setor,
+          funcionario: String(row[3]||'').trim().replace(/\n/g,' '),
+          atividade:   String(row[4]||'').trim().replace(/\n/g,' '),
+          agente:      String(row[5]||'').trim().replace(/\n/g,' '),
+          resultado:   String(row[6]||'').trim(),
+          leo:         String(row[7]||'').trim(),
+          ie:          String(row[8]||'').trim(),
+          nivel_acao:  String(row[9]||'').trim(),
+          classificacao: String(row[10]||'').trim().replace(/\n/g,' '),
+          acao:        String(row[11]||'').trim().replace(/\n/g,' '),
+        });
+      });
+    }catch(err){console.warn('Erro ao parsear Avaliação Ambiental:',err);}
+  }
+  result._ambiental=ambientalParsed.length>0?ambientalParsed:(S.data&&S.data._ambiental?S.data._ambiental:[]);
+
+  // ===== PARSE AVALIAÇÃO DE VIBRAÇÃO =====
+  let vibracaoParsed=[];
+  if(vibS){
+    try{
+      const vR=XLSX.utils.sheet_to_json(vibS,{header:1,defval:''});
+      // Header na linha 4 (índice 3): Nº, Setor, Função, Trabalhador, Equipamento, Tempo Exp, AREP, AREN, Nível Ação, Limite Exp, Classificação, Ação Recomendada
+      let hi=0;
+      for(let i=0;i<Math.min(8,vR.length);i++){
+        if(vR[i].some(c=>/(setor|função|trabalhador|nº)/i.test(String(c)))){hi=i;break;}
+      }
+      vR.slice(hi+1).forEach(row=>{
+        const num=String(row[0]||'').trim();
+        const setor=String(row[1]||'').trim();
+        if(!num&&!setor)return;
+        vibracaoParsed.push({
+          num:         num,
+          setor:       setor.replace(/\n/g,' '),
+          funcao:      String(row[2]||'').trim().replace(/\n/g,' '),
+          trabalhador: String(row[3]||'').trim().replace(/\n/g,' '),
+          equipamento: String(row[4]||'').trim().replace(/\n/g,' '),
+          tempo_exp:   String(row[5]||'').trim(),
+          arep:        String(row[6]||'').trim(),
+          aren:        String(row[7]||'').trim(),
+          nivel_acao:  String(row[8]||'').trim(),
+          limite_exp:  String(row[9]||'').trim(),
+          classificacao: String(row[10]||'').trim().replace(/\n/g,' '),
+          acao:        String(row[11]||'').trim().replace(/\n/g,' '),
+        });
+      });
+    }catch(err){console.warn('Erro ao parsear Avaliação de Vibração:',err);}
+  }
+  result._vibracao=vibracaoParsed.length>0?vibracaoParsed:(S.data&&S.data._vibracao?S.data._vibracao:[]);
+
   return result;
 }
 
