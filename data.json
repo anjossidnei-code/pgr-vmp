@@ -33013,10 +33013,17 @@
       "tempo_exp": "Tempo\r\nExp.",
       "arep": "AREP\r\n(m/s²)",
       "aren": "AREN\r\n(m/s²)",
+      "aren_nivel_acao": "Nível\r\nAção",
+      "aren_limite_exp": "Limite\r\nExp.",
+      "aren_classificacao": "Classificação\r NHO 09",
       "nivel_acao": "Nível\r\nAção",
       "limite_exp": "Limite\r\nExp.",
       "classificacao": "Classificação\r NHO 09",
-      "acao": "VDVR\r (m/s1,75)"
+      "acao": "Ação Recomendada",
+      "vdvr": "VDVR\r\n(m/s1,75)",
+      "vdvr_nivel_acao": "Nível\r\nAção",
+      "vdvr_limite_exp": "Limite\r\nExp.",
+      "vdvr_classificacao": "Classificação\r NHO 09"
     },
     {
       "num": "2",
@@ -33027,10 +33034,17 @@
       "tempo_exp": "7h",
       "arep": "—",
       "aren": "0,60",
+      "aren_nivel_acao": "0,5",
+      "aren_limite_exp": "1,1",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "9.8"
+      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
+      "vdvr": "9.8",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "21",
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "3",
@@ -33041,10 +33055,17 @@
       "tempo_exp": "7h",
       "arep": "—",
       "aren": "0,70",
+      "aren_nivel_acao": "0,5",
+      "aren_limite_exp": "1,1",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "11"
+      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
+      "vdvr": "11",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "21",
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "4",
@@ -33055,10 +33076,17 @@
       "tempo_exp": "7h",
       "arep": "—",
       "aren": "0,90",
+      "aren_nivel_acao": "0,5",
+      "aren_limite_exp": "1,1",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "14"
+      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
+      "vdvr": "14",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "21",
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "5",
@@ -33069,10 +33097,17 @@
       "tempo_exp": "7h",
       "arep": "—",
       "aren": "0,50",
+      "aren_nivel_acao": "0,5",
+      "aren_limite_exp": "1,1",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "7.1"
+      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
+      "vdvr": "7.1",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "21",
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "6",
@@ -33083,10 +33118,17 @@
       "tempo_exp": "—",
       "arep": "—",
       "aren": "0,50",
+      "aren_nivel_acao": "0,5",
+      "aren_limite_exp": "1,1",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "9.8"
+      "acao": "Manter condição existente\r (AREN aceitável)\r Adotar preventivas para VDVR",
+      "vdvr": "9.8",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "21",
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "7",
@@ -33097,10 +33139,17 @@
       "tempo_exp": "30",
       "arep": "12,06",
       "aren": "3,00",
+      "aren_nivel_acao": "2,5",
+      "aren_limite_exp": "5,0",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "2,5",
       "limite_exp": "5,0",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": ""
+      "acao": "",
+      "vdvr": "",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "",
+      "vdvr_classificacao": ""
     },
     {
       "num": "8",
@@ -33111,10 +33160,17 @@
       "tempo_exp": "60",
       "arep": "6,15",
       "aren": "2,20",
+      "aren_nivel_acao": "2,5",
+      "aren_limite_exp": "5,0",
+      "aren_classificacao": "✅  ACEITÁVEL",
       "nivel_acao": "2,5",
       "limite_exp": "5,0",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": ""
+      "acao": "",
+      "vdvr": "",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "",
+      "vdvr_classificacao": ""
     },
     {
       "num": "9",
@@ -33125,10 +33181,17 @@
       "tempo_exp": "",
       "arep": "",
       "aren": "",
+      "aren_nivel_acao": "",
+      "aren_limite_exp": "SETORES: BORRACHARIA E MECÃNICA",
+      "aren_classificacao": "",
       "nivel_acao": "",
       "limite_exp": "SETORES: BORRACHARIA E MECÃNICA",
       "classificacao": "",
-      "acao": ""
+      "acao": "",
+      "vdvr": "",
+      "vdvr_nivel_acao": "",
+      "vdvr_limite_exp": "",
+      "vdvr_classificacao": ""
     }
   ],
   "cnpjData": {
@@ -33161,6 +33224,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-22T19:23:51.604Z",
+  "timestamp": "2026-04-22T19:26:36.140Z",
   "version": "2026"
 }
