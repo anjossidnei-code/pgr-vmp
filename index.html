@@ -1083,8 +1083,13 @@ async function loadFromGithub(){
       S.data = nd;
       populateFilters();
       applyFilters();
-      if(S.view==='dashboard') renderDashboard();
-      showToast('✅ Dados carregados do GitHub! ('+(obj.gesData.length)+' GES)');
+      // Re-renderizar a view atual — independente de qual for
+      renderCurrentView();
+      const ambN=(nd._ambiental||[]).length;
+      const vibN=(nd._vibracao||[]).length;
+      const extra=ambN>0?` · ${ambN} amb.`:'';
+      const extra2=vibN>0?` · ${vibN} vib.`:'';
+      showToast(`✅ GitHub: ${obj.gesData.length} GES${extra}${extra2}`);
     }
   } catch(e){
     // Silent fail — use embedded data
@@ -2326,21 +2331,34 @@ function parseWorkbook(wb){
   return result;
 }
 
+function processImportedWorkbook(wb){
+  const nd=parseWorkbook(wb);
+  if(!nd) return;
+  S.data=nd;
+  populateFilters();
+  applyFilters();
+  renderCurrentView();
+  // Status visual
+  document.getElementById('upload-status').style.display='block';
+  setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);
+  // Upload para GitHub com todos os dados
+  const json=buildDataJson(nd);
+  const ambN=(nd._ambiental||[]).length;
+  const vibN=(nd._vibracao||[]).length;
+  showToast(`✅ Planilha importada: ${nd.length} GES · ${ambN} amb. · ${vibN} vib.`);
+  uploadToGithub(json).then(ok=>{
+    if(ok) showToast(`☁️ GitHub atualizado: ${nd.length} GES · ${ambN} amb. · ${vibN} vib.`);
+  });
+}
+
 document.getElementById('file-input').addEventListener('change',function(e){
   const file=e.target.files[0];if(!file)return;
   document.getElementById('up-file-name').textContent=file.name;
   document.getElementById('up-file-name').style.display='block';
   const r=new FileReader();
   r.onload=function(evt){
-    try{const wb=XLSX.read(evt.target.result,{type:'array'});const nd=parseWorkbook(wb);
-      if(nd){S.data=nd;populateFilters();applyFilters();
-        document.getElementById('upload-status').style.display='block';
-        setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);
-        if(S.view==='dashboard')renderDashboard();
-        // Upload to GitHub
-        uploadToGithub(buildDataJson(nd));
-      }}
-    catch(err){alert('Erro: '+err.message);}
+    try{const wb=XLSX.read(evt.target.result,{type:'array'});processImportedWorkbook(wb);}
+    catch(err){alert('Erro ao importar: '+err.message);}
   };r.readAsArrayBuffer(file);
 });
 
@@ -2352,15 +2370,8 @@ uz.addEventListener('drop',e=>{e.preventDefault();uz.style.borderColor='';
   const file=e.dataTransfer.files[0];if(!file||!file.name.match(/\.xlsx?$/))return;
   document.getElementById('up-file-name').textContent=file.name;document.getElementById('up-file-name').style.display='block';
   const r=new FileReader();r.onload=function(evt){
-    try{const wb=XLSX.read(evt.target.result,{type:'array'});const nd=parseWorkbook(wb);
-      if(nd){S.data=nd;populateFilters();applyFilters();
-        document.getElementById('upload-status').style.display='block';
-        setTimeout(()=>document.getElementById('upload-status').style.display='none',3000);
-        if(S.view==='dashboard')renderDashboard();
-        // Upload to GitHub
-        uploadToGithub(buildDataJson(nd));
-      }}
-    catch(err){alert('Erro: '+err.message);}
+    try{const wb=XLSX.read(evt.target.result,{type:'array'});processImportedWorkbook(wb);}
+    catch(err){alert('Erro ao importar: '+err.message);}
   };r.readAsArrayBuffer(file);
 });
 
