@@ -33006,6 +33006,20 @@
   "vibracaoData": [
     {
       "num": "1",
+      "setor": "Setor",
+      "funcao": "Função",
+      "trabalhador": "Trabalhador",
+      "equipamento": "Equipamento\r (veículo / série)",
+      "tempo_exp": "Tempo\r\nExp.",
+      "arep": "AREP\r\n(m/s²)",
+      "aren": "AREN\r\n(m/s²)",
+      "nivel_acao": "Nível\r\nAção",
+      "limite_exp": "Limite\r\nExp.",
+      "classificacao": "Classificação\r NHO 09",
+      "acao": "VDVR\r (m/s1,75)"
+    },
+    {
+      "num": "2",
       "setor": "Transporte\r Coletivo",
       "funcao": "Motorista",
       "trabalhador": "Edinaldo Evaristo Albuquerque\r (Mat. 200384)",
@@ -33015,11 +33029,11 @@
       "aren": "0,60",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "⚠️  ACIMA DO\r NÍVEL DE AÇÃO",
-      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": "9.8"
     },
     {
-      "num": "2",
+      "num": "3",
       "setor": "Transporte\r Coletivo",
       "funcao": "Motorista",
       "trabalhador": "Josué Barbosa dos Santos\r (Mat. 208067)",
@@ -33029,11 +33043,11 @@
       "aren": "0,70",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "⚠️  ACIMA DO\r NÍVEL DE AÇÃO",
-      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": "11"
     },
     {
-      "num": "3",
+      "num": "4",
       "setor": "Transporte\r Coletivo",
       "funcao": "Cobrador",
       "trabalhador": "Marcelo Santos Ferreira\r (Mat. 209030)",
@@ -33043,11 +33057,11 @@
       "aren": "0,90",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "⚠️  ACIMA DO\r NÍVEL DE AÇÃO",
-      "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": "14"
     },
     {
-      "num": "4",
+      "num": "5",
       "setor": "Transporte\r Coletivo",
       "funcao": "Cobrador",
       "trabalhador": "Anderson Pereira Lima\r (Mat. 211072)",
@@ -33057,11 +33071,11 @@
       "aren": "0,50",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "⚠️  ACIMA DO\r NÍVEL DE AÇÃO",
-      "acao": "Manter condição existente\r e monitorar periodicamente"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": "7.1"
     },
     {
-      "num": "5",
+      "num": "6",
       "setor": "Mecânica",
       "funcao": "Mecânico\r Socorrista",
       "trabalhador": "Edvaldo de Jesus Silva",
@@ -33071,11 +33085,11 @@
       "aren": "0,50",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "✅  ACEITÁVEL\r (AREN) ⚠️  ACIMA\r NA (VDVR 9,80)",
-      "acao": "Manter condição existente\r (AREN aceitável)\r Adotar preventivas para VDVR"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": "9.8"
     },
     {
-      "num": "6",
+      "num": "7",
       "setor": "Borracharia",
       "funcao": "Borracheiro",
       "trabalhador": "Edvaldo de Jesus Silva\r (Mat. 202929)",
@@ -33085,11 +33099,11 @@
       "aren": "3,00",
       "nivel_acao": "2,5",
       "limite_exp": "5,0",
-      "classificacao": "⚠️  ACIMA DO\r NÍVEL DE AÇÃO",
-      "acao": "Adotar medidas preventivas:\r luvas antivibração, pausas,\r rodízio e controle médico"
+      "classificacao": "✅  ACEITÁVEL",
+      "acao": ""
     },
     {
-      "num": "7",
+      "num": "8",
       "setor": "Mecânica",
       "funcao": "Mecânico",
       "trabalhador": "Washington Wellington da Silva\r (Mat. 212058)",
@@ -33100,7 +33114,21 @@
       "nivel_acao": "2,5",
       "limite_exp": "5,0",
       "classificacao": "✅  ACEITÁVEL",
-      "acao": "Manter condição existente\r e monitorar periodicamente"
+      "acao": ""
+    },
+    {
+      "num": "9",
+      "setor": "SETORES: MOTORISTA / COBRADOR / MECÃNICO SOCORRISTA",
+      "funcao": "",
+      "trabalhador": "",
+      "equipamento": "",
+      "tempo_exp": "",
+      "arep": "",
+      "aren": "",
+      "nivel_acao": "",
+      "limite_exp": "SETORES: BORRACHARIA E MECÃNICA",
+      "classificacao": "",
+      "acao": ""
     }
   ],
   "cnpjData": {
@@ -33133,6 +33161,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-22T17:58:02.979Z",
+  "timestamp": "2026-04-22T19:03:35.941Z",
   "version": "2026"
 }
