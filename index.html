@@ -1810,14 +1810,14 @@ function renderAmbiental(){
     const t=c.toUpperCase();
     if(t.includes('ACIMA DO LIMITE')||t.includes('LIMITE DE EXPO'))
       return {bg:'rgba(239,68,68,0.12)',color:'#ef4444',border:'rgba(239,68,68,0.3)',lbl:'🔴 Acima Limite Exp.'};
-    if(t.includes('ACIMA DO N')||t.includes('NÍVEL DE AÇÃO')||t.includes('NIVEL DE ACAO'))
+    if(t.includes('ACIMA DO N')&&!t.includes('ABAIXO'))
       return {bg:'rgba(245,158,11,0.12)',color:'#f59e0b',border:'rgba(245,158,11,0.3)',lbl:'⚠️ Acima Nível Ação'};
     return {bg:'rgba(61,220,132,0.10)',color:'#3ddc84',border:'rgba(61,220,132,0.25)',lbl:'✅ Abaixo Nível Ação'};
   };
   const unis=[...new Set(todos.map(r=>r.unidade).filter(Boolean))].sort();
   const sets=[...new Set(todos.map(r=>r.setor).filter(Boolean))].sort();
-  const okN=todos.filter(r=>!r.classificacao.toUpperCase().includes('ACIMA')).length;
-  const naN=todos.filter(r=>r.classificacao.toUpperCase().includes('ACIMA DO N')).length;
+  const okN=todos.filter(r=>r.classificacao.toUpperCase().includes('ABAIXO')).length;
+  const naN=todos.filter(r=>{const t=r.classificacao.toUpperCase();return t.includes('ACIMA DO N')&&!t.includes('ABAIXO');}).length;
   const leN=todos.filter(r=>r.classificacao.toUpperCase().includes('ACIMA DO LIMITE')||r.classificacao.toUpperCase().includes('LIMITE DE EXPO')).length;
   const ages=[...new Set(todos.map(r=>r.agente).filter(Boolean))].length;
 
@@ -1866,7 +1866,7 @@ function renderAmbiental(){
         <option value="">Todas as classificações</option>
         <option value="ABAIXO"${_ambFiltro.cls==='ABAIXO'?' selected':''}>✅ Abaixo Nível Ação</option>
         <option value="ACIMA DO N"${_ambFiltro.cls==='ACIMA DO N'?' selected':''}>⚠️ Acima Nível Ação</option>
-        <option value="LIMITE"${_ambFiltro.cls==='LIMITE'?' selected':''}>🔴 Acima Limite Exp.</option>
+        <option value="ACIMA DO LIMITE"${_ambFiltro.cls==='ACIMA DO LIMITE'?' selected':''}>🔴 Acima Limite Exp.</option>
       </select>
     </div>
     <div id="amb-table-wrap" style="overflow-x:auto;border-radius:8px;border:1px solid var(--border)"></div>
@@ -1888,7 +1888,7 @@ function renderAmbTable(){
     const t=c.toUpperCase();
     if(t.includes('ACIMA DO LIMITE')||t.includes('LIMITE DE EXPO'))
       return {bg:'rgba(239,68,68,0.12)',color:'#ef4444',border:'rgba(239,68,68,0.3)',lbl:'Acima Limite Exp.'};
-    if(t.includes('ACIMA DO N')||t.includes('NÍVEL DE AÇÃO'))
+    if(t.includes('ACIMA')&&!t.includes('ABAIXO'))
       return {bg:'rgba(245,158,11,0.12)',color:'#f59e0b',border:'rgba(245,158,11,0.3)',lbl:'Acima Nível Ação'};
     return {bg:'rgba(61,220,132,0.10)',color:'#3ddc84',border:'rgba(61,220,132,0.25)',lbl:'Abaixo Nível Ação'};
   };
@@ -1940,8 +1940,8 @@ function renderVibracao(){
       return {bg:'rgba(99,102,241,0.12)',color:'#a5b4fc',border:'rgba(99,102,241,0.3)',lbl:'⚠️ Misto / VDVR'};
     return {bg:'rgba(61,220,132,0.10)',color:'#3ddc84',border:'rgba(61,220,132,0.25)',lbl:'✅ Aceitável'};
   };
-  const okN=todos.filter(r=>!r.classificacao.toUpperCase().includes('ACIMA DO N')&&!r.classificacao.toUpperCase().includes('NÍVEL DE AÇÃO')&&!r.classificacao.toUpperCase().includes('NIVEL DE ACAO')).length;
-  const naN=todos.filter(r=>r.classificacao.toUpperCase().includes('ACIMA DO N')||r.classificacao.toUpperCase().includes('NÍVEL DE AÇÃO')).length;
+  const okN=todos.filter(r=>{const t=r.classificacao.toUpperCase();return !t.includes('ACIMA');}).length;
+  const naN=todos.filter(r=>{const t=r.classificacao.toUpperCase();return t.includes('ACIMA DO N')&&!t.includes('ACEITÁVEL');}).length;
   const mxN=todos.filter(r=>r.classificacao.toUpperCase().includes('ACEITÁVEL')&&r.classificacao.toUpperCase().includes('ACIMA')).length;
 
   el.innerHTML=`
