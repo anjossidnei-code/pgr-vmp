@@ -1070,12 +1070,17 @@ async function uploadToGithub(dataObj){
   }
 }
 
+// URL pública fixa do repositório — carrega para todos sem precisar de token
+const GH_PUBLIC_URL = 'https://raw.githubusercontent.com/anjossidnei-code/pgr-vmp/main/data.json';
+
 async function loadFromGithub(){
   const cfg = getGithubConfig();
-  if(!cfg || !cfg.token) return; // no config, use embedded data
+  // Usar URL do config se disponível, senão usar URL pública fixa
+  const url = (cfg && cfg.owner && cfg.repo && cfg.branch)
+    ? `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/data.json?t=${Date.now()}`
+    : `${GH_PUBLIC_URL}?t=${Date.now()}`;
   try{
-    showToast('⏳ Carregando dados do GitHub...');
-    const r = await fetch(`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/data.json?t=${Date.now()}`);
+    const r = await fetch(url);
     if(!r.ok) return;
     const obj = await r.json();
     if(obj && obj.gesData && obj.gesData.length){
@@ -1083,7 +1088,6 @@ async function loadFromGithub(){
       S.data = nd;
       populateFilters();
       applyFilters();
-      // Re-renderizar a view atual — independente de qual for
       renderCurrentView();
       const ambN=(nd._ambiental||[]).length;
       const vibN=(nd._vibracao||[]).length;
@@ -1134,8 +1138,8 @@ function init(){
   if(dst.options.length<=1){
     Array.from(src.options).forEach(o=>{ const n=o.cloneNode(true); dst.appendChild(n); });
   }
-  // If logged in, try loading latest data from GitHub
-  if(existingUser) loadFromGithub();
+  // Carregar dados do GitHub sempre — repositório público, não precisa de token
+  loadFromGithub();
 }
 
 function processData(raw){
