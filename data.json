@@ -33033,7 +33033,7 @@
       "aren": "0,60",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "✅  ACEITÁVEL",
+      "classificacao": "Acima do Nivel de ação",
       "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
       "vdvr": "9.8",
       "vdvr_nivel_acao": "",
@@ -33105,7 +33105,7 @@
       "aren": "0,50",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "✅  ACEITÁVEL",
+      "classificacao": "Acima do Nivel de ação",
       "acao": "Manter condição existente\r (AREN aceitável)\r Adotar preventivas para VDVR",
       "vdvr": "9.8",
       "vdvr_nivel_acao": "",
@@ -33197,6 +33197,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-22T23:27:38.316Z",
+  "timestamp": "2026-04-22T23:58:28.702Z",
   "version": "2026"
 }
