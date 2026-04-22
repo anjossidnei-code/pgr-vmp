@@ -4,7 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PGR – Viação Metrópole Paulista</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" crossorigin="anonymous"></script>
+<script>
+// Fallback se CDN do cdnjs falhar
+if(typeof XLSX==='undefined'){
+  document.write('<scr'+'ipt src="https://unpkg.com/xlsx@0.18.5/dist/xlsx.full.min.js"><\/scr'+'ipt>');
+}
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 :root {
@@ -1061,7 +1067,7 @@ async function uploadToGithub(dataObj){
 
 async function loadFromGithub(){
   const cfg = getGithubConfig();
-  if(!cfg || !cfg.token) return; // no config, use embedded data
+  if(!cfg || !cfg.token) return;
   try{
     showToast('⏳ Carregando dados do GitHub...');
     const r = await fetch(`https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/data.json?t=${Date.now()}`);
@@ -1072,8 +1078,13 @@ async function loadFromGithub(){
       S.data = nd;
       populateFilters();
       applyFilters();
-      if(S.view==='dashboard') renderDashboard();
-      showToast('✅ Dados carregados do GitHub! ('+(obj.gesData.length)+' GES)');
+      // Re-render whatever view is currently active
+      renderCurrentView();
+      const ambN=(nd._ambiental||[]).length;
+      const vibN=(nd._vibracao||[]).length;
+      const extra=ambN>0?` · ${ambN} amb.`:'';
+      const extra2=vibN>0?` · ${vibN} vib.`:'';
+      showToast(`✅ GitHub: ${obj.gesData.length} GES${extra}${extra2}`);
     }
   } catch(e){
     // Silent fail — use embedded data
@@ -1449,11 +1460,19 @@ function openModal(unidade,setor){
   S.currentGES=g;
   document.getElementById('modal-ges-label').textContent=`GES ${g.ges||'—'} · ${UNIDADE_NAMES[g.unidade]||g.unidade}`;
   document.getElementById('modal-title').textContent=g.setor;
-  document.getElementById('modal-unidade-label').textContent=g.cnpj?`CNPJ: ${g.cnpj}`:' ';
-  const tags=g.tipos_unique.map(t=>`<span class="tag ${TIPO_CLASS[t]||''}">${t}</span>`).join('');
+  document.getElementById('modal-unidade-label').textContent=g.cnpj?`CNPJ: ${g.cnpj}`+` · ${UNIDADE_NAMES[g.unidade]||g.unidade}`:' ';
+  // Filter risks by active tipo/nivel filters
+  const allTiposAtivos=S.tipoFilters.size===6; // all types selected = no filter active
+  const allNiveisAtivos=S.nivelFilters.size===5;
+  const riscosFiltrados=g.riscos.filter(r=>S.tipoFilters.has(r.tipo)&&S.nivelFilters.has(r.nivel_risco));
+  const riscos = riscosFiltrados;
+  const hasFilter = !allTiposAtivos || !allNiveisAtivos;
+  const tags=g.tipos_unique.filter(t=>S.tipoFilters.has(t)).map(t=>`<span class="tag ${TIPO_CLASS[t]||''}">${t}</span>`).join('');
   const nc=nivelClass(g.max_nivel);
-  const rbyT={};g.riscos.forEach(r=>{if(!rbyT[r.tipo])rbyT[r.tipo]=[];rbyT[r.tipo].push(r);});
-  const rHTML=Object.entries(rbyT).map(([tipo,risks])=>`
+  const rbyT={};riscos.forEach(r=>{if(!rbyT[r.tipo])rbyT[r.tipo]=[];rbyT[r.tipo].push(r);});
+  const rHTML=Object.keys(rbyT).length===0
+    ?`<div style="text-align:center;padding:24px;color:var(--text3)">Nenhum risco corresponde aos filtros ativos.</div>`
+    :Object.entries(rbyT).map(([tipo,risks])=>`
     <div style="margin-bottom:14px">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
         <span class="tag ${TIPO_CLASS[tipo]||''}">${tipo}</span>
@@ -1472,6 +1491,7 @@ function openModal(unidade,setor){
         </tr>`).join('')}
       </table></div>
     </div>`).join('');
+  const filterNote=hasFilter?`<div style="font-size:11px;color:var(--text3);margin-bottom:8px;padding:6px 10px;background:rgba(59,130,246,.08);border-radius:6px;border:1px solid rgba(59,130,246,.2)">🔎 Exibindo ${riscos.length} de ${g.num_riscos} riscos — filtro ativo</div>`:'';
   document.getElementById('modal-body').innerHTML=`
     <div class="modal-section"><div class="info-grid">
       <div class="info-item"><div class="lbl">Funcionários</div><div class="val">👥 ${g.num_emp}</div></div>
@@ -1480,7 +1500,7 @@ function openModal(unidade,setor){
       <div class="info-item"><div class="lbl">Tipos</div><div class="val" style="display:flex;flex-wrap:wrap;gap:4px">${tags}</div></div>
     </div></div>
     ${g.atividade?`<div class="modal-section"><div class="modal-section-title">Atribuição da Função</div><p style="font-size:13px;color:var(--text2);line-height:1.7">${g.atividade}</p></div>`:''}
-    <div class="modal-section"><div class="modal-section-title">Inventário de Riscos (${g.num_riscos})</div>${rHTML}</div>`;
+    <div class="modal-section"><div class="modal-section-title">Inventário de Riscos ${hasFilter?`(${riscos.length} filtrado${riscos.length!==1?'s':''})`:`(${g.num_riscos})`}</div>${filterNote}${rHTML}</div>`;
   document.getElementById('modal').classList.add('open');
 }
 function closeModal(){document.getElementById('modal').classList.remove('open');}
@@ -2001,34 +2021,60 @@ function renderVibTable(){
   const wrap=document.getElementById('vib-table-wrap');
   if(!wrap)return;
   if(!filtered.length){wrap.innerHTML='<div style="text-align:center;padding:30px;color:var(--text3)">Nenhum resultado encontrado</div>';return;}
+  const hasVDVR=todos.some(r=>r.vdvr!==undefined);
+  const thS='padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);white-space:nowrap';
+  const thC=thS+';text-align:center';
   wrap.innerHTML=`<table style="width:100%;border-collapse:collapse;font-size:12px">
-    <thead><tr style="background:var(--bg3)">
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);white-space:nowrap">#</th>
-      <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Setor</th>
-      <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Função</th>
-      <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Trabalhador</th>
-      <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Equipamento / Veículo</th>
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Tempo Exp.</th>
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">AREP (m/s²)</th>
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">AREN (m/s²)</th>
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Nível Ação</th>
-      <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Classificação NHO 09</th>
-      <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Ação Recomendada</th>
-    </tr></thead>
+    <thead>
+      ${hasVDVR?`<tr style="background:var(--bg3)">
+        <th colspan="6" style="${thS}"></th>
+        <th colspan="4" style="${thC};border-left:2px solid var(--border2)">AREN — Aceleração Resultante de Exposição Normalizada</th>
+        <th colspan="4" style="${thC};border-left:2px solid var(--border2)">VDVR — Valor da Dose de Vibração Resultante</th>
+        <th style="${thS}"></th>
+      </tr>`:''}
+      <tr style="background:var(--bg3)">
+        <th style="${thC}">#</th>
+        <th style="${thS}">Setor</th>
+        <th style="${thS}">Função</th>
+        <th style="${thS}">Trabalhador</th>
+        <th style="${thS}">Equipamento / Veículo</th>
+        <th style="${thC}">Tempo Exp.</th>
+        <th style="${thC};border-left:${hasVDVR?'2px':'1px'} solid var(--border2)">AREP (m/s²)</th>
+        <th style="${thC}">AREN (m/s²)</th>
+        <th style="${thC}">Nível Ação AREN</th>
+        <th style="${thC}">Limite AREN</th>
+        ${hasVDVR?`
+        <th style="${thC};border-left:2px solid var(--border2)">VDVR (m/s¹·⁷⁵)</th>
+        <th style="${thC}">Nível Ação VDVR</th>
+        <th style="${thC}">Limite VDVR</th>
+        <th style="${thC}">Classif. VDVR</th>`:`<th style="${thC}">Classif. NHO 09</th>`}
+        <th style="${thS}">Ação Recomendada</th>
+      </tr>
+    </thead>
     <tbody>
-      ${filtered.map((r,i)=>{const cl=clBadge(r.classificacao);return`<tr style="border-bottom:1px solid var(--border);${i%2===1?'background:rgba(30,35,50,.5)':''}">
-        <td style="padding:8px 12px;text-align:center;color:var(--text3);font-family:'Rajdhani',sans-serif">${r.num}</td>
-        <td style="padding:8px 12px;font-weight:600;font-family:'Rajdhani',sans-serif;font-size:13px">${r.setor}</td>
-        <td style="padding:8px 12px;color:var(--text)">${r.funcao}</td>
-        <td style="padding:8px 12px;color:var(--text2);font-size:11px">${r.trabalhador}</td>
-        <td style="padding:8px 12px;color:var(--text2);font-size:11px;max-width:220px">${r.equipamento}</td>
-        <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;color:var(--text)">${r.tempo_exp||'—'}</td>
-        <td style="padding:8px 12px;text-align:center;color:var(--text2);font-family:'Rajdhani',sans-serif">${r.arep||'—'}</td>
-        <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;color:var(--accent)">${r.aren}</td>
-        <td style="padding:8px 12px;text-align:center;color:var(--text2);font-size:11px">${r.nivel_acao}</td>
-        <td style="padding:8px 12px;text-align:center"><span style="display:inline-block;padding:3px 10px;border-radius:8px;font-size:10px;font-weight:700;background:${cl.bg};color:${cl.color};border:1px solid ${cl.border};white-space:nowrap">${cl.lbl}</span></td>
-        <td style="padding:8px 12px;font-size:11px;color:var(--text2);max-width:200px">${r.acao}</td>
-      </tr>`}).join('')}
+      ${filtered.map((r,i)=>{
+        const cl=clBadge(r.classificacao);
+        const clV=r.vdvr_classificacao?clBadge(r.vdvr_classificacao):null;
+        return`<tr style="border-bottom:1px solid var(--border);${i%2===1?'background:rgba(30,35,50,.5)':''}">
+          <td style="padding:8px 12px;text-align:center;color:var(--text3);font-family:'Rajdhani',sans-serif">${r.num}</td>
+          <td style="padding:8px 12px;font-weight:600;font-family:'Rajdhani',sans-serif;font-size:13px">${r.setor}</td>
+          <td style="padding:8px 12px;color:var(--text)">${r.funcao}</td>
+          <td style="padding:8px 12px;color:var(--text2);font-size:11px">${r.trabalhador}</td>
+          <td style="padding:8px 12px;color:var(--text2);font-size:11px;max-width:200px">${r.equipamento}</td>
+          <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;color:var(--text)">${r.tempo_exp||'—'}</td>
+          <td style="padding:8px 12px;text-align:center;color:var(--text2);font-family:'Rajdhani',sans-serif;border-left:${hasVDVR?'2px':'1px'} solid var(--border2)">${r.arep||'—'}</td>
+          <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;color:var(--accent)">${r.aren}</td>
+          <td style="padding:8px 12px;text-align:center;color:var(--text2);font-size:11px">${r.aren_nivel_acao||r.nivel_acao}</td>
+          <td style="padding:8px 12px;text-align:center;color:var(--text2);font-size:11px">${r.aren_limite_exp||r.limite_exp}</td>
+          ${hasVDVR?`
+          <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;color:var(--accent);border-left:2px solid var(--border2)">${r.vdvr||'—'}</td>
+          <td style="padding:8px 12px;text-align:center;color:var(--text2);font-size:11px">${r.vdvr_nivel_acao||'—'}</td>
+          <td style="padding:8px 12px;text-align:center;color:var(--text2);font-size:11px">${r.vdvr_limite_exp||'—'}</td>
+          <td style="padding:8px 12px;text-align:center">${clV?`<span style="display:inline-block;padding:3px 10px;border-radius:8px;font-size:10px;font-weight:700;background:${clV.bg};color:${clV.color};border:1px solid ${clV.border};white-space:nowrap">${clV.lbl}</span>`:'—'}</td>`
+          :`<td style="padding:8px 12px;text-align:center"><span style="display:inline-block;padding:3px 10px;border-radius:8px;font-size:10px;font-weight:700;background:${cl.bg};color:${cl.color};border:1px solid ${cl.border};white-space:nowrap">${cl.lbl}</span></td>`}
+          <td style="padding:8px 12px;font-size:11px;color:var(--text2);max-width:200px">${r.acao}</td>
+        </tr>`;
+      }).join('')}
     </tbody>
   </table>`;
 }
@@ -2222,9 +2268,11 @@ function parseWorkbook(wb){
   result._ambiental=ambientalParsed.length>0?ambientalParsed:(S.data&&S.data._ambiental?S.data._ambiental:[]);
 
   // ===== PARSE AVALIAÇÃO DE VIBRAÇÃO =====
-  // Estrutura atual: col0=Setor, col1=Função, col2=Trabalhador, col3=Equipamento,
-  //                  col4=Tempo Exp, col5=AREP, col6=AREN, col7=Nível Ação,
-  //                  col8=Limite Exp, col9=Classificação NHO 09, col10=Ação Recomendada
+  // Estrutura atual (11 cols): col0=Setor, col1=Função, col2=Trabalhador, col3=Equipamento,
+  //   col4=Tempo Exp, col5=AREP, col6=AREN, col7=Nível Ação AREN, col8=Limite Exp AREN,
+  //   col9=Classificação NHO 09 (AREN), col10=Ação Recomendada
+  // Estrutura nova (15 cols): + col10=VDVR, col11=Nível Ação VDVR, col12=Limite Exp VDVR,
+  //   col13=Classificação NHO 09 (VDVR), col14=Ação Recomendada
   let vibracaoParsed=[];
   if(vibS){
     try{
@@ -2233,13 +2281,16 @@ function parseWorkbook(wb){
       for(let i=0;i<Math.min(8,vR.length);i++){
         if(vR[i].some(c=>/(setor|função|trabalhador|aren|arep)/i.test(String(c)))){hi=i;break;}
       }
+      // Detect if new format (15+ cols) by checking header row
+      const hasVDVR = vR[hi] && vR[hi].length >= 13 &&
+        vR[hi].some(c=>/(vdvr|vdv)/i.test(String(c||'')));
       let numVib=0;
       vR.slice(hi+1).forEach(row=>{
         const setor=String(row[0]||'').replace(/\n/g,' ').trim();
         const funcao=String(row[1]||'').replace(/\n/g,' ').trim();
         if(!setor&&!funcao)return;
         numVib++;
-        vibracaoParsed.push({
+        const obj={
           num:         String(numVib),
           setor:       setor,
           funcao:      funcao,
@@ -2248,11 +2299,22 @@ function parseWorkbook(wb){
           tempo_exp:   String(row[4]||'').trim(),
           arep:        String(row[5]||'').trim(),
           aren:        String(row[6]||'').trim(),
+          aren_nivel_acao: String(row[7]||'').trim(),
+          aren_limite_exp: String(row[8]||'').trim(),
+          aren_classificacao: String(row[9]||'').replace(/\n/g,' ').trim(),
+          // backwards compat
           nivel_acao:  String(row[7]||'').trim(),
           limite_exp:  String(row[8]||'').trim(),
           classificacao: String(row[9]||'').replace(/\n/g,' ').trim(),
-          acao:        String(row[10]||'').replace(/\n/g,' ').trim(),
-        });
+          acao:        String(row[hasVDVR?14:10]||'').replace(/\n/g,' ').trim(),
+        };
+        if(hasVDVR){
+          obj.vdvr       = String(row[10]||'').trim();
+          obj.vdvr_nivel_acao = String(row[11]||'').trim();
+          obj.vdvr_limite_exp = String(row[12]||'').trim();
+          obj.vdvr_classificacao = String(row[13]||'').replace(/\n/g,' ').trim();
+        }
+        vibracaoParsed.push(obj);
       });
     }catch(err){console.warn('Erro ao parsear Avaliação de Vibração:',err);}
   }
