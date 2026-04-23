@@ -4794,7 +4794,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 41,
+      "num_emp": 39,
       "atividade": "Realizar a limpeza dos diversos locais da empresa por meio da coleta de lixo, varrições e lavagens quando necessário, tanto da parte administrativa como, por exemplo, salas, escritórios, refeitórios, vestiários, sanitários e outros, como também, de outras áreas, como o setor de tráfego, área de revisão, pátio de estacionamento e outras ligadas à manutenção (exceto abastecimento de diesel). Também pode efetuar a limpeza do interior dos ônibus. Nessas atividades utiliza com frequência de vassouras, rodos, panos, água, detergente e desinfetante. Essas atividades são desenvolvidas de modo habitual e permanente, não ocasional nem intermitente.",
       "cnpj": "31.974.104/0004-73",
       "endereco": "RUA TIBÚRCIO DE SOUZA, 2663 - ITAIM PAULISTA - SÃO PAULO - SP",
@@ -5000,7 +5000,7 @@
           "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
         }
       ],
-      "num_emp": 6,
+      "num_emp": 2,
       "atividade": "Auxiliar no preparo do almoço da Diretoria e ajudar a servir, auxiliar na lista de compra de mantimentos, preparar e servir o café com pão aos funcionários e auxiliar na limpeza e organização da cozinha; Trabalhar em conformidade com normas e procedimentos de qualidade, de segurança e de preservação do meio ambiente.",
       "cnpj": "31.974.104/0004-73",
       "endereco": "RUA TIBÚRCIO DE SOUZA, 2663 - ITAIM PAULISTA - SÃO PAULO - SP",
@@ -8951,7 +8951,7 @@
           "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
         }
       ],
-      "num_emp": 6,
+      "num_emp": 8,
       "atividade": "Auxiliar no preparo do almoço da Diretoria e ajudar a servir, auxiliar na lista de compra de mantimentos, preparar e servir o café com pão aos funcionários e auxiliar na limpeza e organização da cozinha; Trabalhar em conformidade com normas e procedimentos de qualidade, de segurança e de preservação do meio ambiente.",
       "cnpj": "31.974.104/0001-20",
       "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
@@ -31972,6 +31972,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T16:30:18.588Z",
+  "timestamp": "2026-04-23T16:31:41.710Z",
   "version": "2026"
 }
