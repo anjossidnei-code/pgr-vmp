@@ -16316,7 +16316,7 @@
           "frequencia": "Ocasional",
           "lesoes": "Dermatites, intoxicação, irritação das vias aéreas",
           "fontes": "Durante preparação de superfícies, pintura e limpeza de peças",
-          "medidas": "Uso de luvas nitrílicas, avental impermeável, PFF2 com válvula, ventilação do local, fichas FISPQ disponíveis, capacitação conforme NR-20",
+          "medidas": "Uso de luvas nitrílicas, avental impermeável, PFF2 com válvula, ventilação do local, fichas FISPQ disponíveis, capacitação conforme NR-20 - gggggggg",
           "analise": "✅ Sim — medidas adequadas, manter fiscalização no uso de EPI e controle de ventilação.",
           "severidade": "Levemente Prejudicial",
           "probabilidade": "Improvável",
@@ -28721,10 +28721,10 @@
     {
       "unidade": "BRAS",
       "setor": "AJ. DE MANUTENÇÃO",
-      "nivel_db": null,
-      "protetor": "sem_medicao",
-      "dose_pct": null,
-      "tempo_medicao": null
+      "nivel_db": 77.99237155796243,
+      "protetor": "obrigatorio",
+      "dose_pct": 9.7,
+      "tempo_medicao": 123
     },
     {
       "unidade": "BRAS",
@@ -33033,7 +33033,7 @@
       "aren": "0,60",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "Acima do Nivel de ação",
+      "classificacao": "✅  ACEITÁVEL",
       "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
       "vdvr": "9.8",
       "vdvr_nivel_acao": "",
@@ -33051,7 +33051,7 @@
       "aren": "0,70",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "Acima do Nivel de ação",
+      "classificacao": "✅  ACEITÁVEL",
       "acao": "Adotar medidas preventivas:\r monitoramento periódico,\r controle médico e pausas",
       "vdvr": "11",
       "vdvr_nivel_acao": "",
@@ -33074,7 +33074,7 @@
       "vdvr": "14",
       "vdvr_nivel_acao": "",
       "vdvr_limite_exp": "21",
-      "vdvr_classificacao": "Acima do Nivel de ação"
+      "vdvr_classificacao": "✅  ACEITÁVEL"
     },
     {
       "num": "5",
@@ -33105,7 +33105,7 @@
       "aren": "0,50",
       "nivel_acao": "0,5",
       "limite_exp": "1,1",
-      "classificacao": "Acima do Nivel de ação",
+      "classificacao": "✅  ACEITÁVEL",
       "acao": "Manter condição existente\r (AREN aceitável)\r Adotar preventivas para VDVR",
       "vdvr": "9.8",
       "vdvr_nivel_acao": "",
@@ -33197,6 +33197,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T11:11:29.085Z",
+  "timestamp": "2026-04-23T11:20:21.244Z",
   "version": "2026"
 }
