@@ -550,6 +550,7 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
       <input type="text" id="search-box" placeholder="Buscar setor, risco, perigo...">
       <div class="count-badge">Exibindo <b id="count-display">—</b> GES</div>
       <div class="admin-only" style="display:flex;align-items:center;gap:8px">
+        <button onclick="loadFromGithub(false)" title="Buscar dados mais recentes do GitHub" style="background:var(--bg3);border:1px solid var(--border2);color:var(--text2);padding:6px 10px;border-radius:7px;cursor:pointer;font-size:13px;transition:.15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">🔄 Atualizar</button>
         <button onclick="openGithubModal()" title="Configurar GitHub" style="background:var(--bg3);border:1px solid var(--border2);color:var(--text2);padding:6px 10px;border-radius:7px;cursor:pointer;font-size:13px;transition:.15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">⚙️ GitHub</button>
       </div>
       <div class="user-badge" onclick="showUserMenu()" id="user-badge-btn">
@@ -925,8 +926,9 @@ function doLogin(){
   setCurrentUser(found);
   applyUserRole(found);
   document.getElementById('login-screen').classList.add('hidden');
-  // After login, load data from GitHub if configured
+  // After login, load data from GitHub and start auto-refresh
   loadFromGithub();
+  startAutoRefresh();
 }
 
 function applyUserRole(user){
@@ -1073,17 +1075,24 @@ async function uploadToGithub(dataObj){
 // URL pública fixa do repositório — carrega para todos sem precisar de token
 const GH_PUBLIC_URL = 'https://raw.githubusercontent.com/anjossidnei-code/pgr-vmp/main/data.json';
 
-async function loadFromGithub(){
+let _ghLastTimestamp = null; // timestamp do último data.json carregado
+let _ghAutoRefreshTimer = null;
+
+async function loadFromGithub(silent=false){
   const cfg = getGithubConfig();
-  // Usar URL do config se disponível, senão usar URL pública fixa
   const url = (cfg && cfg.owner && cfg.repo && cfg.branch)
     ? `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/data.json?t=${Date.now()}`
     : `${GH_PUBLIC_URL}?t=${Date.now()}`;
   try{
-    const r = await fetch(url);
+    // Cache-Control: no-cache para forçar busca nova
+    const r = await fetch(url, {cache:'no-store', headers:{'Cache-Control':'no-cache','Pragma':'no-cache'}});
     if(!r.ok) return;
     const obj = await r.json();
     if(obj && obj.gesData && obj.gesData.length){
+      // Só atualiza se o timestamp for diferente do último carregado
+      const newTs = obj.timestamp || '';
+      if(newTs && newTs === _ghLastTimestamp && silent) return; // sem alteração
+      _ghLastTimestamp = newTs;
       const nd = processData(obj);
       S.data = nd;
       populateFilters();
@@ -1093,11 +1102,18 @@ async function loadFromGithub(){
       const vibN=(nd._vibracao||[]).length;
       const extra=ambN>0?` · ${ambN} amb.`:'';
       const extra2=vibN>0?` · ${vibN} vib.`:'';
-      showToast(`✅ GitHub: ${obj.gesData.length} GES${extra}${extra2}`);
+      if(!silent) showToast(`✅ GitHub: ${obj.gesData.length} GES${extra}${extra2}`);
+      else showToast(`🔄 Dados atualizados: ${obj.gesData.length} GES${extra}${extra2}`);
     }
   } catch(e){
     // Silent fail — use embedded data
   }
+}
+
+function startAutoRefresh(){
+  // Verifica atualizações a cada 3 minutos automaticamente
+  if(_ghAutoRefreshTimer) clearInterval(_ghAutoRefreshTimer);
+  _ghAutoRefreshTimer = setInterval(()=>loadFromGithub(true), 3 * 60 * 1000);
 }
 
 function buildDataJson(nd){
@@ -1140,6 +1156,7 @@ function init(){
   }
   // Carregar dados do GitHub sempre — repositório público, não precisa de token
   loadFromGithub();
+  startAutoRefresh();
 }
 
 function processData(raw){
