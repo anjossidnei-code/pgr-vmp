@@ -24649,26 +24649,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Trivial",
           "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (400 a 800 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico",
-          "fontes": "Atividades em rodas e suspensão em veículo equipado com sistema elétrico de tração",
-          "medidas": "Não intervenção em componentes elétricos; procedimentos de segurança para manutenção do veículo; treinamento de reconhecimento de risco",
-          "analise": "✅ Sim — medidas suficientes se houver acompanhamento técnico e manutenção preventiva.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
       "num_emp": 4,
       "atividade": "",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 9
+      "num_riscos": 8
     },
     {
       "unidade": "MBOI",
@@ -25125,26 +25112,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Tolerável",
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (400 a 800 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico",
-          "fontes": "Presença de sistema elétrico no veículo durante lavagem externa",
-          "medidas": "Procedimento de lavagem específico para veículos elétricos; áreas protegidas; orientação aos trabalhadores",
-          "analise": "✅ Sim — medidas adequadas; manter inspeções regulares na área ",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
       "num_emp": 1,
       "atividade": "Atividade realizada na limpeza de chassi de veículos, utilizando jato de água pressurizada para remoção de sujeiras, resíduos e incrustações na parte inferior dos veículos.\r\nA execução ocorre com o trabalhador posicionado em valetas, abaixo dos veículos, permitindo acesso à estrutura inferior para aplicação do jato de água sob pressão.",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 7
+      "num_riscos": 6
     },
     {
       "unidade": "MBOI",
@@ -25678,26 +25652,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Tolerável",
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (400 a 800 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Presença de cabos e módulos de bateria no veículo durante atividades de reparo estrutural",
-          "medidas": "Proibição de intervenção no sistema elétrico; identificação de cabos de alta tensão; procedimentos de segurança; encaminhamento de qualquer intervenção elétrica ao setor especializado",
-          "analise": "✅ Sim — medidas adequadas, manter rotina de inspeções.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
       "num_emp": 15,
       "atividade": "Analisar o veículo a ser reparado e realizar reparos de lanternagem em peças e/ou chapas danificadas ou avariadas tanto na parte interna quanto na parte externa dos ônibus. Esses reparos consistem em retirar chapas ou peças da lataria ou estrutura dos veículos e substituí-las por novas ou desamassá-las quando houver condição. Realizar acabamentos grosseiros para envio ao setor de pintura. Quando necessário realizar soldas e cortes com maçarico. Reparar e/ou substituir bancos, retrovisores, assoalhos, balaústres, vidros dos ônibus, etc. Essas atividades são desenvolvidas de modo habitual e permanente, não ocasional, nem intermitente.",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 8
+      "num_riscos": 7
     },
     {
       "unidade": "MBOI",
@@ -25987,26 +25948,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Tolerável",
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (400 a 800 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico",
-          "fontes": "Atividades de inspeção e lubrificação em veículos equipados com sistema elétrico",
-          "medidas": "Proibição de acesso ao sistema elétrico; comunicação ao setor responsável em caso de falhas elétricas",
-          "analise": "✅ Sim — medidas adequadas, manter rotina de inspeções.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
       "num_emp": 1,
       "atividade": "",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 8
+      "num_riscos": 7
     },
     {
       "unidade": "MBOI",
@@ -26451,26 +26399,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Tolerável",
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (380 a 600 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico, queimaduras elétricas, fibrilação ventricular, parada cardiorrespiratória",
-          "fontes": "Desobedecer o Procedimento de desenergização do veículo; bloqueio e etiquetagem do sistema elétrico",
-          "medidas": "Planejamento das atividades, apoio da liderança, comunicação clara, pausas e suporte organizacional, atendimento ao procedimento",
-          "analise": "✅ Sim — medidas adequadas, manter rotina de inspeções.",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
       "num_emp": 41,
       "atividade": "Interpretar Ordem de Serviço para execução do serviço; Avaliar tecnicamente a parte mecânica do veículo a ser reparado e diagnosticar falhas/ defeitos de alta complexidade, de acordo com procedimentos internos; Preparar materiais, equipamentos e ferramental e separar equipamentos de segurança a serem utilizados para execução dos serviços, de acordo com os procedimentos internos; Executar serviços de manutenção mecânica (preditiva, preventiva, corretiva) complexos, utilizando-se de materiais, dos equipamentos e das ferramentas adequadas, atendendo aos procedimentos internos, padrões estabelecidos e aos requisitos de qualidade e de segurança e ambiental; Avaliar o serviço executado, atendendo aos procedimentos internos e aos requisitos de qualidade definidos; Efetuar baixa do serviço executado no sistema; Trabalhar em conformidade com normas e procedimentos técnicos, de qualidade, de segurança e de preservação do meio ambiente.",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 12
+      "num_riscos": 11
     },
     {
       "unidade": "MBOI",
@@ -26877,26 +26812,13 @@
           "probabilidade": "Provável",
           "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter e fortalecer Programa Psicossocial específico para motoristas; aplicar questionário psicossocial validado; promover capacitação em gestão de conflitos e estratégias de enfrentamento do estresse; disponibilizar apoio psicológico por meio do serviço de saúde ocupacional; revisar periodicamente metas operacionais, pausas e jornadas; acompanhar precocemente indicadores de sobrecarga.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Médico do Trabalho + RH\r\nPrazo\r\nImplementação: Em andamento\r\nQuestionário: Em andamento\r\nMonitoramento: Contínuo\r\nIndicador de monitoramento\r\nTaxa de absenteísmo por função · Nº de afastamentos por CID F (transtornos mentais) · Resultado do questionário psicossocial · Nº de atendimentos psicológicos realizados · % motoristas participantes nos treinamentos\r\nStatus\r\nEm andamento\r\n"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Presença de sistema de baixa tensão embarcado",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico em caso de sinistro grave",
-          "fontes": "Danos estruturais ao veículo em colisões",
-          "medidas": "Proibição de intervenção técnica; treinamento de reconhecimento de risco; acionamento da manutenção especializada",
-          "analise": "✔ Sim —motoristas não realizam intervenções técnicas",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
         }
       ],
       "num_emp": 470,
       "atividade": "",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 12
+      "num_riscos": 11
     },
     {
       "unidade": "MBOI",
@@ -27019,26 +26941,13 @@
           "probabilidade": "Improvável",
           "nivel_risco": "Tolerável",
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Ônibus Elétrico - Sistema elétrico de baixa tensão com energia elevada (400 a 800 V CC), classificado operacionalmente como sistema de alta tensão automotiva.",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Atividades de pintura realizadas em veículo equipado com sistema elétrico de tração",
-          "medidas": "Proibição de acesso ao sistema elétrico; sinalização de risco elétrico; orientação de segurança aos trabalhadores",
-          "analise": "✅ Sim — medidas adequadas, manter rotina de inspeções.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
         }
       ],
       "num_emp": 6,
       "atividade": "",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 10
+      "num_riscos": 9
     },
     {
       "unidade": "MBOI",
@@ -27953,146 +27862,6 @@
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
       "num_riscos": 7
-    },
-    {
-      "unidade": "MBOI",
-      "setor": "CABINE PRIMÁRIA / SUBESTAÇÃO",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema elétrico energizado em média tensão (13,8 kV)",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico, queimaduras graves, fibrilação ventricular, morte",
-          "fontes": "Intervenção em cubículos de média tensão, disjuntores e cabos de alimentação",
-          "medidas": "Acesso restrito; treinamento NR-10; sinalização de risco elétrico; bloqueio elétrico; procedimentos operacionais",
-          "analise": "✔ Sim – acesso controlado e intervenções restritas",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Arco elétrico em cubículo de média tensão",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves, explosão, lesões oculares, surdez parcial",
-          "fontes": "Curto circuito em barramentos ou falha de isolação",
-          "medidas": "Cubículos blindados; relés de proteção; disjuntores de proteção; manutenção preventiva",
-          "analise": "✔ Sim – acesso controlado e intervenções restritas, risco mitigado por proteção e controle operacional",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em equipamentos elétricos da subestação",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, intoxicação por fumaça, danos estruturais",
-          "fontes": "Falha em transformadores, aquecimento excessivo ou curto circuito",
-          "medidas": "Sistema de proteção elétrica; extintores adequados; brigada de incêndio; plano de emergência",
-          "analise": "✔ Sim – acesso controlado e intervenções restritas, RISCO MONITORADO por sistemas de proteção",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "Os eletricistas prediais acessam a cabine primária/subestação exclusivamente para realização de manobras operacionais de desligamento e religamento de energia, geralmente em situações de interrupção no fornecimento ou necessidade operacional.\r\nNão realizam atividades de manutenção, inspeção técnica ou intervenções em equipamentos elétricos, sendo  serviços executados por empresa terceirizada especializada e devidamente qualificada.\r\nAs atividades são realizadas por profissionais autorizados, conforme requisitos da NR-10, com acesso controlado e observância dos procedimentos de segurança aplicáveis.",
-      "cnpj": "31.974.104/0005-54",
-      "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "MBOI",
-      "setor": "ÁREA DE CARREGAMENTO DE ÔNIBUS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema de recarga elétrica do veículo (380 V AC / 500–800 V DC)",
-          "frequencia": "Intermitente",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Conexão e desconexão do cabo de carregamento ou falha no equipamento",
-          "medidas": "Treinamento operacional; sinalização; inspeção dos cabos; acesso restrito aos componentes elétricos",
-          "analise": "✔ Sim – RISCO MONITORADO mediante procedimentos operacionais",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em baterias de íons de lítio",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, explosão, intoxicação por gases tóxicos",
-          "fontes": "Falha térmica da bateria (thermal runaway) durante carga ou após dano físico",
-          "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; monitoramento da recarga",
-          "analise": "✔ Sim – risco mitigado por plano de resposta",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Liberação de gases ou eletrólitos das baterias",
-          "frequencia": "Raro",
-          "lesoes": "Irritação respiratória, intoxicação, queimaduras químicas",
-          "fontes": "Falha grave da bateria ou acidente envolvendo o veículo",
-          "medidas": "Isolamento do veículo; comunicação ao fabricante; FDS disponível; procedimentos de emergência",
-          "analise": "✔ Sim – risco residual devido ausência de manuseio direto",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "",
-      "cnpj": "31.974.104/0005-54",
-      "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "MBOI",
-      "setor": "OFICINA DE MANUTENÇÃO DE VEÍCULOS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema elétrico de alta tensão automotiva (500–800 V DC)",
-          "frequencia": "Raro",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Manutenção em componentes elétricos do ônibus elétrico",
-          "medidas": "Procedimentos específicos; desenergização do veículo; treinamento técnico; sinalização de segurança",
-          "analise": "✔ Sim – intervenções restritas a profissionais capacitados",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema elétrico de alta tensão em veículos elétricos automotiva (baterias de tração, inversores, cabos de potência e motor elétrico)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves, explosão localizada, lesões oculares",
-          "fontes": "Atividades de manutenção, diagnóstico, inspeção ou intervenção em veículos elétricos; contato com cabos laranja de alta tensão automotiva; abertura do compartimento de baterias; falha de isolamento elétrico; energização acidental do sistema",
-          "medidas": "Procedimento de bloqueio e desenergização do veículo; ferramentas isoladas; treinamento NR-10; EPIs para proteção contra arco elétrico; delimitação da área de trabalho",
-          "analise": "✔ Sim – risco mitigado por procedimentos técnicos e controle de acesso",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "Ambiente destinado à execução de atividades de manutenção preventiva e corretiva em veículos elétricos, contemplando sistemas elétricos, eletrônicos e mecânicos. As intervenções incluem diagnóstico de falhas, reparos, substituição de componentes e testes de funcionamento.\r\nAs atividades envolvem atuação em sistemas de baixa e alta tensão embarcados, como baterias, inversores, motores elétricos e sistemas de recarga, além de serviços auxiliares de manutenção geral.\r\nO ambiente possui equipamentos, ferramentas e dispositivos específicos para manutenção elétrica veicular, sendo as atividades realizadas por profissionais qualificados e autorizados, conforme requisitos da NR-10, com controle de energias perigosas, utilização de EPIs adequados e observância dos procedimentos de segurança aplicáveis.",
-      "cnpj": "31.974.104/0005-54",
-      "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 2
     },
     {
       "unidade": "AEC",
@@ -33169,6 +32938,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T12:05:18.548Z",
+  "timestamp": "2026-04-23T13:33:54.590Z",
   "version": "2026"
 }
