@@ -220,7 +220,11 @@ tbody td{padding:9px 14px;font-size:12px;}
 .sev-ep{background:#f8d7da;color:#721c24;}
 /* Probabilidade — full cell colored */
 .td-prob{text-align:center!important;padding:0!important;vertical-align:middle;}
-.prob-cell{display:block;width:100%;padding:6px 4px;font-size:7pt;font-weight:bold;text-align:center;line-height:1.4;white-space:normal;background:#dbeafe;color:#1e3a8a;}
+.prob-cell{display:block;width:100%;padding:6px 4px;font-size:7pt;font-weight:bold;text-align:center;line-height:1.4;white-space:normal;}
+.prob-1{background:#d4edda;color:#155724;}
+.prob-2{background:#fff3cd;color:#856404;}
+.prob-3{background:#ffd6a5;color:#7d3c00;}
+.prob-4{background:#f8d7da;color:#721c24;}
 /* Nível de Risco — full cell colored */
 .td-nivel{text-align:center!important;padding:0!important;vertical-align:middle;}
 .nivel-cell{display:block;width:100%;padding:6px 4px;font-size:8pt;font-weight:bold;text-align:center;line-height:1.3;white-space:normal;}
@@ -321,7 +325,10 @@ tbody td{padding:9px 14px;font-size:12px;}
   .sev-lp{background:#fff3cd!important;color:#856404!important;}
   .sev-pr{background:#ffd6a5!important;color:#7d3c00!important;}
   .sev-ep{background:#f8d7da!important;color:#721c24!important;}
-  .prob-cell{background:#dbeafe!important;color:#1e3a8a!important;}
+  .prob-1{background:#d4edda!important;color:#155724!important;}
+  .prob-2{background:#fff3cd!important;color:#856404!important;}
+  .prob-3{background:#ffd6a5!important;color:#7d3c00!important;}
+  .prob-4{background:#f8d7da!important;color:#721c24!important;}
   .nc-trivial{background:#d4edda!important;color:#155724!important;}
   .nc-toleravel{background:#fff3cd!important;color:#856404!important;}
   .nc-moderado{background:#f8d7da!important;color:#721c24!important;}
@@ -384,6 +391,7 @@ tbody td{padding:9px 14px;font-size:12px;}
 /* ===== UPLOAD ZONE HIDDEN FOR USERS ===== */
 .admin-only{display:block;}
 body.role-user .admin-only{display:none!important;}
+body.role-user #btn-print-ges{display:none!important;}
 </style>
 </head>
 <body>
@@ -391,11 +399,11 @@ body.role-user .admin-only{display:none!important;}
 <!-- ===== LOGIN SCREEN ===== -->
 <div id="login-screen">
   <div class="login-card">
-    <div class="login-logo">
-      <div class="login-logo-icon">VMP</div>
-      <div>
+    <div class="login-logo" style="flex-direction:column;gap:12px;">
+      <img id="login-metro-logo" style="height:72px;width:auto;object-fit:contain;filter:drop-shadow(0 2px 10px rgba(0,0,0,.6));background:#fff;border-radius:8px;padding:6px 10px;" alt="Metrópole Paulista">
+      <div style="text-align:center;">
         <div class="login-logo-text">PGR SYSTEM</div>
-        <div class="login-logo-sub">Viação Metrópole Paulista</div>
+        <div class="login-logo-sub">Metrópole Paulista</div>
       </div>
     </div>
     <div class="login-title">Acesso ao Sistema</div>
@@ -447,7 +455,7 @@ body.role-user .admin-only{display:none!important;}
 <div id="sidebar">
   <div id="sidebar-header">
     <div class="logo">
-      <div class="logo-icon">VMP</div>
+      <img id="sidebar-metro-logo" style="height:38px;width:auto;object-fit:contain;border-radius:6px;background:#fff;padding:3px 6px;" alt="Metrópole Paulista">
       <div><div class="logo-text">PGR SYSTEM</div><div class="logo-sub">Metrópole Paulista</div></div>
     </div>
     <div class="admin-only">
@@ -618,7 +626,7 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
         <select id="report-unidade-sel"><option value="">— Selecione a unidade —</option></select>
         <select id="report-unidade-only-sel" style="display:none"><option value="">— Selecione a unidade —</option></select>
         <button class="btn btn-primary" onclick="generateReport()">🔍 Gerar Relatório</button>
-        <button class="btn btn-success" onclick="window.print()">🖨️ Imprimir / Salvar PDF</button>
+        <button class="btn btn-success admin-only" onclick="window.print()">🖨️ Imprimir / Salvar PDF</button>
       </div>
       <div id="report-info" style="font-size:12px;color:#9aa3bc;margin-bottom:12px;padding:8px 12px;background:#1e2330;border-radius:6px;border-left:3px solid #4f8ef7;display:none"></div>
       <div id="report-content"><div id="report-placeholder" style="padding:60px;text-align:center;color:#666;font-size:15px">Selecione o tipo de relatório e clique em <b>Gerar Relatório</b>.</div></div>
@@ -648,7 +656,7 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
         <div id="modal-unidade-label" style="font-size:12px;color:var(--text3);margin-top:2px;"></div>
       </div>
       <div style="display:flex;gap:8px">
-        <button style="background:#15803d;border:none;color:#fff;padding:7px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600" onclick="printSingleGES()">🖨️ Imprimir GES</button>
+        <button id="btn-print-ges" style="background:#15803d;border:none;color:#fff;padding:7px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600" onclick="printSingleGES()">🖨️ Imprimir GES</button>
         <button id="modal-close" onclick="closeModal()">✕</button>
       </div>
     </div>
@@ -664,6 +672,7 @@ const LOGO_SRC = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BS
 // ===== CONSTANTS =====
 const TIPO_CLASS={'Físico':'fisico','Ergonômico':'ergonomico','Químico':'quimico','Acidente':'acidente','Biológico':'biologico','Psicossocial':'psicossocial'};
 const TIPO_BG={'Físico':'#3b82f6','Ergonômico':'#f59e0b','Químico':'#ef4444','Acidente':'#f97316','Biológico':'#22c55e','Psicossocial':'#a855f7'};
+const LOGO_METRO_SRC = "data:image/png;base64,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";
 const TIPO_BADGE_CLASS={'Físico':'tb-fisico','Ergonômico':'tb-ergonomico','Químico':'tb-quimico','Acidente':'tb-acidente','Biológico':'tb-biologico','Psicossocial':'tb-psicossocial'};
 const NIVEL_ORDER={'Trivial':1,'Tolerável':2,'Moderado':3,'Substancial':4,'Intolerável':5};
 const NIVEL_COLORS={'Trivial':'#3ddc84','Tolerável':'#f5a623','Moderado':'#f55050'};
@@ -683,6 +692,14 @@ function sevCellClass(s){
   if(s.includes('Levemente'))return 'sev-lp';
   if(s.includes('Extremamente'))return 'sev-ep';
   return 'sev-pr';
+}
+function probCellClass(p){
+  const n=parseInt(p);
+  if(n===1)return 'prob-1';
+  if(n===2)return 'prob-2';
+  if(n===3)return 'prob-3';
+  if(n===4)return 'prob-4';
+  return 'prob-2';
 }
 
 // ===== STATE =====
@@ -929,10 +946,33 @@ function doLogin(){
   loadFromGithub();
 }
 
+function setMetroLogos(){
+  const src = LOGO_METRO_SRC;
+  const sbl = document.getElementById('sidebar-metro-logo');
+  if(sbl) sbl.src = src;
+  // Login logo
+  const lll = document.getElementById('login-metro-logo');
+  if(lll) lll.src = src;
+}
+// Interceptar window.print para bloquear usuário VMP
+const _origPrint = window.print.bind(window);
+window.print = function(){
+  if(window._printBlocked){
+    alert('⚠️ Seu perfil não possui permissão para imprimir ou exportar PDF.\nContate o administrador do sistema.');
+    return;
+  }
+  _origPrint();
+};
 function applyUserRole(user){
   // Set body class
   document.body.classList.remove('role-admin','role-user');
   document.body.classList.add('role-'+user.role);
+  // Bloquear impressão para role=user
+  if(user.role==='user'){
+    window._printBlocked=true;
+  } else {
+    window._printBlocked=false;
+  }
   // Update badge
   const dot = document.getElementById('user-dot');
   const nameEl = document.getElementById('user-name-display');
@@ -1120,6 +1160,7 @@ function buildDataJson(nd){
 }
 
 function init(){
+  setMetroLogos();
   // Check if already logged in via session
   const existingUser = getCurrentUser();
   if(existingUser){
@@ -1543,6 +1584,7 @@ function buildPGRPage(g){
     const sevCls=sevCellClass(r.severidade);
     const nivCls=nivelCellClass(r.nivel_risco);
     const tipCls=TIPO_BADGE_CLASS[r.tipo]||'tb-fisico';
+    const probCls=probCellClass(r.probabilidade);
     rows+=`<tr>
       <td class="center" style="font-size:8pt;font-weight:bold;width:2.5%">${i+1}</td>
       <td style="width:13%;line-height:1.4">${r.perigo||'—'}</td>
@@ -1552,7 +1594,7 @@ function buildPGRPage(g){
       <td style="width:11%;line-height:1.4">${r.fontes||'—'}</td>
       <td style="width:15%;line-height:1.4">${r.medidas||'—'}</td>
       <td class="td-sev" style="width:5%"><span class="sev-cell ${sevCls}">${r.severidade||'—'}</span></td>
-      <td class="td-prob" style="width:5%"><span class="prob-cell">${r.probabilidade||'—'}</span></td>
+      <td class="td-prob" style="width:5%"><span class="prob-cell ${probCls}">${r.probabilidade||'—'}</span></td>
       <td class="td-nivel" style="width:6%"><span class="nivel-cell ${nivCls}">${r.nivel_risco||'—'}</span></td>
       <td style="width:20%;line-height:1.4;font-size:7pt">${(r.cronograma||'—').replace(/\n/g,'<br>')}</td>
     </tr>`;
@@ -1767,6 +1809,8 @@ function printSingleGES(){
 
 // ===== RUÍDO =====
 let ruidoFiltro='todos';
+let ruidoFiltroUnidade='';
+let ruidoFiltroSetor='';
 function renderRuido(){
   const rc=document.getElementById('ruido-content');
   const ruidoData=S.data._ruido||[];
@@ -1779,8 +1823,9 @@ function renderRuido(){
   else if(filtro==='nao') filtered=ruidoData.filter(r=>r.protetor==='nao_obrigatorio');
   else if(filtro==='sem') filtered=ruidoData.filter(r=>r.protetor==='sem_medicao');
 
-  // filter by unidade if selected
-  if(S.filterUnidade) filtered=filtered.filter(r=>r.unidade===S.filterUnidade);
+  // filtros internos da planilha de ruído
+  if(ruidoFiltroUnidade) filtered=filtered.filter(r=>r.unidade===ruidoFiltroUnidade);
+  if(ruidoFiltroSetor) filtered=filtered.filter(r=>r.setor&&r.setor.toLowerCase().includes(ruidoFiltroSetor.toLowerCase()));
 
   const totObg=ruidoData.filter(r=>r.protetor==='obrigatorio').length;
   const totAcon=ruidoData.filter(r=>r.protetor==='aconselhavel').length;
@@ -1810,15 +1855,32 @@ function renderRuido(){
   }).join('');
 
   const btnClass=(f,cls)=>filtro===f?cls:'';
+  // Build unidade options for ruido filter
+  const ruidoUnidades=[...new Set(ruidoData.map(r=>r.unidade).filter(Boolean))].sort();
+  const ruidoSetores=[...new Set(ruidoData.map(r=>r.setor).filter(Boolean))].sort();
+  const uniOpts=ruidoUnidades.map(u=>`<option value="${u}" ${ruidoFiltroUnidade===u?'selected':''}>${UNIDADE_NAMES[u]||u}</option>`).join('');
+  const setOpts=ruidoSetores.map(s=>`<option value="${s}" ${ruidoFiltroSetor===s?'selected':''}>${s}</option>`).join('');
+
   rc.innerHTML=`<div class="ruido-wrap">
     <div class="ruido-header">
       <h2>🔊 Planilha de Ruído — Monitoramento Ambiental</h2>
-      <div class="ruido-filters">
+      <div class="ruido-filters" style="flex-wrap:wrap;gap:8px;align-items:center;">
         <button class="ruido-filter-btn ${btnClass('todos','active-all')}" onclick="setRuidoFiltro('todos')">Todos (${ruidoData.length})</button>
         <button class="ruido-filter-btn ${btnClass('obrigatorio','active-obg')}" onclick="setRuidoFiltro('obrigatorio')">🔴 Obrigatório (${totObg})</button>
         <button class="ruido-filter-btn ${btnClass('aconselhavel','active-acon')}" onclick="setRuidoFiltro('aconselhavel')">🟡 Aconselhável (${totAcon})</button>
         <button class="ruido-filter-btn ${btnClass('nao','active-nao')}" onclick="setRuidoFiltro('nao')">🟢 Não Obrigatório (${totNao})</button>
         <button class="ruido-filter-btn ${btnClass('sem','active-sem')}" onclick="setRuidoFiltro('sem')">⚪ Sem Medição (${totSem})</button>
+      </div>
+      <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center;">
+        <select style="width:auto;min-width:160px;margin-bottom:0;font-size:11px;padding:5px 8px;" onchange="setRuidoUnidade(this.value)">
+          <option value="">🏢 Todas as unidades</option>
+          ${uniOpts}
+        </select>
+        <select style="width:auto;min-width:180px;margin-bottom:0;font-size:11px;padding:5px 8px;" onchange="setRuidoSetor(this.value)">
+          <option value="">🔧 Todos os setores</option>
+          ${setOpts}
+        </select>
+        ${(ruidoFiltroUnidade||ruidoFiltroSetor)?'<button onclick="clearRuidoFiltros()" style="padding:5px 10px;background:rgba(245,80,80,.15);border:1px solid rgba(245,80,80,.4);color:#f55050;border-radius:6px;cursor:pointer;font-size:11px;">✕ Limpar</button>':''}
       </div>
     </div>
     <div class="ruido-stats">
@@ -1844,6 +1906,9 @@ function renderRuido(){
   </div>`;
 }
 function setRuidoFiltro(f){ruidoFiltro=f;renderRuido();}
+function setRuidoUnidade(v){ruidoFiltroUnidade=v;renderRuido();}
+function setRuidoSetor(v){ruidoFiltroSetor=v;renderRuido();}
+function clearRuidoFiltros(){ruidoFiltroUnidade='';ruidoFiltroSetor='';renderRuido();}
 
 // ===== AVALIAÇÃO AMBIENTAL =====
 let _ambFiltro={q:'',uni:'',set:'',cls:''};
