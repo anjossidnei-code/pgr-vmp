@@ -16316,7 +16316,7 @@
           "frequencia": "Ocasional",
           "lesoes": "Dermatites, intoxicação, irritação das vias aéreas",
           "fontes": "Durante preparação de superfícies, pintura e limpeza de peças",
-          "medidas": "Uso de luvas nitrílicas, avental impermeável, PFF2 com válvula, ventilação do local, fichas FISPQ disponíveis, capacitação conforme NR-20 - gggggggg",
+          "medidas": "Uso de luvas nitrílicas, avental impermeável, PFF2 com válvula, ventilação do local, fichas FISPQ disponíveis, capacitação conforme NR-20 ",
           "analise": "✅ Sim — medidas adequadas, manter fiscalização no uso de EPI e controle de ventilação.",
           "severidade": "Levemente Prejudicial",
           "probabilidade": "Improvável",
@@ -28721,10 +28721,10 @@
     {
       "unidade": "BRAS",
       "setor": "AJ. DE MANUTENÇÃO",
-      "nivel_db": 77.99237155796243,
-      "protetor": "obrigatorio",
-      "dose_pct": 9.7,
-      "tempo_medicao": 123
+      "nivel_db": null,
+      "protetor": "sem_medicao",
+      "dose_pct": null,
+      "tempo_medicao": null
     },
     {
       "unidade": "BRAS",
@@ -31174,13 +31174,13 @@
       "setor": "Comunicação\r Visual\r (Solventes)",
       "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
       "atividade": "Preparação de telas\r e silk-screen em ônibus",
-      "agente": "Acetato de etila",
-      "resultado": "1.31",
-      "leo": "1.090 (b)",
+      "agente": "Etanol",
+      "resultado": "6.2",
+      "leo": "1480 (b)",
       "ie": "< 0,01",
-      "nivel_acao": "2",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultados acima do limite de exposição para o agente 2-propanol (álcool isopropílico)"
+      "nivel_acao": "19",
+      "classificacao": "ACEITÁVEL",
+      "acao": "Conclusão: a exposição ocupacional é plenamente aceitável aos agentes e operações avaliadas"
     },
     {
       "unidade": "E Carvalho",
@@ -31188,45 +31188,17 @@
       "setor": "Comunicação\r Visual\r (Solventes)",
       "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
       "atividade": "Preparação de telas\r e silk-screen em ônibus",
-      "agente": "Acetona",
-      "resultado": "1.9",
-      "leo": "1.870 (b)",
+      "agente": "2-propanol",
+      "resultado": "3.1",
+      "leo": "492 ©",
       "ie": "< 0,01",
-      "nivel_acao": "2",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultados acima do limite de exposição para o agente 2-propanol (álcool isopropílico)"
+      "nivel_acao": "14",
+      "classificacao": "ACEITÁVEL",
+      "acao": "Conclusão: a exposição ocupacional é plenamente aceitável aos agentes e operações avaliadas"
     },
     {
       "unidade": "E Carvalho",
       "num": "15",
-      "setor": "Comunicação\r Visual\r (Solventes)",
-      "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
-      "atividade": "Preparação de telas\r e silk-screen em ônibus",
-      "agente": "Etanol",
-      "resultado": "13.38",
-      "leo": "1.480 (b)",
-      "ie": "< 0,01",
-      "nivel_acao": "2",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultados acima do limite de exposição para o agente 2-propanol (álcool isopropílico)"
-    },
-    {
-      "unidade": "E Carvalho",
-      "num": "16",
-      "setor": "Comunicação\r Visual\r (Solventes)",
-      "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
-      "atividade": "Preparação de telas\r e silk-screen em ônibus",
-      "agente": "2-propanol",
-      "resultado": "2832.71",
-      "leo": "765 (b)",
-      "ie": "3.7",
-      "nivel_acao": "2",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultados acima do limite de exposição para o agente 2-propanol (álcool isopropílico)"
-    },
-    {
-      "unidade": "E Carvalho",
-      "num": "17",
       "setor": "Comunicação\r Visual\r (Solventes)",
       "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
       "atividade": "Preparação de telas\r e silk-screen em ônibus",
@@ -31240,7 +31212,7 @@
     },
     {
       "unidade": "E Carvalho",
-      "num": "18",
+      "num": "16",
       "setor": "Comunicação\r Visual\r (Solventes)",
       "funcionario": "Magno Martins Oliveira\r (Reg. 208919)",
       "atividade": "Preparação de telas\r e silk-screen em ônibus",
@@ -31254,7 +31226,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "19",
+      "num": "17",
       "setor": "Funilaria / Soldas",
       "funcionario": "Joaquim Roque da Silva",
       "atividade": "Solda MIG, elétrica e oxiacet",
@@ -31268,7 +31240,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "20",
+      "num": "18",
       "setor": "Funilaria / Soldas",
       "funcionario": "Joaquim Roque da Silva",
       "atividade": "Solda MIG, elétrica e oxiacet",
@@ -31282,7 +31254,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "21",
+      "num": "19",
       "setor": "Funilaria / Soldas",
       "funcionario": "Joaquim Roque da Silva",
       "atividade": "Solda MIG, elétrica e oxiacet",
@@ -31296,7 +31268,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "22",
+      "num": "20",
       "setor": "Funilaria",
       "funcionario": "Wagner de Oliveira Santos",
       "atividade": "Furação, corte e lixamento",
@@ -31310,7 +31282,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "23",
+      "num": "21",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31324,7 +31296,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "24",
+      "num": "22",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31338,7 +31310,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "25",
+      "num": "23",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31352,7 +31324,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "26",
+      "num": "24",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31366,7 +31338,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "27",
+      "num": "25",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31380,7 +31352,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "28",
+      "num": "26",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31394,7 +31366,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "29",
+      "num": "27",
       "setor": "Pintura",
       "funcionario": "Matheus Souza Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31408,7 +31380,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "30",
+      "num": "28",
       "setor": "Pintura",
       "funcionario": "Silvio da Silva",
       "atividade": "Preparação e pintura (peças e ônibus)",
@@ -31422,7 +31394,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "31",
+      "num": "29",
       "setor": "Elétrica",
       "funcionario": "Jorge Germano de Paiva",
       "atividade": "jateamento de carcaças de al- ternadores com granalhas de aço.",
@@ -31436,7 +31408,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "32",
+      "num": "30",
       "setor": "Elétrica",
       "funcionario": "Jorge Germano de Paiva",
       "atividade": "jateamento de carcaças de al- ternadores com granalhas de aço.",
@@ -31450,7 +31422,7 @@
     },
     {
       "unidade": "Brás",
-      "num": "33",
+      "num": "31",
       "setor": "Elétrica",
       "funcionario": "Jorge Germano de Paiva",
       "atividade": "jateamento de carcaças de al- ternadores com granalhas de aço.",
@@ -31464,7 +31436,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "34",
+      "num": "32",
       "setor": "Funilaria",
       "funcionario": "José Alexandre A. da Silva",
       "atividade": "Solda MIG e elétrica",
@@ -31478,7 +31450,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "35",
+      "num": "33",
       "setor": "Funilaria",
       "funcionario": "José Alexandre A. da Silva",
       "atividade": "Solda MIG e elétrica",
@@ -31492,7 +31464,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "36",
+      "num": "34",
       "setor": "Funilaria",
       "funcionario": "José Alexandre A. da Silva",
       "atividade": "Solda MIG e elétrica",
@@ -31506,7 +31478,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "37",
+      "num": "35",
       "setor": "Funilaria",
       "funcionario": "Ronaldo Cesar dos Santos",
       "atividade": "Corte, furação e lixamento",
@@ -31520,7 +31492,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "38",
+      "num": "36",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31534,7 +31506,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "39",
+      "num": "37",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31548,7 +31520,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "40",
+      "num": "38",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31562,7 +31534,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "41",
+      "num": "39",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31576,7 +31548,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "42",
+      "num": "40",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31590,7 +31562,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "43",
+      "num": "41",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31604,7 +31576,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "44",
+      "num": "42",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31618,7 +31590,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "45",
+      "num": "43",
       "setor": "Pintura",
       "funcionario": "Erotildes Silva Filho",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31632,7 +31604,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "46",
+      "num": "44",
       "setor": "Pintura",
       "funcionario": "Jessé Jacó da Silva",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31646,7 +31618,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "47",
+      "num": "45",
       "setor": "Comunicação Visual",
       "funcionario": "Douglas Anderson G. Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -31660,7 +31632,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "48",
+      "num": "46",
       "setor": "Comunicação Visual",
       "funcionario": "Douglas Anderson G. Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -31674,7 +31646,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "49",
+      "num": "47",
       "setor": "Comunicação Visual",
       "funcionario": "Douglas Anderson G. Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -31688,7 +31660,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "50",
+      "num": "48",
       "setor": "Comunicação Visual",
       "funcionario": "Douglas Anderson G. Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -31702,7 +31674,7 @@
     },
     {
       "unidade": "Iguatemi",
-      "num": "51",
+      "num": "49",
       "setor": "Comunicação Visual",
       "funcionario": "Douglas Anderson G. Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -31716,21 +31688,21 @@
     },
     {
       "unidade": "Imperador",
-      "num": "52",
+      "num": "50",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro. Lixamento de peças.",
       "agente": "Particulado Inalável",
-      "resultado": "31.043",
-      "leo": "5 (a)",
-      "ie": "6.21",
+      "resultado": "5.965",
+      "leo": "10 (C)",
+      "ie": "0.6",
       "nivel_acao": "10",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultado acima do limite de exposição ocupacional."
+      "classificacao": "Nível de Ação",
+      "acao": "Conclusão: a exposição ocupacional está no Nível de Ação para a operação avaliada"
     },
     {
       "unidade": "Imperador",
-      "num": "53",
+      "num": "51",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31744,7 +31716,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "54",
+      "num": "52",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31758,7 +31730,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "55",
+      "num": "53",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31772,7 +31744,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "56",
+      "num": "54",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31786,7 +31758,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "57",
+      "num": "55",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31800,7 +31772,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "58",
+      "num": "56",
       "setor": "Laminação",
       "funcionario": "Edson Barbosa de Lima",
       "atividade": "laminação em fibra de vidro.",
@@ -31814,7 +31786,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "59",
+      "num": "57",
       "setor": "Solda",
       "funcionario": "João Batista S. Francisco",
       "atividade": "Solda MIG, elétrica",
@@ -31828,7 +31800,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "60",
+      "num": "58",
       "setor": "Solda",
       "funcionario": "João Batista S. Francisco",
       "atividade": "Solda MIG, elétrica",
@@ -31842,7 +31814,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "61",
+      "num": "59",
       "setor": "Solda",
       "funcionario": "João Batista S. Francisco",
       "atividade": "Solda MIG, elétrica",
@@ -31851,6 +31823,34 @@
       "leo": "1 (b)",
       "ie": "< 0,01",
       "nivel_acao": "0.8",
+      "classificacao": "✅  ABAIXO DO\r NÍVEL DE AÇÃO",
+      "acao": "Conclusão: resultados abaixo do Nível de Ação. Situação controlada conforme NR-15"
+    },
+    {
+      "unidade": "Imperador",
+      "num": "60",
+      "setor": "Funilaria",
+      "funcionario": "Antonio Alves dos Santos",
+      "atividade": "Soldas, lixamento e corte de metais.",
+      "agente": "Cobre",
+      "resultado": "< 0,01",
+      "leo": "0,2 (c)",
+      "ie": "< 0,01",
+      "nivel_acao": "7",
+      "classificacao": "✅  ABAIXO DO\r NÍVEL DE AÇÃO",
+      "acao": "Conclusão: resultados abaixo do Nível de Ação. Situação controlada conforme NR-15"
+    },
+    {
+      "unidade": "Imperador",
+      "num": "61",
+      "setor": "Funilaria",
+      "funcionario": "Antonio Alves dos Santos",
+      "atividade": "Soldas, lixamento e corte de metais.",
+      "agente": "Ferro",
+      "resultado": "< 0,1",
+      "leo": "5 (c)",
+      "ie": "< 0,01",
+      "nivel_acao": "9",
       "classificacao": "✅  ABAIXO DO\r NÍVEL DE AÇÃO",
       "acao": "Conclusão: resultados abaixo do Nível de Ação. Situação controlada conforme NR-15"
     },
@@ -31860,34 +31860,6 @@
       "setor": "Funilaria",
       "funcionario": "Antonio Alves dos Santos",
       "atividade": "Soldas, lixamento e corte de metais.",
-      "agente": "Cobre",
-      "resultado": "< 0,01",
-      "leo": "0,2 (c)",
-      "ie": "< 0,01",
-      "nivel_acao": "7",
-      "classificacao": "✅  ABAIXO DO\r NÍVEL DE AÇÃO",
-      "acao": "Conclusão: resultados abaixo do Nível de Ação. Situação controlada conforme NR-15"
-    },
-    {
-      "unidade": "Imperador",
-      "num": "63",
-      "setor": "Funilaria",
-      "funcionario": "Antonio Alves dos Santos",
-      "atividade": "Soldas, lixamento e corte de metais.",
-      "agente": "Ferro",
-      "resultado": "< 0,1",
-      "leo": "5 (c)",
-      "ie": "< 0,01",
-      "nivel_acao": "9",
-      "classificacao": "✅  ABAIXO DO\r NÍVEL DE AÇÃO",
-      "acao": "Conclusão: resultados abaixo do Nível de Ação. Situação controlada conforme NR-15"
-    },
-    {
-      "unidade": "Imperador",
-      "num": "64",
-      "setor": "Funilaria",
-      "funcionario": "Antonio Alves dos Santos",
-      "atividade": "Soldas, lixamento e corte de metais.",
       "agente": "Manganês",
       "resultado": "< 0,001",
       "leo": "1 (b)",
@@ -31898,7 +31870,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "65",
+      "num": "63",
       "setor": "Funilaria",
       "funcionario": "Eldson Ferreira Maia",
       "atividade": "Soldas e lixamento de metais",
@@ -31912,7 +31884,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "66",
+      "num": "64",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31926,7 +31898,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "67",
+      "num": "65",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31940,7 +31912,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "68",
+      "num": "66",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31954,7 +31926,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "69",
+      "num": "67",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31968,7 +31940,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "70",
+      "num": "68",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31982,7 +31954,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "71",
+      "num": "69",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -31996,7 +31968,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "72",
+      "num": "70",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32010,7 +31982,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "73",
+      "num": "71",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32024,7 +31996,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "74",
+      "num": "72",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32038,7 +32010,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "75",
+      "num": "73",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32052,7 +32024,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "76",
+      "num": "74",
       "setor": "Pintura",
       "funcionario": "Delorme Ribeiro Santos",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32066,7 +32038,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "77",
+      "num": "75",
       "setor": "Pintura",
       "funcionario": "Luciano de São José",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32080,7 +32052,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "78",
+      "num": "76",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32094,7 +32066,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "79",
+      "num": "77",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32108,7 +32080,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "80",
+      "num": "78",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32122,7 +32094,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "81",
+      "num": "79",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32136,7 +32108,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "82",
+      "num": "80",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32150,7 +32122,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "83",
+      "num": "81",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32164,7 +32136,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "84",
+      "num": "82",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson Luis da Silva",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32178,7 +32150,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "85",
+      "num": "83",
       "setor": "Jateamento",
       "funcionario": "Ivanildo José da Silva",
       "atividade": "Jateamento de rodas.",
@@ -32192,7 +32164,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "86",
+      "num": "84",
       "setor": "Jateamento",
       "funcionario": "Ivanildo José da Silva",
       "atividade": "Jateamento de rodas.",
@@ -32206,7 +32178,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "87",
+      "num": "85",
       "setor": "Jateamento",
       "funcionario": "Ivanildo José da Silva",
       "atividade": "Jateamento de rodas.",
@@ -32220,7 +32192,7 @@
     },
     {
       "unidade": "Imperador",
-      "num": "88",
+      "num": "86",
       "setor": "Jateamento",
       "funcionario": "Ivanildo José da Silva",
       "atividade": "Jateamento de rodas.",
@@ -32234,21 +32206,21 @@
     },
     {
       "unidade": "Itaim",
-      "num": "89",
+      "num": "87",
       "setor": "Laminação",
       "funcionario": "Rogério Nunes de Oliveira",
       "atividade": "Laminação de peças e reparos com fibra de vidro.",
       "agente": "Particulado Inalável",
-      "resultado": "5.515",
+      "resultado": "3.699",
       "leo": "5 (a)",
-      "ie": "1.1",
+      "ie": "0.74",
       "nivel_acao": "10",
-      "classificacao": "🔴  ACIMA DO\r LIMITE DE\r EXPOSIÇÃO",
-      "acao": "Conclusão: resultado acima do limite de exposição ocupacional."
+      "classificacao": "Nível de Ação",
+      "acao": "Conclusão: a exposição ocupacional está no Nível de Ação para a operação avaliada (fibra de vidro)"
     },
     {
       "unidade": "Itaim",
-      "num": "90",
+      "num": "88",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32262,7 +32234,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "91",
+      "num": "89",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32276,7 +32248,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "92",
+      "num": "90",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32290,7 +32262,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "93",
+      "num": "91",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32304,7 +32276,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "94",
+      "num": "92",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32318,7 +32290,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "95",
+      "num": "93",
       "setor": "Laminação",
       "funcionario": "Denilson Rodrigues de Sousa",
       "atividade": "Laminação de peças e reparos com fibra de vidro",
@@ -32332,7 +32304,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "96",
+      "num": "94",
       "setor": "Solda",
       "funcionario": "Eudes Miguel de Mendonça",
       "atividade": "Solda MIG, elétrica e corte",
@@ -32346,7 +32318,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "97",
+      "num": "95",
       "setor": "Solda",
       "funcionario": "Eudes Miguel de Mendonça",
       "atividade": "Solda MIG, elétrica e corte",
@@ -32360,7 +32332,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "98",
+      "num": "96",
       "setor": "Solda",
       "funcionario": "Eudes Miguel de Mendonça",
       "atividade": "Solda MIG, elétrica e corte",
@@ -32374,7 +32346,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "99",
+      "num": "97",
       "setor": "Funilaria",
       "funcionario": "Tadeu Aparecido Felix",
       "atividade": "Soldas, lixamento e corte de metais.",
@@ -32388,7 +32360,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "100",
+      "num": "98",
       "setor": "Funilaria",
       "funcionario": "Tadeu Aparecido Felix",
       "atividade": "Soldas, lixamento e corte de metais.",
@@ -32402,7 +32374,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "101",
+      "num": "99",
       "setor": "Funilaria",
       "funcionario": "Tadeu Aparecido Felix",
       "atividade": "Soldas, lixamento e corte de metais.",
@@ -32416,7 +32388,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "102",
+      "num": "100",
       "setor": "Funilaria",
       "funcionario": "Gerson Armindo",
       "atividade": "Corte e lixamento para repa- ros em ônibus",
@@ -32430,7 +32402,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "103",
+      "num": "101",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32444,7 +32416,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "104",
+      "num": "102",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32458,7 +32430,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "105",
+      "num": "103",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32472,7 +32444,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "106",
+      "num": "104",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32486,7 +32458,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "107",
+      "num": "105",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32500,7 +32472,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "108",
+      "num": "106",
       "setor": "Pintura",
       "funcionario": "Leonardo M. Omena Silva José Dogivaldo de Sousa",
       "atividade": "Reforma de ônibus",
@@ -32514,7 +32486,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "109",
+      "num": "107",
       "setor": "Pintura",
       "funcionario": "Rodrigo S. Nascimento",
       "atividade": "Preparação e pintura de ôni- bus e peças",
@@ -32528,7 +32500,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "110",
+      "num": "108",
       "setor": "Comunicação Visual",
       "funcionario": "José Carlos Costa",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32542,7 +32514,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "111",
+      "num": "109",
       "setor": "Jateamento",
       "funcionario": "Everton Alves Ferreira",
       "atividade": "Jateamento de rodas",
@@ -32556,7 +32528,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "112",
+      "num": "110",
       "setor": "Jateamento",
       "funcionario": "Everton Alves Ferreira",
       "atividade": "Jateamento de rodas",
@@ -32570,7 +32542,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "113",
+      "num": "111",
       "setor": "Jateamento",
       "funcionario": "Everton Alves Ferreira",
       "atividade": "Jateamento de rodas",
@@ -32584,7 +32556,7 @@
     },
     {
       "unidade": "Itaim",
-      "num": "114",
+      "num": "112",
       "setor": "Jateamento",
       "funcionario": "Everton Alves Ferreira",
       "atividade": "Jateamento de rodas",
@@ -32598,7 +32570,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "115",
+      "num": "113",
       "setor": "Funilaria",
       "funcionario": "Raimundo Marcelo Oliveira",
       "atividade": "Solda MIG, elétrica",
@@ -32612,7 +32584,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "116",
+      "num": "114",
       "setor": "Funilaria",
       "funcionario": "Raimundo Marcelo Oliveira",
       "atividade": "Solda MIG, elétrica",
@@ -32626,7 +32598,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "117",
+      "num": "115",
       "setor": "Funilaria",
       "funcionario": "Raimundo Marcelo Oliveira",
       "atividade": "Solda MIG, elétrica",
@@ -32640,7 +32612,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "118",
+      "num": "116",
       "setor": "Funilaria",
       "funcionario": "Eduardo de Oliveira Santos",
       "atividade": "Soldas, lixamento e corte de metais",
@@ -32654,7 +32626,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "119",
+      "num": "117",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32668,7 +32640,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "120",
+      "num": "118",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32682,7 +32654,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "121",
+      "num": "119",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32696,7 +32668,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "122",
+      "num": "120",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32710,7 +32682,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "123",
+      "num": "121",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32724,7 +32696,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "124",
+      "num": "122",
       "setor": "Pintura",
       "funcionario": "José Cristiano Batista",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32738,7 +32710,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "125",
+      "num": "123",
       "setor": "Pintura",
       "funcionario": "Manoel da Silva Duarte",
       "atividade": "Preparação, lixamento e pintura.",
@@ -32752,7 +32724,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "126",
+      "num": "124",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson dos Santos Cerqueiro",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32766,7 +32738,7 @@
     },
     {
       "unidade": "Pinedo",
-      "num": "127",
+      "num": "125",
       "setor": "Comunicação Visual",
       "funcionario": "Jailson dos Santos Cerqueiro",
       "atividade": "Preparação de telas e aplica- ção no ônibus (silk-screen)",
@@ -32780,7 +32752,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "128",
+      "num": "126",
       "setor": "Funilaria",
       "funcionario": "Arnóbio da Cunha",
       "atividade": "Soldas e corte de metais.",
@@ -32794,7 +32766,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "129",
+      "num": "127",
       "setor": "Funilaria",
       "funcionario": "Arnóbio da Cunha",
       "atividade": "Soldas e corte de metais.",
@@ -32808,7 +32780,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "130",
+      "num": "128",
       "setor": "Funilaria",
       "funcionario": "Arnóbio da Cunha",
       "atividade": "Soldas e corte de metais.",
@@ -32822,7 +32794,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "131",
+      "num": "129",
       "setor": "Funilaria",
       "funcionario": "Natanael Carvalho de Souza",
       "atividade": "Corte, furação e lixamento",
@@ -32836,7 +32808,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "132",
+      "num": "130",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32850,7 +32822,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "133",
+      "num": "131",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32864,7 +32836,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "134",
+      "num": "132",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32878,7 +32850,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "135",
+      "num": "133",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32892,7 +32864,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "136",
+      "num": "134",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32906,7 +32878,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "137",
+      "num": "135",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32920,7 +32892,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "138",
+      "num": "136",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32934,7 +32906,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "139",
+      "num": "137",
       "setor": "Pintura",
       "funcionario": "Arlindo Agenetriz Pereira",
       "atividade": "Preparação, lixamento e pintura de peças e ônibus",
@@ -32948,7 +32920,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "140",
+      "num": "138",
       "setor": "Comunicação Visual",
       "funcionario": "Robson Pereira Moitinho",
       "atividade": "Preparação de telas e aplica-ção no ônibus (silk-screen)",
@@ -32962,7 +32934,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "141",
+      "num": "139",
       "setor": "Comunicação Visual",
       "funcionario": "Robson Pereira Moitinho",
       "atividade": "Preparação de telas e aplica-ção no ônibus (silk-screen)",
@@ -32976,7 +32948,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "142",
+      "num": "140",
       "setor": "Comunicação Visual",
       "funcionario": "Robson Pereira Moitinho",
       "atividade": "Preparação de telas e aplica-ção no ônibus (silk-screen)",
@@ -32990,7 +32962,7 @@
     },
     {
       "unidade": "M Boi Mirim",
-      "num": "143",
+      "num": "141",
       "setor": "Comunicação Visual",
       "funcionario": "Robson Pereira Moitinho",
       "atividade": "Preparação de telas e aplica-ção no ônibus (silk-screen)",
@@ -33197,6 +33169,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T11:25:05.455Z",
+  "timestamp": "2026-04-23T12:05:18.548Z",
   "version": "2026"
 }
