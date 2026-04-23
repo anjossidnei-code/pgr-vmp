@@ -606,96 +606,6 @@
     },
     {
       "unidade": "AEC",
-      "setor": "CARRETA",
-      "ges": 9,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Incêndio, explosão, Inflamáveis (líquidos combustíveis)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves",
-          "fontes": "Durante o abastecimento, transvazamento ou vazamento acidental",
-          "medidas": "Capacitação em NR-20; sinalização de área de risco; extintores no veículo; aterramento durante o transvazamento; proibição de uso de celular",
-          "analise": "✅ Sim – controles suficientes; manter monitoramento. — requer fiscalização constante e manutenção rigorosa das válvulas, conexões e sistemas de aterramento.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Acidentes de trânsito",
-          "frequencia": "Raro",
-          "lesoes": "Colisões, tombamentos, vazamento de combustível, ferimentos graves ou morte",
-          "fontes": "Transporte de diesel em vias urbanas e rodovias",
-          "medidas": "CNH adequada (E), curso MOPP atualizado; manutenção veicular preventiva; controle de jornada para evitar fadiga; telemetria",
-          "analise": "✅ Sim — desde que haja controle eficaz da jornada e manutenção rigorosa da frota.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de vapores",
-          "frequencia": "Ocasional",
-          "lesoes": "Irritação das vias aéreas, tonturas, intoxicação leve",
-          "fontes": "Abertura de bocais ou vazamentos durante o descarregamento",
-          "medidas": "Uso de respirador PFF2 quando necessário; operação em áreas ventiladas; EPIs obrigatórios; FISPQ do produto disponível",
-          "analise": "✅ Sim — medidas adequadas, devendo apenas garantir treinamento e disponibilidade de EPI conforme NR-06.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Postura inadequada / esforço físico",
-          "frequencia": "Ocasional",
-          "lesoes": "Dores lombares, distensões musculares",
-          "fontes": "Subida e descida da carreta, engate de mangueiras pesadas",
-          "medidas": "Treinamento de ergonomia (NR-17), uso de cintos lombares, apoio para subida/descida",
-          "analise": "🟡 RISCO MONITORADO -  medidas adequadas, devendo manter treinamento ergonômico periódico.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído operacional habitual proveniente de motores, tráfego interno e movimentação de veículos",
-          "frequencia": "Ocasional",
-          "lesoes": "PAIR – perda auditiva induzida por ruído",
-          "fontes": "Trânsito intenso, motores, bombas",
-          "medidas": "Cabines isoladas, uso de protetor auricular quando fora do veículo, audiometria periódica",
-          "analise": "✅ Sim — medidas suficientes, mantendo controle audiométrico periódico.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco Psicossocial – Demandas de trabalho e isolamento ocupacional",
-          "frequencia": "Ocasional",
-          "lesoes": "Estresse, ansiedade, fadiga mental",
-          "fontes": "Demanda de Trabalho, isolamento, pressão por horário e segurança do transporte",
-          "medidas": "Acompanhamento psicológico, controle de jornada, escuta ativa, pausas obrigatórias, acolhimento pela gestão",
-          "analise": "🟡 RISCO MONITORADO - Manter acompanhamento contínuo do risco psicossocial por meio do Programa Psicossocial, com aplicação periódica de instrumentos de avaliação, escuta ativa e ações preventivas integradas.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 7,
-      "atividade": "",
-      "cnpj": "31.974.104/0002-01",
-      "endereco": "AVENIDA ÁGUIA DE HAIA, 2344 - CIDADE A. E. CARVALHO - SÃO PAULO - SP",
-      "num_riscos": 6
-    },
-    {
-      "unidade": "AEC",
       "setor": "COBRADOR",
       "ges": 10,
       "riscos": [
@@ -1743,7 +1653,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 3,
+      "num_emp": 4,
       "atividade": "1. Pega as rodas e coloca na base da máquina de jatear.  2. Levanta as rodas com auxílio de uma talha elétrica e coloca na mesa da máquina de jatear. 3. Liga a máquina e executa a limpeza da roda.  4. Depois de limpa, tira a roda da máquina com auxílio da Talha elétrica. 5. Coloca as rodas no salão e depois encaminha para área de pintura. 6. Para a execução dessa atividade, recebe todo EPI necessário.",
       "cnpj": "31.974.104/0002-01",
       "endereco": "AVENIDA ÁGUIA DE HAIA, 2344 - CIDADE A. E. CARVALHO - SÃO PAULO - SP",
@@ -3954,57 +3864,6 @@
     },
     {
       "unidade": "AEC",
-      "setor": "ÁREA DE CARREGAMENTO DE ÔNIBUS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema de recarga elétrica do veículo (380 V AC / 500–800 V DC)",
-          "frequencia": "Intermitente",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Conexão e desconexão do cabo de carregamento ou falha no equipamento",
-          "medidas": "Treinamento operacional; sinalização; inspeção dos cabos; acesso restrito aos componentes elétricos",
-          "analise": "✔ Sim – RISCO MONITORADO mediante procedimentos operacionais",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em baterias de íons de lítio",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, explosão, intoxicação por gases tóxicos",
-          "fontes": "Falha térmica da bateria (thermal runaway) durante carga ou após dano físico",
-          "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; monitoramento da recarga",
-          "analise": "✔ Sim – risco mitigado por plano de resposta",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Liberação de gases ou eletrólitos das baterias",
-          "frequencia": "Raro",
-          "lesoes": "Irritação respiratória, intoxicação, queimaduras químicas",
-          "fontes": "Falha grave da bateria ou acidente envolvendo o veículo",
-          "medidas": "Isolamento do veículo; comunicação ao fabricante; FDS disponível; procedimentos de emergência",
-          "analise": "✔ Sim – risco residual devido ausência de manuseio direto",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "",
-      "cnpj": "31.974.104/0002-01",
-      "endereco": "AVENIDA ÁGUIA DE HAIA, 2344 - CIDADE A. E. CARVALHO - SÃO PAULO - SP",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "AEC",
       "setor": "OFICINA DE MANUTENÇÃO DE VEÍCULOS ELÉTRICOS",
       "ges": 0,
       "riscos": [
@@ -4935,7 +4794,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 42,
+      "num_emp": 41,
       "atividade": "Realizar a limpeza dos diversos locais da empresa por meio da coleta de lixo, varrições e lavagens quando necessário, tanto da parte administrativa como, por exemplo, salas, escritórios, refeitórios, vestiários, sanitários e outros, como também, de outras áreas, como o setor de tráfego, área de revisão, pátio de estacionamento e outras ligadas à manutenção (exceto abastecimento de diesel). Também pode efetuar a limpeza do interior dos ônibus. Nessas atividades utiliza com frequência de vassouras, rodos, panos, água, detergente e desinfetante. Essas atividades são desenvolvidas de modo habitual e permanente, não ocasional nem intermitente.",
       "cnpj": "31.974.104/0004-73",
       "endereco": "RUA TIBÚRCIO DE SOUZA, 2663 - ITAIM PAULISTA - SÃO PAULO - SP",
@@ -5784,7 +5643,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 1,
+      "num_emp": 2,
       "atividade": "1. Pega as rodas e coloca na base da máquina de jatear.  2. Levanta as rodas com auxílio de uma talha elétrica e coloca na mesa da máquina de jatear. 3. Liga a máquina e executa a limpeza da roda.  4. Depois de limpa, tira a roda da máquina com auxílio da Talha elétrica. 5. Coloca as rodas no salão e depois encaminha para área de pintura. 6. Para a execução dessa atividade, recebe todo EPI necessário.",
       "cnpj": "31.974.104/0004-73",
       "endereco": "RUA TIBÚRCIO DE SOUZA, 2663 - ITAIM PAULISTA - SÃO PAULO - SP",
@@ -8688,96 +8547,6 @@
     },
     {
       "unidade": "IGUATEMI",
-      "setor": "CARRETA",
-      "ges": 9,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Incêndio, explosão, Inflamáveis (líquidos combustíveis)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves",
-          "fontes": "Durante o abastecimento, transvazamento ou vazamento acidental",
-          "medidas": "Capacitação em NR-20; sinalização de área de risco; extintores no veículo; aterramento durante o transvazamento; proibição de uso de celular",
-          "analise": "✅ Sim – controles suficientes; manter monitoramento. — requer fiscalização constante e manutenção rigorosa das válvulas, conexões e sistemas de aterramento.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Acidentes de trânsito",
-          "frequencia": "Raro",
-          "lesoes": "Colisões, tombamentos, vazamento de combustível, ferimentos graves ou morte",
-          "fontes": "Transporte de diesel em vias urbanas e rodovias",
-          "medidas": "CNH adequada (E), curso MOPP atualizado; manutenção veicular preventiva; controle de jornada para evitar fadiga; telemetria",
-          "analise": "✅ Sim — desde que haja controle eficaz da jornada e manutenção rigorosa da frota.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de vapores",
-          "frequencia": "Ocasional",
-          "lesoes": "Irritação das vias aéreas, tonturas, intoxicação leve",
-          "fontes": "Abertura de bocais ou vazamentos durante o descarregamento",
-          "medidas": "Uso de respirador PFF2 quando necessário; operação em áreas ventiladas; EPIs obrigatórios; FISPQ do produto disponível",
-          "analise": "✅ Sim — medidas adequadas, devendo apenas garantir treinamento e disponibilidade de EPI conforme NR-06.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Postura inadequada / esforço físico",
-          "frequencia": "Ocasional",
-          "lesoes": "Dores lombares, distensões musculares",
-          "fontes": "Subida e descida da carreta, engate de mangueiras pesadas",
-          "medidas": "Treinamento de ergonomia (NR-17), uso de cintos lombares, apoio para subida/descida",
-          "analise": "🟡 RISCO MONITORADO -  medidas adequadas, devendo manter treinamento ergonômico periódico.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído operacional habitual proveniente de motores, tráfego interno e movimentação de veículos",
-          "frequencia": "Ocasional",
-          "lesoes": "PAIR – perda auditiva induzida por ruído",
-          "fontes": "Trânsito intenso, motores, bombas",
-          "medidas": "Cabines isoladas, uso de protetor auricular quando fora do veículo, audiometria periódica",
-          "analise": "✅ Sim — medidas suficientes, mantendo controle audiométrico periódico.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco Psicossocial – Demandas de trabalho e isolamento ocupacional",
-          "frequencia": "Ocasional",
-          "lesoes": "Estresse, ansiedade, fadiga mental",
-          "fontes": "Demanda de Trabalho, isolamento, pressão por horário e segurança do transporte",
-          "medidas": "Acompanhamento psicológico, controle de jornada, escuta ativa, pausas obrigatórias, acolhimento pela gestão",
-          "analise": "🟡 RISCO MONITORADO - Manter acompanhamento contínuo do risco psicossocial por meio do Programa Psicossocial, com aplicação periódica de instrumentos de avaliação, escuta ativa e ações preventivas integradas.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 7,
-      "atividade": "",
-      "cnpj": "31.974.104/0001-20",
-      "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
-      "num_riscos": 6
-    },
-    {
-      "unidade": "IGUATEMI",
       "setor": "COBRADOR",
       "ges": 10,
       "riscos": [
@@ -9727,109 +9496,6 @@
       "cnpj": "31.974.104/0001-20",
       "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
       "num_riscos": 8
-    },
-    {
-      "unidade": "IGUATEMI",
-      "setor": "JATEAMENTO",
-      "ges": 38,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de poeiras metálicas",
-          "frequencia": "Raro",
-          "lesoes": "Doenças respiratórias (pneumoconioses, irritações)",
-          "fontes": "Durante o processo de jateamento com abrasivos",
-          "medidas": "Uso de máscara PFF2 , ventilação adequada, \r\npossui uma ventilação exaustora que faz com que a poeira passe por filtros e a direcione para tambores externos onde a mesma é coletada",
-          "analise": "✔ Sim — medidas adequadas, manter contreole de uso EPI.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído excessivo",
-          "frequencia": "Ocasional",
-          "lesoes": "Perda auditiva, zumbidos",
-          "fontes": "Operação da máquina de jateamento",
-          "medidas": "Uso de protetor auricular tipo concha, monitoramento periódico com dosímetro",
-          "analise": "✅ Sim — medidas adequadas. As máquinas e equipamentos com emissão de ruído operam de forma eventual e intermitente, não havendo exposição contínua. As avaliações ambientais demonstram que a dose de ruído ocupacional permanece abaixo do Nível de Ação e do Limite de Tolerância estabelecidos na NR-15.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Projeção de partículas",
-          "frequencia": "Ocasional",
-          "lesoes": "Lesões oculares, cortes",
-          "fontes": "Impacto dos abrasivos durante o jateamento",
-          "medidas": "Máscara facial completa, óculos de segurança, uso de cabine com vedação adequada",
-          "analise": "✔ Sim — medidas adequadas, manter integridade da cabine.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Sobrecarga biomecânica decorrente de permanência prolongada em pé, inclinações do tronco e exigência de preensão manual durante o jateamento de rodas",
-          "frequencia": "Ocasional",
-          "lesoes": "Distúrbios e lesões osteomusculares leves, fadiga muscular, desconforto em membros superiores e coluna",
-          "fontes": "Atividades de posicionamento, fixação, jateamento e retirada de rodas; permanência em pé durante o ciclo de jateamento; inclinações do tronco para ajuste das peças; manuseio de rodas e ferramentas de fixação",
-          "medidas": "Alternância postural e pausas breves; ajuste ergonômico da altura das peças; cabos anatômicos e ferramentas adequadas; orientações ergonômicas (OS); cabine de jateamento com exaustão; uso de EPIs conforme procedimento",
-          "analise": "🟡 RISCO MONITORADO - considerando o caráter intermitente das atividades, a baixa intensidade dos esforços e os controles técnicos existentes",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Vibração",
-          "frequencia": "Ocasional",
-          "lesoes": "Dormência, formigamentos",
-          "fontes": "Transmitida pelas superfícies metálicas e partes móveis da máquina",
-          "medidas": "Exposição controlada, pausas, uso de luvas antivibração, manutenção preventiva",
-          "analise": "✔ Sim — medidas adequadas, manter prática seguras e monitoramento.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Contato com partículas abrasivas",
-          "frequencia": "Ocasional",
-          "lesoes": "Dermatites, irritações de pele",
-          "fontes": "Resíduos que ficam na cabine ou na roupa após operação",
-          "medidas": "Uso de vestimentas adequadas, banho após o turno, EPI com higienização frequente",
-          "analise": "✔ Sim — medidas adequadas, manter rigor de higiene pessoal e limpeza da cabine.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco psicossocial de baixa exposição relacionado à organização do trabalho",
-          "frequencia": "Raro",
-          "lesoes": "Não foram identificados fatores organizacionais relevantes capazes de gerar sobrecarga psicossocial significativa na atividade.",
-          "fontes": "Atividade altamente padronizada, executada em cabine isolada, com ciclos curtos, baixa exigência cognitiva, mínima interação social e ausência de pressão por produtividade excessiva ou conflitos organizacionais.",
-          "medidas": "M• organização e planejamento das atividades operacionais\r\n• supervisão direta da liderança\r\n• comunicação estruturada entre equipes\r\n• manutenção de jornada de trabalho conforme legislação trabalhista\r\n• monitoramento periódico pelo SESMT\r\n• acompanhamento preventivo por meio do Programa de Riscos Psicossociais",
-          "analise": "🟢 RISCO MONITORADO — A análise das condições organizacionais de trabalho indica baixa exposição a fatores psicossociais relevantes. As medidas administrativas existentes demonstram-se adequadas para o controle preventivo do risco, sendo mantido monitoramento periódico pelo SESMT conforme diretrizes do Gerenciamento de Riscos Ocupacionais (NR 01).",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 3,
-      "atividade": "1. Pega as rodas e coloca na base da máquina de jatear.  2. Levanta as rodas com auxílio de uma talha elétrica e coloca na mesa da máquina de jatear. 3. Liga a máquina e executa a limpeza da roda.  4. Depois de limpa, tira a roda da máquina com auxílio da Talha elétrica. 5. Coloca as rodas no salão e depois encaminha para área de pintura. 6. Para a execução dessa atividade, recebe todo EPI necessário.",
-      "cnpj": "31.974.104/0001-20",
-      "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
-      "num_riscos": 7
     },
     {
       "unidade": "IGUATEMI",
@@ -12030,57 +11696,6 @@
       ],
       "num_emp": 0,
       "atividade": "Os eletricistas prediais acessam a cabine primária/subestação exclusivamente para realização de manobras operacionais de desligamento e religamento de energia, geralmente em situações de interrupção no fornecimento ou necessidade operacional.\r\nNão realizam atividades de manutenção, inspeção técnica ou intervenções em equipamentos elétricos, sendo  serviços executados por empresa terceirizada especializada e devidamente qualificada.\r\nAs atividades são realizadas por profissionais autorizados, conforme requisitos da NR-10, com acesso controlado e observância dos procedimentos de segurança aplicáveis.",
-      "cnpj": "31.974.104/0001-20",
-      "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "IGUATEMI",
-      "setor": "ÁREA DE CARREGAMENTO DE ÔNIBUS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema de recarga elétrica do veículo (380 V AC / 500–800 V DC)",
-          "frequencia": "Intermitente",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Conexão e desconexão do cabo de carregamento ou falha no equipamento",
-          "medidas": "Treinamento operacional; sinalização; inspeção dos cabos; acesso restrito aos componentes elétricos",
-          "analise": "✔ Sim – RISCO MONITORADO mediante procedimentos operacionais",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em baterias de íons de lítio",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, explosão, intoxicação por gases tóxicos",
-          "fontes": "Falha térmica da bateria (thermal runaway) durante carga ou após dano físico",
-          "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; monitoramento da recarga",
-          "analise": "✔ Sim – risco mitigado por plano de resposta",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Liberação de gases ou eletrólitos das baterias",
-          "frequencia": "Raro",
-          "lesoes": "Irritação respiratória, intoxicação, queimaduras químicas",
-          "fontes": "Falha grave da bateria ou acidente envolvendo o veículo",
-          "medidas": "Isolamento do veículo; comunicação ao fabricante; FDS disponível; procedimentos de emergência",
-          "analise": "✔ Sim – risco residual devido ausência de manuseio direto",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "",
       "cnpj": "31.974.104/0001-20",
       "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
       "num_riscos": 3
@@ -16770,96 +16385,6 @@
     },
     {
       "unidade": "BRAS",
-      "setor": "CARRETA",
-      "ges": 9,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Incêndio, explosão, Inflamáveis (líquidos combustíveis)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves",
-          "fontes": "Durante o abastecimento, transvazamento ou vazamento acidental",
-          "medidas": "Capacitação em NR-20; sinalização de área de risco; extintores no veículo; aterramento durante o transvazamento; proibição de uso de celular",
-          "analise": "✅ Sim – controles suficientes; manter monitoramento. — requer fiscalização constante e manutenção rigorosa das válvulas, conexões e sistemas de aterramento.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Acidentes de trânsito",
-          "frequencia": "Raro",
-          "lesoes": "Colisões, tombamentos, vazamento de combustível, ferimentos graves ou morte",
-          "fontes": "Transporte de diesel em vias urbanas e rodovias",
-          "medidas": "CNH adequada (E), curso MOPP atualizado; manutenção veicular preventiva; controle de jornada para evitar fadiga; telemetria",
-          "analise": "✅ Sim — desde que haja controle eficaz da jornada e manutenção rigorosa da frota.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de vapores",
-          "frequencia": "Ocasional",
-          "lesoes": "Irritação das vias aéreas, tonturas, intoxicação leve",
-          "fontes": "Abertura de bocais ou vazamentos durante o descarregamento",
-          "medidas": "Uso de respirador PFF2 quando necessário; operação em áreas ventiladas; EPIs obrigatórios; FISPQ do produto disponível",
-          "analise": "✅ Sim — medidas adequadas, devendo apenas garantir treinamento e disponibilidade de EPI conforme NR-06.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Postura inadequada / esforço físico",
-          "frequencia": "Ocasional",
-          "lesoes": "Dores lombares, distensões musculares",
-          "fontes": "Subida e descida da carreta, engate de mangueiras pesadas",
-          "medidas": "Treinamento de ergonomia (NR-17), uso de cintos lombares, apoio para subida/descida",
-          "analise": "🟡 RISCO MONITORADO -  medidas adequadas, devendo manter treinamento ergonômico periódico.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído operacional habitual proveniente de motores, tráfego interno e movimentação de veículos",
-          "frequencia": "Ocasional",
-          "lesoes": "PAIR – perda auditiva induzida por ruído",
-          "fontes": "Trânsito intenso, motores, bombas",
-          "medidas": "Cabines isoladas, uso de protetor auricular quando fora do veículo, audiometria periódica",
-          "analise": "✅ Sim — medidas suficientes, mantendo controle audiométrico periódico.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco Psicossocial – Demandas de trabalho e isolamento ocupacional",
-          "frequencia": "Ocasional",
-          "lesoes": "Estresse, ansiedade, fadiga mental",
-          "fontes": "Demanda de Trabalho, isolamento, pressão por horário e segurança do transporte",
-          "medidas": "Acompanhamento psicológico, controle de jornada, escuta ativa, pausas obrigatórias, acolhimento pela gestão",
-          "analise": "🟡 RISCO MONITORADO - Manter acompanhamento contínuo do risco psicossocial por meio do Programa Psicossocial, com aplicação periódica de instrumentos de avaliação, escuta ativa e ações preventivas integradas.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 7,
-      "atividade": "",
-      "cnpj": "31.974.104/0007-16",
-      "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 6
-    },
-    {
-      "unidade": "BRAS",
       "setor": "COBRADOR",
       "ges": 10,
       "riscos": [
@@ -19925,57 +19450,6 @@
     },
     {
       "unidade": "BRAS",
-      "setor": "ÁREA DE CARREGAMENTO DE ÔNIBUS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema de recarga elétrica do veículo (380 V AC / 500–800 V DC)",
-          "frequencia": "Intermitente",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Conexão e desconexão do cabo de carregamento ou falha no equipamento",
-          "medidas": "Treinamento operacional; sinalização; inspeção dos cabos; acesso restrito aos componentes elétricos",
-          "analise": "✔ Sim – RISCO MONITORADO mediante procedimentos operacionais",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em baterias de íons de lítio",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, explosão, intoxicação por gases tóxicos",
-          "fontes": "Falha térmica da bateria (thermal runaway) durante carga ou após dano físico",
-          "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; monitoramento da recarga",
-          "analise": "✔ Sim – risco mitigado por plano de resposta",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Liberação de gases ou eletrólitos das baterias",
-          "frequencia": "Raro",
-          "lesoes": "Irritação respiratória, intoxicação, queimaduras químicas",
-          "fontes": "Falha grave da bateria ou acidente envolvendo o veículo",
-          "medidas": "Isolamento do veículo; comunicação ao fabricante; FDS disponível; procedimentos de emergência",
-          "analise": "✔ Sim – risco residual devido ausência de manuseio direto",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "",
-      "cnpj": "31.974.104/0007-16",
-      "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "BRAS",
       "setor": "OFICINA DE MANUTENÇÃO DE VEÍCULOS ELÉTRICOS",
       "ges": 0,
       "riscos": [
@@ -20615,96 +20089,6 @@
       "cnpj": "31.974.104/0006-35",
       "endereco": "AVENIDA DE PINEDO, 414 - SOCORRO - SÃO PAULO - SP",
       "num_riscos": 5
-    },
-    {
-      "unidade": "PINEDO",
-      "setor": "CARRETA",
-      "ges": 9,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Incêndio, explosão, Inflamáveis (líquidos combustíveis)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves",
-          "fontes": "Durante o abastecimento, transvazamento ou vazamento acidental",
-          "medidas": "Capacitação em NR-20; sinalização de área de risco; extintores no veículo; aterramento durante o transvazamento; proibição de uso de celular",
-          "analise": "✅ Sim – controles suficientes; manter monitoramento. — requer fiscalização constante e manutenção rigorosa das válvulas, conexões e sistemas de aterramento.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Acidentes de trânsito",
-          "frequencia": "Raro",
-          "lesoes": "Colisões, tombamentos, vazamento de combustível, ferimentos graves ou morte",
-          "fontes": "Transporte de diesel em vias urbanas e rodovias",
-          "medidas": "CNH adequada (E), curso MOPP atualizado; manutenção veicular preventiva; controle de jornada para evitar fadiga; telemetria",
-          "analise": "✅ Sim — desde que haja controle eficaz da jornada e manutenção rigorosa da frota.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de vapores",
-          "frequencia": "Ocasional",
-          "lesoes": "Irritação das vias aéreas, tonturas, intoxicação leve",
-          "fontes": "Abertura de bocais ou vazamentos durante o descarregamento",
-          "medidas": "Uso de respirador PFF2 quando necessário; operação em áreas ventiladas; EPIs obrigatórios; FISPQ do produto disponível",
-          "analise": "✅ Sim — medidas adequadas, devendo apenas garantir treinamento e disponibilidade de EPI conforme NR-06.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Postura inadequada / esforço físico",
-          "frequencia": "Ocasional",
-          "lesoes": "Dores lombares, distensões musculares",
-          "fontes": "Subida e descida da carreta, engate de mangueiras pesadas",
-          "medidas": "Treinamento de ergonomia (NR-17), uso de cintos lombares, apoio para subida/descida",
-          "analise": "🟡 RISCO MONITORADO -  medidas adequadas, devendo manter treinamento ergonômico periódico.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído operacional habitual proveniente de motores, tráfego interno e movimentação de veículos",
-          "frequencia": "Ocasional",
-          "lesoes": "PAIR – perda auditiva induzida por ruído",
-          "fontes": "Trânsito intenso, motores, bombas",
-          "medidas": "Cabines isoladas, uso de protetor auricular quando fora do veículo, audiometria periódica",
-          "analise": "✅ Sim — medidas suficientes, mantendo controle audiométrico periódico.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco Psicossocial – Demandas de trabalho e isolamento ocupacional",
-          "frequencia": "Ocasional",
-          "lesoes": "Estresse, ansiedade, fadiga mental",
-          "fontes": "Demanda de Trabalho, isolamento, pressão por horário e segurança do transporte",
-          "medidas": "Acompanhamento psicológico, controle de jornada, escuta ativa, pausas obrigatórias, acolhimento pela gestão",
-          "analise": "🟡 RISCO MONITORADO - Manter acompanhamento contínuo do risco psicossocial por meio do Programa Psicossocial, com aplicação periódica de instrumentos de avaliação, escuta ativa e ações preventivas integradas.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 7,
-      "atividade": "",
-      "cnpj": "31.974.104/0006-35",
-      "endereco": "AVENIDA DE PINEDO, 414 - SOCORRO - SÃO PAULO - SP",
-      "num_riscos": 6
     },
     {
       "unidade": "PINEDO",
@@ -21755,7 +21139,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 3,
+      "num_emp": 4,
       "atividade": "1. Pega as rodas e coloca na base da máquina de jatear.  2. Levanta as rodas com auxílio de uma talha elétrica e coloca na mesa da máquina de jatear. 3. Liga a máquina e executa a limpeza da roda.  4. Depois de limpa, tira a roda da máquina com auxílio da Talha elétrica. 5. Coloca as rodas no salão e depois encaminha para área de pintura. 6. Para a execução dessa atividade, recebe todo EPI necessário.",
       "cnpj": "31.974.104/0006-35",
       "endereco": "AVENIDA DE PINEDO, 414 - SOCORRO - SÃO PAULO - SP",
@@ -23966,57 +23350,6 @@
     },
     {
       "unidade": "PINEDO",
-      "setor": "ÁREA DE CARREGAMENTO DE ÔNIBUS ELÉTRICOS",
-      "ges": 0,
-      "riscos": [
-        {
-          "tipo": "Acidente",
-          "perigo": "Sistema de recarga elétrica do veículo (380 V AC / 500–800 V DC)",
-          "frequencia": "Intermitente",
-          "lesoes": "Choque elétrico, queimaduras elétricas",
-          "fontes": "Conexão e desconexão do cabo de carregamento ou falha no equipamento",
-          "medidas": "Treinamento operacional; sinalização; inspeção dos cabos; acesso restrito aos componentes elétricos",
-          "analise": "✔ Sim – RISCO MONITORADO mediante procedimentos operacionais",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Incêndio em baterias de íons de lítio",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras, explosão, intoxicação por gases tóxicos",
-          "fontes": "Falha térmica da bateria (thermal runaway) durante carga ou após dano físico",
-          "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; monitoramento da recarga",
-          "analise": "✔ Sim – risco mitigado por plano de resposta",
-          "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Liberação de gases ou eletrólitos das baterias",
-          "frequencia": "Raro",
-          "lesoes": "Irritação respiratória, intoxicação, queimaduras químicas",
-          "fontes": "Falha grave da bateria ou acidente envolvendo o veículo",
-          "medidas": "Isolamento do veículo; comunicação ao fabricante; FDS disponível; procedimentos de emergência",
-          "analise": "✔ Sim – risco residual devido ausência de manuseio direto",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        }
-      ],
-      "num_emp": 0,
-      "atividade": "",
-      "cnpj": "31.974.104/0006-35",
-      "endereco": "AVENIDA DE PINEDO, 414 - SOCORRO - SÃO PAULO - SP",
-      "num_riscos": 3
-    },
-    {
-      "unidade": "PINEDO",
       "setor": "OFICINA DE MANUTENÇÃO DE VEÍCULOS ELÉTRICOS",
       "ges": 0,
       "riscos": [
@@ -24643,96 +23976,6 @@
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
       "num_riscos": 5
-    },
-    {
-      "unidade": "MBOI",
-      "setor": "CARRETA",
-      "ges": 9,
-      "riscos": [
-        {
-          "tipo": "Químico",
-          "perigo": "Incêndio, explosão, Inflamáveis (líquidos combustíveis)",
-          "frequencia": "Raro",
-          "lesoes": "Queimaduras graves",
-          "fontes": "Durante o abastecimento, transvazamento ou vazamento acidental",
-          "medidas": "Capacitação em NR-20; sinalização de área de risco; extintores no veículo; aterramento durante o transvazamento; proibição de uso de celular",
-          "analise": "✅ Sim – controles suficientes; manter monitoramento. — requer fiscalização constante e manutenção rigorosa das válvulas, conexões e sistemas de aterramento.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Acidente",
-          "perigo": "Acidentes de trânsito",
-          "frequencia": "Raro",
-          "lesoes": "Colisões, tombamentos, vazamento de combustível, ferimentos graves ou morte",
-          "fontes": "Transporte de diesel em vias urbanas e rodovias",
-          "medidas": "CNH adequada (E), curso MOPP atualizado; manutenção veicular preventiva; controle de jornada para evitar fadiga; telemetria",
-          "analise": "✅ Sim — desde que haja controle eficaz da jornada e manutenção rigorosa da frota.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Altamente Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Químico",
-          "perigo": "Inalação de vapores",
-          "frequencia": "Ocasional",
-          "lesoes": "Irritação das vias aéreas, tonturas, intoxicação leve",
-          "fontes": "Abertura de bocais ou vazamentos durante o descarregamento",
-          "medidas": "Uso de respirador PFF2 quando necessário; operação em áreas ventiladas; EPIs obrigatórios; FISPQ do produto disponível",
-          "analise": "✅ Sim — medidas adequadas, devendo apenas garantir treinamento e disponibilidade de EPI conforme NR-06.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Ergonômico",
-          "perigo": "Postura inadequada / esforço físico",
-          "frequencia": "Ocasional",
-          "lesoes": "Dores lombares, distensões musculares",
-          "fontes": "Subida e descida da carreta, engate de mangueiras pesadas",
-          "medidas": "Treinamento de ergonomia (NR-17), uso de cintos lombares, apoio para subida/descida",
-          "analise": "🟡 RISCO MONITORADO -  medidas adequadas, devendo manter treinamento ergonômico periódico.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        },
-        {
-          "tipo": "Físico",
-          "perigo": "Ruído operacional habitual proveniente de motores, tráfego interno e movimentação de veículos",
-          "frequencia": "Ocasional",
-          "lesoes": "PAIR – perda auditiva induzida por ruído",
-          "fontes": "Trânsito intenso, motores, bombas",
-          "medidas": "Cabines isoladas, uso de protetor auricular quando fora do veículo, audiometria periódica",
-          "analise": "✅ Sim — medidas suficientes, mantendo controle audiométrico periódico.",
-          "severidade": "Não Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Trivial",
-          "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco Psicossocial – Demandas de trabalho e isolamento ocupacional",
-          "frequencia": "Ocasional",
-          "lesoes": "Estresse, ansiedade, fadiga mental",
-          "fontes": "Demanda de Trabalho, isolamento, pressão por horário e segurança do transporte",
-          "medidas": "Acompanhamento psicológico, controle de jornada, escuta ativa, pausas obrigatórias, acolhimento pela gestão",
-          "analise": "🟡 RISCO MONITORADO - Manter acompanhamento contínuo do risco psicossocial por meio do Programa Psicossocial, com aplicação periódica de instrumentos de avaliação, escuta ativa e ações preventivas integradas.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Improvável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
-        }
-      ],
-      "num_emp": 7,
-      "atividade": "",
-      "cnpj": "31.974.104/0005-54",
-      "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 6
     },
     {
       "unidade": "MBOI",
@@ -25564,7 +24807,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 3,
+      "num_emp": 4,
       "atividade": "1. Pega as rodas e coloca na base da máquina de jatear.  2. Levanta as rodas com auxílio de uma talha elétrica e coloca na mesa da máquina de jatear. 3. Liga a máquina e executa a limpeza da roda.  4. Depois de limpa, tira a roda da máquina com auxílio da Talha elétrica. 5. Coloca as rodas no salão e depois encaminha para área de pintura. 6. Para a execução dessa atividade, recebe todo EPI necessário.",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
@@ -28437,22 +27680,6 @@
       "protetor": "obrigatorio",
       "dose_pct": 9.2,
       "tempo_medicao": 118
-    },
-    {
-      "unidade": "BRAS",
-      "setor": "JATEAMENTO",
-      "nivel_db": null,
-      "protetor": "sem_medicao",
-      "dose_pct": null,
-      "tempo_medicao": null
-    },
-    {
-      "unidade": "BRAS",
-      "setor": "LETRISTA",
-      "nivel_db": null,
-      "protetor": "sem_medicao",
-      "dose_pct": null,
-      "tempo_medicao": null
     },
     {
       "unidade": "BRAS",
@@ -32745,6 +31972,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T14:41:13.209Z",
+  "timestamp": "2026-04-23T16:08:12.786Z",
   "version": "2026"
 }
