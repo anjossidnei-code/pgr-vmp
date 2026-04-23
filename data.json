@@ -4421,7 +4421,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 8,
+      "num_emp": 7,
       "atividade": "",
       "cnpj": "31.974.104/0004-73",
       "endereco": "RUA TIBÚRCIO DE SOUZA, 2663 - ITAIM PAULISTA - SÃO PAULO - SP",
@@ -16686,7 +16686,7 @@
           "cronograma": "Ação: Avaliar melhorias de baixo custo; manter controles atuais e fiscalização do uso de EPI.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade / Gestor imediato\r\nPrazo: Avaliação em até 180 dias; monitoramento contínuo\r\nIndicador: Conformidade no uso de EPI (inspeções mensais) / ausência de queixas recorrentes\r\nStatus: Monitorado"
         }
       ],
-      "num_emp": 1,
+      "num_emp": 6,
       "atividade": "Atividade realizada na limpeza de chassi de veículos, utilizando jato de água pressurizada para remoção de sujeiras, resíduos e incrustações na parte inferior dos veículos.\r\nA execução ocorre com o trabalhador posicionado em valetas, abaixo dos veículos, permitindo acesso à estrutura inferior para aplicação do jato de água sob pressão.",
       "cnpj": "31.974.104/0007-16",
       "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
@@ -18252,8 +18252,8 @@
           "medidas": "Delimitação de áreas de circulação, treinamento, Sinalização de velocidade, Iluminação adequada, faixa de pedestres",
           "analise": "🟡 RISCO MONITORADO - reforçar sinalização horizontal/vertical e supervisão nos horários críticos.",
           "severidade": "Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Moderado",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Tolerável",
           "cronograma": "Ação\r\nManter e fortalecer Programa Psicossocial específico para motoristas; aplicar questionário psicossocial validado; promover capacitação em gestão de conflitos e estratégias de enfrentamento do estresse; disponibilizar apoio psicológico por meio do serviço de saúde ocupacional; revisar periodicamente metas operacionais, pausas e jornadas; acompanhar precocemente indicadores de sobrecarga.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Médico do Trabalho + RH\r\nPrazo\r\nImplementação: Em andamento\r\nQuestionário: Em andamento\r\nMonitoramento: Contínuo\r\nIndicador de monitoramento\r\nTaxa de absenteísmo por função · Nº de afastamentos por CID F (transtornos mentais) · Resultado do questionário psicossocial · Nº de atendimentos psicológicos realizados · % motoristas participantes nos treinamentos\r\nStatus\r\nEm andamento\r\n"
         },
         {
@@ -18335,7 +18335,7 @@
           "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
         }
       ],
-      "num_emp": 234,
+      "num_emp": 233,
       "atividade": "",
       "cnpj": "31.974.104/0007-16",
       "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
@@ -18639,8 +18639,8 @@
           "medidas": "Sinalização de piso, uso de colete refletivo, faixas exclusivas para pedestres, treinamento de segurança em área operacional",
           "analise": "🟡 RISCO MONITORADO Manter a sinalização e as faixas de pedestres em boas condições, reforçar treinamentos periódicos e intensificar a fiscalização do uso do colete refletivo",
           "severidade": "Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Moderado",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Tolerável",
           "cronograma": "Ação\r\nElaborar e implantar procedimento formal de circulação segura no pátio com definição de fluxo de veículos e limite de velocidade; reforçar sinalização horizontal e vertical de pedestres; realizar treinamento periódico com motoristas, manobristas e funcionários da pista; intensificar fiscalização do uso de colete refletivo; realizar inspeções mensais de segurança no pátio.\r\nResponsável\r\nTécnico de Segurança do Trabalho da unidade + Gerência de Pátio + Supervisão da Pista\r\nPrazo\r\nProcedimento e sinalização: Concluído\r\nTreinamento: Em andamento\r\nInspeções: mensais\r\nIndicador de monitoramento\r\n% conformidade no uso de colete refletivo · Nº de não conformidades nas inspeções mensais · Ocorrências de quase-acidente no pátio · Procedimento de circulação implantado (Sim/Não)\r\nStatus\r\nEm andamento\r\n"
         },
         {
@@ -22152,8 +22152,8 @@
           "medidas": "Delimitação de áreas de circulação, treinamento, Sinalização de velocidade, Iluminação adequada, faixa de pedestres",
           "analise": "🟡 RISCO MONITORADO - reforçar sinalização horizontal/vertical e supervisão nos horários críticos.",
           "severidade": "Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Moderado",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Tolerável",
           "cronograma": "Ação\r\nManter e fortalecer Programa Psicossocial específico para motoristas; aplicar questionário psicossocial validado; promover capacitação em gestão de conflitos e estratégias de enfrentamento do estresse; disponibilizar apoio psicológico por meio do serviço de saúde ocupacional; revisar periodicamente metas operacionais, pausas e jornadas; acompanhar precocemente indicadores de sobrecarga.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Médico do Trabalho + RH\r\nPrazo\r\nImplementação: Em andamento\r\nQuestionário: Em andamento\r\nMonitoramento: Contínuo\r\nIndicador de monitoramento\r\nTaxa de absenteísmo por função · Nº de afastamentos por CID F (transtornos mentais) · Resultado do questionário psicossocial · Nº de atendimentos psicológicos realizados · % motoristas participantes nos treinamentos\r\nStatus\r\nEm andamento\r\n"
         },
         {
@@ -22539,8 +22539,8 @@
           "medidas": "Sinalização de piso, uso de colete refletivo, faixas exclusivas para pedestres, treinamento de segurança em área operacional",
           "analise": "🟡 RISCO MONITORADO Manter a sinalização e as faixas de pedestres em boas condições, reforçar treinamentos periódicos e intensificar a fiscalização do uso do colete refletivo",
           "severidade": "Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Moderado",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Tolerável",
           "cronograma": "Ação\r\nElaborar e implantar procedimento formal de circulação segura no pátio com definição de fluxo de veículos e limite de velocidade; reforçar sinalização horizontal e vertical de pedestres; realizar treinamento periódico com motoristas, manobristas e funcionários da pista; intensificar fiscalização do uso de colete refletivo; realizar inspeções mensais de segurança no pátio.\r\nResponsável\r\nTécnico de Segurança do Trabalho da unidade + Gerência de Pátio + Supervisão da Pista\r\nPrazo\r\nProcedimento e sinalização: Concluído\r\nTreinamento: Em andamento\r\nInspeções: mensais\r\nIndicador de monitoramento\r\n% conformidade no uso de colete refletivo · Nº de não conformidades nas inspeções mensais · Ocorrências de quase-acidente no pátio · Procedimento de circulação implantado (Sim/Não)\r\nStatus\r\nEm andamento\r\n"
         },
         {
@@ -31972,6 +31972,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-23T16:38:59.870Z",
+  "timestamp": "2026-04-23T18:40:34.275Z",
   "version": "2026"
 }
