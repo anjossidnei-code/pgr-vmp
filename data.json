@@ -31944,1580 +31944,1580 @@
   ],
   "epiData": [
     {
-      "setor": "BRÁS",
-      "nome_epi": "Abastecimento",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Abastecimento",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Abastecimento",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Abastecimento",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Abastecimento",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Abastecimento",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Abastecimento",
-      "box": "Óculos do tipo ampla visão",
-      "ca": "",
-      "vencimento_ca": "25/10/1918",
-      "observacao": "46539"
+      "setor": "Abastecimento",
+      "nome_epi": "Óculos do tipo ampla visão",
+      "box": "",
+      "ca": "6874",
+      "vencimento_ca": "31/05/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Aj. Manutenção",
-      "box": "Verificar em qual setor opera e entregar os EPIs correspondentes, além de treinamento para o uso correto.",
-      "ca": "",
-      "vencimento_ca": "",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Almoxarifado",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Almoxarifado",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Almoxarifado",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": "47684"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Almoxarifado",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Almoxarifado",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Ambulatório",
-      "box": "Mascara descartável",
+      "setor": "Aj. Manutenção",
+      "nome_epi": "Verificar em qual setor opera e entregar os EPIs correspondentes, além de treinamento para o uso correto.",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Ambulatório",
-      "box": "Luva de procedimento",
+      "setor": "Almoxarifado",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Almoxarifado",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Almoxarifado",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "19/07/2030",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Almoxarifado",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
+    },
+    {
+      "setor": "Almoxarifado",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Ambulatório",
+      "nome_epi": "Mascara descartável",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Ambulatório",
-      "box": "Avental branco",
+      "setor": "Ambulatório",
+      "nome_epi": "Luva de procedimento",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Borracharia",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Carreta",
-      "box": "Máscara com cartucho para vapores orgânicos",
+      "setor": "Ambulatório",
+      "nome_epi": "Avental branco",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Avental impermeável",
-      "ca": "",
-      "vencimento_ca": "24/11/2004",
-      "observacao": "47657"
+      "setor": "Borracharia",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Bota PVC Capataz impermeáveis",
-      "ca": "",
-      "vencimento_ca": "13/10/2015",
-      "observacao": "47496"
+      "setor": "Borracharia",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Borracharia",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Protetor auditivo tipo plug",
-      "ca": "",
-      "vencimento_ca": "27/03/1926",
-      "observacao": "46894"
+      "setor": "Borracharia",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Protetor Solar",
+      "setor": "Borracharia",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Borracharia",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Carreta",
+      "nome_epi": "Máscara com cartucho para vapores orgânicos",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de malha",
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Avental impermeável",
+      "box": "",
+      "ca": "38316",
+      "vencimento_ca": "22/06/2030",
+      "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Bota PVC Capataz impermeáveis",
+      "box": "",
+      "ca": "42291",
+      "vencimento_ca": "12/01/2030",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Protetor auditivo tipo plug",
+      "box": "",
+      "ca": "9584",
+      "vencimento_ca": "20/05/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Protetor Solar",
+      "box": "",
       "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de látex",
-      "ca": "7380",
-      "vencimento_ca": "38310 36066",
-      "observacao": "47618"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de látex",
+      "box": "7380",
+      "ca": "38310 36066",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO B PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES CORTANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS, OXIDANTES (M), BASES ORGÂNICAS (O), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Conservação e Limpeza",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Cozinha",
-      "box": "Luva impermeável",
+      "setor": "Conservação e Limpeza",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Cozinha",
+      "nome_epi": "Luva impermeável",
+      "box": "—",
       "ca": "—",
       "vencimento_ca": "—",
-      "observacao": "—"
+      "observacao": "Proteção das mãos contra umidade, produtos de limpeza, resíduos e respingos de líquidos quentes."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Cozinha",
-      "box": "Avental impermeável",
-      "ca": "—",
-      "vencimento_ca": "24/11/2004",
-      "observacao": "47657"
+      "setor": "Cozinha",
+      "nome_epi": "Avental impermeável",
+      "box": "—",
+      "ca": "38316",
+      "vencimento_ca": "22/06/2030",
+      "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Cozinha",
-      "box": "Luva térmica",
-      "ca": "—",
-      "vencimento_ca": "—",
-      "observacao": "—"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Cozinha",
-      "box": "Calçado de segurança preferencialmente impermeável e antiderrapante",
+      "setor": "Cozinha",
+      "nome_epi": "Luva térmica",
+      "box": "—",
       "ca": "—",
       "vencimento_ca": "—",
-      "observacao": "—"
+      "observacao": "Proteção das mãos contra calor ao manusear panelas, formas, forno e superfícies aquecidas."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Cozinha",
-      "box": "Touca",
+      "setor": "Cozinha",
+      "nome_epi": "Calçado de segurança preferencialmente impermeável e antiderrapante",
+      "box": "—",
       "ca": "—",
       "vencimento_ca": "—",
-      "observacao": "—"
+      "observacao": "Proteção contra quedas em piso molhado ou engordurado, impactos leves e contato com líquidos."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Cinto de segurança tipo paraquedista",
-      "ca": "",
-      "vencimento_ca": "08/03/1999",
-      "observacao": "46608"
+      "setor": "Cozinha",
+      "nome_epi": "Touca",
+      "box": "—",
+      "ca": "—",
+      "vencimento_ca": "—",
+      "observacao": "Protege cabelos soltos de contato com fogo e superfícies quentes, além de obrigatória por motivo de higiene sanitária."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Luva isolante de borracha",
-      "ca": "",
-      "vencimento_ca": "",
-      "observacao": ""
+      "setor": "Elétrica Predial",
+      "nome_epi": "Cinto de segurança tipo paraquedista",
+      "box": "",
+      "ca": "36228",
+      "vencimento_ca": "08/08/2027",
+      "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Calçado de Segurança com biqueira composite",
+      "setor": "Elétrica Predial",
+      "nome_epi": "Luva isolante de borracha",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "Capacete de segurança classe B",
-      "ca": "",
-      "vencimento_ca": "26/10/1933",
-      "observacao": "46921"
+      "setor": "Elétrica Predial",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Elétrica Predial",
-      "box": "OBS: as vestimentas de trabalho devem ser adequadas às atividades,",
+      "setor": "Elétrica Predial",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Elétrica Predial",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
+    },
+    {
+      "setor": "Elétrica Predial",
+      "nome_epi": "Calçado de Segurança com biqueira composite",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Elétrica Predial",
+      "nome_epi": "Capacete de segurança classe B",
+      "box": "",
+      "ca": "12354",
+      "vencimento_ca": "16/06/2028",
+      "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
-      "ca": "",
-      "vencimento_ca": "08/03/1999",
-      "observacao": "46608"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Eletricista Veículo",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Luva nitrílica",
-      "ca": "2879",
-      "vencimento_ca": "16314 11769",
-      "observacao": "47644"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Respirador PFF2",
-      "ca": "",
-      "vencimento_ca": "30/05/2005",
-      "observacao": "47488"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Bota PVC Capataz impermeáveis",
-      "ca": "",
-      "vencimento_ca": "13/10/2015",
-      "observacao": "47496"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Luva de látex",
-      "ca": "7380",
-      "vencimento_ca": "38310 36066",
-      "observacao": "47430"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)",
-      "ca": "",
-      "vencimento_ca": "10/04/2007",
-      "observacao": "46215"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Roupa impermeável + Capuz",
+      "setor": "Elétrica Predial",
+      "nome_epi": "OBS: as vestimentas de trabalho devem ser adequadas às atividades,",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lavador de Chassis",
-      "box": "Proteção Facial - Viseira Facial",
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
+      "box": "",
+      "ca": "36228",
+      "vencimento_ca": "08/08/2027",
+      "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
+    },
+    {
+      "setor": "Eletricista Veículo",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Luva nitrílica",
+      "box": "2879",
+      "ca": "16314 11769",
+      "vencimento_ca": "09/06/2030",
+      "observacao": "LUVA PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES, CONTRA AGENTES QUÍMICOS TIPO A (HIDROCARBONETOS SATURADOS (J), BASES INORGÂNICAS (K), ÁCIDOS ORGÂNICOS (N), BASES ORGÂNICAS (O), PERÓXIDOS (P), ALDEÍDOS (T)), CONTRA AGENTES BIOLÓGICOS E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Respirador PFF2",
+      "box": "",
+      "ca": "38503",
+      "vencimento_ca": "04/01/2030",
+      "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Bota PVC Capataz impermeáveis",
+      "box": "",
+      "ca": "42291",
+      "vencimento_ca": "12/01/2030",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Luva de látex",
+      "box": "7380",
+      "ca": "38310 36066",
+      "vencimento_ca": "07/11/2029",
+      "observacao": "LUVA TIPO B PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES CORTANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS, OXIDANTES (M), BASES ORGÂNICAS (O), PERÓXIDOS (P) E ALDEÍDOS (T))."
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)",
+      "box": "",
+      "ca": "39183",
+      "vencimento_ca": "11/07/2026",
+      "observacao": "PROTEÇÃO DO TRONCO, MEMBROS SUPERIORES E MEMBROS INFERIORES DO USUÁRIO CONTRA RISCOS DE ORIGEM QUÍMIC"
+    },
+    {
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Roupa impermeável + Capuz",
+      "box": "",
       "ca": "",
-      "vencimento_ca": "11/02/1941",
-      "observacao": "47564"
+      "vencimento_ca": "",
+      "observacao": "CAPA IMPERMEAVEL PRETA MOTOQUEIRO PARA CHUVA"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "LETRISTA",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Lavador de Chassis",
+      "nome_epi": "Proteção Facial - Viseira Facial",
+      "box": "",
+      "ca": "15019",
+      "vencimento_ca": "21/03/2030",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES FRONTAIS E CONTRA RAIOS ULTRAVIOLETA (U6)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Letrista",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "LETRISTA",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Letrista",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Letrista",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Letrista",
-      "box": "Máscara semifacial c/ filtro mecânico",
-      "ca": "",
-      "vencimento_ca": "06/04/1911",
-      "observacao": "46849"
+      "setor": "Letrista",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "LETRISTA",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Letrista",
+      "nome_epi": "Máscara semifacial c/ filtro mecânico",
+      "box": "",
+      "ca": "4115",
+      "vencimento_ca": "05/04/2028",
+      "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS DO USUÁRIO CONTRA A INALAÇÃO DE PARTÍCULAS SÓLIDAS, QUANDO UTILIZADO COM FILTROS MECÂNICOS OU COMBINADOS, E CONTRA GASES E VAPORES, QUANDO UTILIZADO COM FILTROS QUÍMICOS OU COMBINADOS."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "LETRISTA",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Lubrificação",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Lubrificação",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Lubrificação",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Lubrificação",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Lubrificação",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Lubrificação",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manobrista",
-      "box": "Sapato de segurança",
-      "ca": "",
-      "vencimento_ca": "10/12/1935",
-      "observacao": "46656"
+      "setor": "Lubrificação",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manobrista",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Manobrista",
+      "nome_epi": "Sapato de segurança",
+      "box": "",
+      "ca": "13129",
+      "vencimento_ca": "25/09/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE E CONTRA AGENTES ABRASIVOS E ESCORIANTES"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manobrista",
-      "box": "Colete ou uniforme com faixas refletivas",
+      "setor": "Manobrista",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
+    },
+    {
+      "setor": "Manobrista",
+      "nome_epi": "Colete ou uniforme com faixas refletivas",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manobrista",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
+      "setor": "Manobrista",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Manutenção predial",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Manutenção predial",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Manutenção predial",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Manutenção predial",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Óculos de segurança lente cinza",
-      "ca": "",
-      "vencimento_ca": "19/06/1949",
-      "observacao": "46195"
+      "setor": "Manutenção predial",
+      "nome_epi": "Óculos de segurança lente cinza",
+      "box": "",
+      "ca": "18069",
+      "vencimento_ca": "21/06/2026",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DA LENTE INCOLOR COM REVESTIMENTO EXTERNO DE FILME PRATEADO ESPELHADO E DA LENTE CINZA, PROTEÇÃO CONTRA LUZ INTENSA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Manutenção predial",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "setor": "Manutenção predial",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Manutenção predial",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Bota PVC Capataz impermeáveis",
-      "ca": "",
-      "vencimento_ca": "13/10/2015",
-      "observacao": "47496"
+      "setor": "Manutenção predial",
+      "nome_epi": "Bota PVC Capataz impermeáveis",
+      "box": "",
+      "ca": "42291",
+      "vencimento_ca": "12/01/2030",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Manutenção predial",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Manutenção predial",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Avental impermeável",
-      "ca": "",
-      "vencimento_ca": "24/11/2004",
-      "observacao": "47657"
+      "setor": "Manutenção predial",
+      "nome_epi": "Avental impermeável",
+      "box": "",
+      "ca": "38316",
+      "vencimento_ca": "22/06/2030",
+      "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Manutenção predial",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
-      "ca": "",
-      "vencimento_ca": "08/03/1999",
-      "observacao": "46608"
+      "setor": "Manutenção predial",
+      "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
+      "box": "",
+      "ca": "36228",
+      "vencimento_ca": "08/08/2027",
+      "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Capacete de Segurança",
-      "ca": "",
-      "vencimento_ca": "26/10/1933",
-      "observacao": "46921"
+      "setor": "Manutenção predial",
+      "nome_epi": "Capacete de Segurança",
+      "box": "",
+      "ca": "12354",
+      "vencimento_ca": "16/06/2028",
+      "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
+      "setor": "Manutenção predial",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Manutenção predial",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial",
-      "box": "Respirador PFF2",
-      "ca": "",
-      "vencimento_ca": "30/05/2005",
-      "observacao": "47488"
+      "setor": "Manutenção predial",
+      "nome_epi": "Respirador PFF2",
+      "box": "",
+      "ca": "38503",
+      "vencimento_ca": "04/01/2030",
+      "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Bota PVC Capataz impermeáveis",
-      "ca": "",
-      "vencimento_ca": "13/10/2015",
-      "observacao": "47496"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Bota PVC Capataz impermeáveis",
+      "box": "",
+      "ca": "42291",
+      "vencimento_ca": "12/01/2030",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Manutenção predial (Encanador)",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Manutenção predial (Encanador)",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Marcenaria",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Marcenaria",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Marcenaria",
-      "box": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
-      "ca": "",
-      "vencimento_ca": "08/03/1999",
-      "observacao": "46608"
+      "setor": "Marcenaria",
+      "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
+      "box": "",
+      "ca": "36228",
+      "vencimento_ca": "08/08/2027",
+      "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Marcenaria",
-      "box": "Capacete de Segurança",
-      "ca": "",
-      "vencimento_ca": "26/10/1933",
-      "observacao": "46921"
+      "setor": "Marcenaria",
+      "nome_epi": "Capacete de Segurança",
+      "box": "",
+      "ca": "12354",
+      "vencimento_ca": "16/06/2028",
+      "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Marcenaria",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
+      "setor": "Marcenaria",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Marcenaria",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Marcenaria",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Mecânica",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Mecânica",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Mecânica",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Mecânica",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Mecânica",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Mecânica",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "setor": "Mecânica",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mecânica",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Mecânica",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Mola",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Mola",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Mola",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "setor": "Mola",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Mola",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
+      "setor": "Mola",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Mola",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Mola",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Mola",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Mola",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Uniforme 100% em algodão natural em duas peças, camisa manga longa aberta na frente com botões, sem bolso na camisa e usada por dentro da calça.",
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Uniforme 100% em algodão natural em duas peças, camisa manga longa aberta na frente com botões, sem bolso na camisa e usada por dentro da calça.",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Luva de PVC",
-      "ca": "2879",
-      "vencimento_ca": "46086 / 39268",
-      "observacao": "46201"
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Luva de PVC",
+      "box": "2879",
+      "ca": "46086 / 39268",
+      "vencimento_ca": "27/06/2026",
+      "observacao": "LUVA TIPO “C” PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K) E ÁCIDOS MINERAIS INORGÂNICOS (L"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Capacete com Jugular (orientar o condutor da preferência BR pelas cores verde ou marrom).",
-      "ca": "",
-      "vencimento_ca": "26/10/1933",
-      "observacao": "46921"
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Capacete com Jugular (orientar o condutor da preferência BR pelas cores verde ou marrom).",
+      "box": "",
+      "ca": "12354",
+      "vencimento_ca": "16/06/2028",
+      "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Óculos de segurança, modelo: ampla visão E25",
-      "ca": "",
-      "vencimento_ca": "26/01/2026",
-      "observacao": ""
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Óculos de segurança, modelo: ampla visão E25",
+      "box": "",
+      "ca": "46049",
+      "vencimento_ca": "",
+      "observacao": "anti-respingo, lentes confeccionadas em policarbonato e antiembaçantes, vedação total, tirante de elástico para ajuste (sem hastes) {exceto para produtos escuros}."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
-      "ca": "",
-      "vencimento_ca": "08/03/1999",
-      "observacao": "46608"
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)",
+      "box": "",
+      "ca": "36228",
+      "vencimento_ca": "08/08/2027",
+      "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Motorista de Carreta",
-      "box": "Luva nitrílica",
-      "ca": "2879",
-      "vencimento_ca": "16314 11769",
-      "observacao": "47644"
+      "setor": "Motorista de Carreta",
+      "nome_epi": "Luva nitrílica",
+      "box": "2879",
+      "ca": "16314 11769",
+      "vencimento_ca": "09/06/2030",
+      "observacao": "LUVA PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES, CONTRA AGENTES QUÍMICOS TIPO A (HIDROCARBONETOS SATURADOS (J), BASES INORGÂNICAS (K), ÁCIDOS ORGÂNICOS (N), BASES ORGÂNICAS (O), PERÓXIDOS (P), ALDEÍDOS (T)), CONTRA AGENTES BIOLÓGICOS E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Máscara semifacial com filtro mecânico",
-      "ca": "",
-      "vencimento_ca": "06/04/1911",
-      "observacao": "46849"
+      "setor": "Pintura",
+      "nome_epi": "Máscara semifacial com filtro mecânico",
+      "box": "",
+      "ca": "4115",
+      "vencimento_ca": "05/04/2028",
+      "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS DO USUÁRIO CONTRA A INALAÇÃO DE PARTÍCULAS SÓLIDAS, QUANDO UTILIZADO COM FILTROS MECÂNICOS OU COMBINADOS, E CONTRA GASES E VAPORES, QUANDO UTILIZADO COM FILTROS QUÍMICOS OU COMBINADOS."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Pintura",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Luva de látex/neoprene",
-      "ca": "2481",
-      "vencimento_ca": "46049 / 37900",
-      "observacao": "47618"
+      "setor": "Pintura",
+      "nome_epi": "Luva de látex/neoprene",
+      "box": "2481",
+      "ca": "46049 / 37900",
+      "vencimento_ca": "14/05/2030",
+      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Pintura",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Pintura",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Pintura",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)",
-      "ca": "",
-      "vencimento_ca": "10/04/2007",
-      "observacao": "46215"
+      "setor": "Pintura",
+      "nome_epi": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)",
+      "box": "",
+      "ca": "39183",
+      "vencimento_ca": "11/07/2026",
+      "observacao": "PROTEÇÃO DO TRONCO, MEMBROS SUPERIORES E MEMBROS INFERIORES DO USUÁRIO CONTRA RISCOS DE ORIGEM QUÍMIC"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Respirador PFF1",
+      "setor": "Pintura",
+      "nome_epi": "Respirador PFF1",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pintura",
-      "box": "Creme protetor para a pele do grupo 3 (hidroregistente)",
-      "ca": "",
-      "vencimento_ca": "03/12/1929",
-      "observacao": "47162"
+      "setor": "Pintura",
+      "nome_epi": "Creme protetor para a pele do grupo 3 (hidroregistente)",
+      "box": "",
+      "ca": "10931",
+      "vencimento_ca": "12/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS, ÁCIDO FOSFÓRICO DILUÍDO A 15%, ÁCIDO CLORÍDRICO DILUÍDO A 15%, ÁCIDO SULFÚRICO DILUÍDO A 15%, ÁCIDO ACÉTICO DILUÍDO A 10%, HIDRÓXIDO DE SÓDIO DILUÍDO A 10%)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pista",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Pista",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pista",
-      "box": "Colete faixas refletivas",
+      "setor": "Pista",
+      "nome_epi": "Colete faixas refletivas",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Pista",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Pista",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "REBITADOR",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "REBITADOR",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Rebitador",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Rebitador",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Rebitador",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Rebitador",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "REBITADOR",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "REBITADOR",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Rebitador",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Rebitador",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Rebitador",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Rebitador",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "SOCORRISTA",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "SOCORRISTA",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Socorrista",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Socorrista",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Socorrista",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
+      "setor": "Socorrista",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "SOCORRISTA",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "SOCORRISTA",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Socorrista",
-      "box": "Capa impermeável / chuva",
-      "ca": "",
-      "vencimento_ca": "25/09/1943",
-      "observacao": "46432"
+      "setor": "Socorrista",
+      "nome_epi": "Capa impermeável / chuva",
+      "box": "",
+      "ca": "15975",
+      "vencimento_ca": "13/02/2027",
+      "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "SOCORRISTA",
-      "box": "Protetor Solar",
-      "ca": "",
-      "vencimento_ca": "Não",
-      "observacao": ""
+      "setor": "SOCORRISTA",
+      "nome_epi": "Protetor Solar",
+      "box": "",
+      "ca": "Não",
+      "vencimento_ca": "",
+      "observacao": "(quando trabalhar a céu aberto)"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Socorrista",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
+      "setor": "Socorrista",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Socorrista",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
+      "setor": "Socorrista",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Máscara de solda autoescurecedora",
+      "setor": "Soldador",
+      "nome_epi": "Máscara de solda autoescurecedora",
+      "box": "",
+      "ca": "",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DOS OLHOS E FACE DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, LUMINOSIDADE INTENSA E RADIAÇÕES PROVENIENTES DE SERVIÇOS DE SOLDAGEM."
+    },
+    {
+      "setor": "Soldador",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
+    },
+    {
+      "setor": "Soldador",
+      "nome_epi": "Avental de raspa",
+      "box": "",
+      "ca": "13989 / 19224",
+      "vencimento_ca": "06/04/2030",
+      "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES E TÉRMICOS PROVENIENTES DE OPERAÇÕES DE SOLDAGEM E PROCESSOS SIMILARES."
+    },
+    {
+      "setor": "Soldador",
+      "nome_epi": "Mangote de raspa",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
+      "setor": "Soldador",
+      "nome_epi": "Perneira de raspa",
+      "box": "",
+      "ca": "16145",
+      "vencimento_ca": "21/06/2026",
+      "observacao": "PROTEÇÃO DAS PERNAS DO USUÁRIO CONTRA AGENTES ABRASIVOS E ESCORIANTES"
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Avental de raspa",
-      "ca": "",
-      "vencimento_ca": "13989 / 19224",
-      "observacao": "47580"
+      "setor": "Soldador",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Mangote de raspa",
+      "setor": "Soldador",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "(por baixo da máscara, se necessário)"
+    },
+    {
+      "setor": "Soldador",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Soldador",
+      "nome_epi": "Óculos de segurança (lente sombra 8)",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Perneira de raspa",
-      "ca": "",
-      "vencimento_ca": "13/03/1944",
-      "observacao": "46195"
+      "setor": "Soldador",
+      "nome_epi": "Mascara para solda com lentes sombra 8 e 12",
+      "box": "",
+      "ca": "14198",
+      "vencimento_ca": "30/08/2030",
+      "observacao": "PROTEÇÃO DOS OLHOS E FACE DO USUÁRIO CONTRA RADIAÇÕES PROVENIENTES DE SERVIÇOS DE SOLDAGEM (W10)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
+      "setor": "Soldador",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
+      "setor": "Soldador",
+      "nome_epi": "Respirador PFF2",
+      "box": "",
+      "ca": "38503",
+      "vencimento_ca": "04/01/2030",
+      "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
+      "setor": "Tapeçaria",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Óculos de segurança (lente sombra 8)",
+      "setor": "Tapeçaria",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Tapeçaria",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Tapeçaria",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Tapeçaria",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Tapeçaria",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
+      "box": "",
+      "ca": "4234",
+      "vencimento_ca": "13/02/2029",
+      "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Protetor auditivo tipo concha",
+      "box": "",
+      "ca": "4398",
+      "vencimento_ca": "15/07/2028",
+      "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
+    },
+    {
+      "setor": "Torno",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Luva de raspa punho longo",
+      "box": "",
+      "ca": "16074",
+      "vencimento_ca": "24/03/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Luva de Raspa punho curto",
+      "box": "",
+      "ca": "9438",
+      "vencimento_ca": "25/02/2031",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Avental de raspa",
+      "box": "",
+      "ca": "13989 / 19224",
+      "vencimento_ca": "06/04/2030",
+      "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES E TÉRMICOS PROVENIENTES DE OPERAÇÕES DE SOLDAGEM E PROCESSOS SIMILARES."
+    },
+    {
+      "setor": "Funilaria",
+      "nome_epi": "Mangote de raspa",
+      "box": "",
       "ca": "",
       "vencimento_ca": "",
       "observacao": ""
     },
     {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Mascara para solda com lentes sombra 8 e 12",
-      "ca": "",
-      "vencimento_ca": "13/11/1938",
-      "observacao": "47726"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Soldador",
-      "box": "Respirador PFF2",
-      "ca": "",
-      "vencimento_ca": "30/05/2005",
-      "observacao": "47488"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Luva de malha",
-      "ca": "",
-      "vencimento_ca": "41123 32845",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Tapeçaria",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Bota com biqueira de aço ou equivalente",
-      "ca": "",
-      "vencimento_ca": "28/02/1935",
-      "observacao": "46460"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Creme protetor para a pele do grupo 2 (óleo resistente)",
-      "ca": "",
-      "vencimento_ca": "03/08/1911",
-      "observacao": "47163"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Luva de vaqueta",
-      "ca": "",
-      "vencimento_ca": "13/06/1969",
-      "observacao": "47077"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Óculos de segurança",
-      "ca": "",
-      "vencimento_ca": "12/08/1926",
-      "observacao": "46613"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Protetor auditivo tipo concha",
-      "ca": "",
-      "vencimento_ca": "14/01/1912",
-      "observacao": "46950"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Torno",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Luva de raspa punho longo",
-      "ca": "",
-      "vencimento_ca": "02/01/1944",
-      "observacao": "47932"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Luva de Raspa punho curto",
-      "ca": "",
-      "vencimento_ca": "01/11/1925",
-      "observacao": "47905"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Avental de raspa",
-      "ca": "",
-      "vencimento_ca": "13989 / 19224",
-      "observacao": "47580"
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Mangote de raspa",
-      "ca": "",
-      "vencimento_ca": "",
-      "observacao": ""
-    },
-    {
-      "setor": "BRÁS",
-      "nome_epi": "Funilaria",
-      "box": "Perneira de raspa",
-      "ca": "",
-      "vencimento_ca": "13/03/1944",
-      "observacao": "46195"
+      "setor": "Funilaria",
+      "nome_epi": "Perneira de raspa",
+      "box": "",
+      "ca": "16145",
+      "vencimento_ca": "21/06/2026",
+      "observacao": "PROTEÇÃO DAS PERNAS DO USUÁRIO CONTRA AGENTES ABRASIVOS E ESCORIANTES"
     }
   ],
   "matrizData": {
@@ -33660,6 +33660,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-24T15:03:56.226Z",
+  "timestamp": "2026-04-24T15:05:46.341Z",
   "version": "2026"
 }
