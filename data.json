@@ -27829,7 +27829,7 @@
       "unidade": "BRAS",
       "setor": "TORNO",
       "nivel_db": null,
-      "protetor": "sem_medicao",
+      "protetor": "obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
@@ -28157,7 +28157,7 @@
       "unidade": "AEC",
       "setor": "TORNO",
       "nivel_db": 79.07774895643557,
-      "protetor": "nao_obrigatorio",
+      "protetor": "obrigatorio",
       "dose_pct": 5.5,
       "tempo_medicao": 60
     },
@@ -28485,7 +28485,7 @@
       "unidade": "IMPERADOR",
       "setor": "TORNO",
       "nivel_db": null,
-      "protetor": "sem_medicao",
+      "protetor": "obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
@@ -29141,7 +29141,7 @@
       "unidade": "IGUATEMI",
       "setor": "TORNO",
       "nivel_db": null,
-      "protetor": "sem_medicao",
+      "protetor": "obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
@@ -29797,7 +29797,7 @@
       "unidade": "MBOI",
       "setor": "TORNO",
       "nivel_db": null,
-      "protetor": "sem_medicao",
+      "protetor": "obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     }
@@ -33660,6 +33660,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-24T17:41:58.176Z",
+  "timestamp": "2026-04-24T18:18:04.320Z",
   "version": "2026"
 }
