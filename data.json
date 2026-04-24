@@ -1223,8 +1223,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -1249,8 +1249,8 @@
           "medidas": "Monitoramento do veículo; áreas ventiladas; proibição de intervenção em bateria; brigada treinada; sinalização de emergência",
           "analise": "✔ Sim – RISCO MONITORADO por monitoramento e plano de emergência",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nImplementar monitoramento sistemático do estado das baterias (BMS - Battery Management System) durante os ciclos de recarga; proibir recarga de baterias com danos físicos visíveis ou histórico de anomalia térmica; garantir ventilação adequada nas áreas de estacionamento e recarga dos ônibus elétricos; treinar a equipe técnica para identificação precoce de sinais de falha térmica (odor, deformação, temperatura elevada); manter brigada de incêndio treinada e acionável 24h; estabelecer protocolo formal de comunicação ao fabricante em caso de anomalia; realizar inspeções periódicas do sistema de recarga e cabos.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Técnico Eletricista Responsável + Brigada de Incêndio\r\nPrazo\r\nImplementação imediata do protocolo de monitoramento; inspeções mensais do sistema de recarga; revisão anual no ciclo do PGR\r\nIndicador\r\nNúmero de anomalias térmicas detectadas e registradas; conformidade das inspeções do sistema de recarga; disponibilidade da brigada treinada\r\nStatus\r\nMonitorado\r\n"
         }
       ],
@@ -5213,8 +5213,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -9164,8 +9164,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -13051,8 +13051,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -17002,8 +17002,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -20709,8 +20709,8 @@
           "medidas": "Plano de emergência; brigada de incêndio; isolamento da área; extintores adequados; treinamento de evacuação; comunicação imediata ao fabricante",
           "analise": "✔ Sim – risco mitigado por medidas preventivas e plano de resposta",
           "severidade": "Extremamente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Substancial",
+          "probabilidade": "Improvável",
+          "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter plano de emergência específico para incêndio em baterias de lítio com procedimentos claros de evacuação e isolamento da área; garantir disponibilidade e manutenção de extintores adequados para lítio (pó ABC ou CO₂) posicionados estrategicamente na oficina; realizar treinamentos periódicos de brigada de incêndio com foco em thermal runaway; proibir armazenamento de veículos com bateria danificada ou em processo de recarga próximos a materiais combustíveis; implementar monitoramento de temperatura das baterias durante recarga; comunicar imediatamente o fabricante em caso de evento térmico; revisar e simular o plano de emergência semestralmente.\r\nResponsável\r\nEngenheiro de Segurança do Trabalho + Brigada de Incêndio + Gerência de Manutenção\r\nPrazo\r\nVerificação imediata dos extintores e plano de emergência; simulados: semestral; revisão anual no ciclo do PGR\r\nIndicador\r\nConformidade do plano de emergência atualizado; número de simulados realizados por ano; disponibilidade e validade dos extintores (inspeções mensais)\r\nStatus\r\nMonitorado"
         },
         {
@@ -33660,6 +33660,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-24T15:05:46.341Z",
+  "timestamp": "2026-04-24T17:41:58.176Z",
   "version": "2026"
 }
