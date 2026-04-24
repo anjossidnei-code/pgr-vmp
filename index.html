@@ -291,6 +291,84 @@ tbody td{padding:9px 14px;font-size:12px;}
 .empty-state{text-align:center;padding:60px;color:var(--text3);}
 .empty-state .es-icon{font-size:48px;margin-bottom:12px;}
 
+
+/* ===== EPI VIEW ===== */
+.epi-wrap{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+.epi-header{background:linear-gradient(135deg,#1a2540,#0f1825);padding:16px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;}
+.epi-header h2{font-family:'Rajdhani',sans-serif;font-size:20px;font-weight:700;color:var(--text);letter-spacing:1px;}
+.epi-search-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.epi-search{background:var(--bg3);border:1px solid var(--border2);border-radius:7px;padding:6px 12px 6px 32px;color:var(--text);font-size:12px;outline:none;width:220px;font-family:'Inter',sans-serif;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%236b7594'%3E%3Cpath d='M8 7a4 4 0 1 0-.7.7l3 3 .7-.7zm-3.5 1a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:10px center;}
+.epi-search:focus{border-color:var(--accent);}
+.epi-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;padding:14px 20px;border-bottom:1px solid var(--border);}
+.epi-stat{background:var(--bg3);border-radius:8px;padding:10px 14px;text-align:center;}
+.epi-stat .es-val{font-size:22px;font-weight:700;font-family:'Rajdhani',sans-serif;}
+.epi-stat .es-lbl{font-size:11px;color:var(--text3);margin-top:2px;}
+.epi-table-wrap{overflow-x:auto;}
+.epi-table{width:100%;border-collapse:collapse;font-size:12px;}
+.epi-table thead th{background:#1a3a6e;color:#fff;padding:10px 12px;text-align:left;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;white-space:nowrap;}
+.epi-table tbody tr{border-bottom:1px solid var(--border);transition:.1s;}
+.epi-table tbody tr:hover{background:var(--bg3);}
+.epi-table tbody td{padding:9px 12px;vertical-align:top;}
+.epi-setor-badge{display:inline-block;padding:2px 8px;background:var(--bg3);border:1px solid var(--border2);border-radius:8px;font-size:10px;color:var(--text2);font-weight:600;white-space:nowrap;}
+.epi-ca{font-family:'Rajdhani',sans-serif;font-size:13px;font-weight:700;color:var(--accent);}
+.ca-venc-ok{color:var(--green);font-size:11px;font-weight:600;}
+.ca-venc-warn{color:var(--orange);font-size:11px;font-weight:600;}
+.ca-venc-exp{color:var(--red);font-size:11px;font-weight:600;}
+.epi-obs{font-size:11px;color:var(--text3);line-height:1.5;max-width:400px;}
+.epi-edit-row{display:none;background:var(--bg2);}
+.epi-edit-row.open{display:table-row;}
+.epi-edit-cell{padding:12px 16px!important;border-bottom:2px solid var(--accent)!important;}
+.epi-edit-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;}
+.epi-input{width:100%;padding:7px 10px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:6px;font-size:12px;font-family:'Inter',sans-serif;outline:none;}
+.epi-input:focus{border-color:var(--accent);}
+.epi-input-lbl{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;}
+.epi-obs-input{width:100%;padding:7px 10px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:6px;font-size:11px;font-family:'Inter',sans-serif;outline:none;resize:vertical;min-height:60px;}
+.epi-obs-input:focus{border-color:var(--accent);}
+.epi-add-row-form{background:var(--bg2);border-top:2px dashed var(--border2);padding:16px 20px;display:none;}
+.epi-add-row-form.open{display:block;}
+
+/* ===== MATRIZ VIEW ===== */
+.matriz-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.matriz-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+.matriz-card-full{grid-column:1/-1;}
+.matriz-card-header{background:linear-gradient(135deg,#1a2540,#0f1825);padding:14px 18px;display:flex;justify-content:space-between;align-items:center;}
+.matriz-card-header h3{font-family:'Rajdhani',sans-serif;font-size:17px;font-weight:700;letter-spacing:1px;}
+.matriz-card-body{padding:16px 18px;}
+.mriz-table{width:100%;border-collapse:collapse;font-size:12px;}
+.mriz-table th{background:var(--bg3);padding:8px 12px;font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.8px;text-align:left;border-bottom:1px solid var(--border);}
+.mriz-table td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+.mriz-table tr:last-child td{border-bottom:none;}
+.mriz-nivel{display:inline-block;padding:3px 10px;border-radius:8px;font-size:11px;font-weight:700;}
+.mriz-trivial{background:#0f2a1a;color:#3ddc84;border:1px solid #3ddc84;}
+.mriz-toleravel{background:#3a2500;color:#f5a623;border:1px solid #f5a623;}
+.mriz-moderado{background:#3a0a0a;color:#f55050;border:1px solid #f55050;}
+.mriz-substancial{background:#3a0000;color:#f87171;border:1px solid #dc2626;}
+.mriz-intoleravel{background:#1a0000;color:#fca5a5;border:1px solid #7f1d1d;}
+.mriz-score{display:inline-block;padding:2px 8px;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;font-family:'Rajdhani',sans-serif;font-size:13px;font-weight:700;color:var(--accent);}
+/* Matriz 4x4 visual */
+.mat4x4{border-collapse:collapse;margin:0 auto;}
+.mat4x4 th,.mat4x4 td{border:2px solid var(--bg);padding:0;width:80px;height:56px;text-align:center;font-weight:700;font-size:13px;}
+.mat4x4 th{background:#1a3a6e;color:#fff;font-size:11px;padding:8px;}
+.mat4x4 .mc-trivial{background:#166534;color:#bbf7d0;}
+.mat4x4 .mc-toleravel{background:#78350f;color:#fde68a;}
+.mat4x4 .mc-moderado{background:#991b1b;color:#fecaca;}
+.mat4x4 .mc-substancial{background:#7f1d1d;color:#fca5a5;}
+.mat4x4 .mc-intoleravel{background:#450a0a;color:#fecaca;}
+.mat4x4-wrap{overflow-x:auto;text-align:center;padding:16px 0;}
+.mat4x4 td span{display:block;font-size:10px;font-weight:400;opacity:.8;margin-top:2px;}
+/* Edit buttons */
+.btn-edit-sm{padding:4px 10px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;border:none;transition:.15s;}
+.btn-edit-sm.edit{background:rgba(79,142,247,.15);color:var(--accent);border:1px solid rgba(79,142,247,.3);}
+.btn-edit-sm.edit:hover{background:rgba(79,142,247,.3);}
+.btn-edit-sm.save{background:rgba(61,220,132,.15);color:var(--green);border:1px solid rgba(61,220,132,.3);}
+.btn-edit-sm.save:hover{background:rgba(61,220,132,.3);}
+.btn-edit-sm.del{background:rgba(245,80,80,.12);color:var(--red);border:1px solid rgba(245,80,80,.25);}
+.btn-edit-sm.del:hover{background:rgba(245,80,80,.25);}
+.btn-edit-sm.add{background:rgba(232,119,34,.15);color:#e87722;border:1px solid rgba(232,119,34,.3);}
+.btn-edit-sm.add:hover{background:rgba(232,119,34,.3);}
+.edit-field{padding:5px 8px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:5px;font-size:12px;font-family:'Inter',sans-serif;outline:none;width:100%;}
+.edit-field:focus{border-color:var(--accent);}
+
 /* ===== PRINT ===== */
 @media print {
   @page{size:A4 landscape;margin:8mm;}
@@ -508,6 +586,8 @@ body.role-user #btn-print-ges{display:none!important;}
     <button class="nav-btn" onclick="switchView('ruido')" id="nav-ruido"><span class="nav-icon">🔊</span>Planilha de Ruído</button>
     <button class="nav-btn" onclick="switchView('ambiental')" id="nav-ambiental"><span class="nav-icon">🧪</span>Avaliação Ambiental</button>
     <button class="nav-btn" onclick="switchView('vibracao')" id="nav-vibracao"><span class="nav-icon">📳</span>Avaliação de Vibração</button>
+    <button class="nav-btn" onclick="switchView('epi')" id="nav-epi"><span class="nav-icon">🦺</span>Controle de EPI</button>
+    <button class="nav-btn" onclick="switchView('matriz')" id="nav-matriz"><span class="nav-icon">🎯</span>Matriz de Risco</button>
   </div>
 
   <!-- ANÁLISE CRÍTICA -->
@@ -644,6 +724,14 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
     <div id="vibracao-view" style="display:none">
       <div id="vibracao-content"></div>
     </div>
+    <!-- EPI VIEW -->
+    <div id="epi-view" style="display:none">
+      <div id="epi-content"></div>
+    </div>
+    <!-- MATRIZ VIEW -->
+    <div id="matriz-view" style="display:none">
+      <div id="matriz-content"></div>
+    </div>
   </div>
 </div>
 
@@ -674,6 +762,13 @@ const LOGO_SRC = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BS
 const TIPO_CLASS={'Físico':'fisico','Ergonômico':'ergonomico','Químico':'quimico','Acidente':'acidente','Biológico':'biologico','Psicossocial':'psicossocial'};
 const TIPO_BG={'Físico':'#3b82f6','Ergonômico':'#f59e0b','Químico':'#ef4444','Acidente':'#f97316','Biológico':'#22c55e','Psicossocial':'#a855f7'};
 const LOGO_METRO_SRC = "data:image/png;base64,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";
+
+// ===== EPI DATA =====
+const EPI_DATA = JSON.parse('[{"setor": "Abastecimento", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Abastecimento", "nome_epi": "Luva de látex/neoprene", "box": "2481", "ca": "46049 / 37900", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Abastecimento", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Abastecimento", "nome_epi": "Óculos do tipo ampla visão", "box": "", "ca": "6874", "vencimento_ca": "01/06/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES."}, {"setor": "Aj. Manutenção", "nome_epi": "Verificar em qual setor opera e entregar os EPIs correspondentes, além de treinamento para o uso correto.", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Almoxarifado", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Almoxarifado", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Almoxarifado", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "20/07/2030", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Almoxarifado", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Almoxarifado", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Ambulatório", "nome_epi": "Mascara descartável", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Ambulatório", "nome_epi": "Luva de procedimento", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Ambulatório", "nome_epi": "Avental branco", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Borracharia", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Borracharia", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Borracharia", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Borracharia", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Borracharia", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Borracharia", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Carreta", "nome_epi": "Máscara com cartucho para vapores orgânicos", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Conservação e Limpeza", "nome_epi": "Avental impermeável", "box": "", "ca": "38316", "vencimento_ca": "23/06/2030", "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Conservação e Limpeza", "nome_epi": "Bota PVC Capataz impermeáveis", "box": "", "ca": "42291", "vencimento_ca": "11/09/2025", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Conservação e Limpeza", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Conservação e Limpeza", "nome_epi": "Protetor auditivo tipo plug", "box": "", "ca": "9584", "vencimento_ca": "21/05/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Conservação e Limpeza", "nome_epi": "Protetor Solar", "box": "", "ca": "", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de látex/neoprene", "box": "2481", "ca": "46049 / 37900", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de látex", "box": "7380", "ca": "38310 36066", "vencimento_ca": "11/01/2026", "observacao": "LUVA TIPO B PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES CORTANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS, OXIDANTES (M), BASES ORGÂNICAS (O), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Conservação e Limpeza", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Conservação e Limpeza", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Cozinha", "nome_epi": "Luva impermeável", "box": "—", "ca": "—", "vencimento_ca": "—", "observacao": "Proteção das mãos contra umidade, produtos de limpeza, resíduos e respingos de líquidos quentes."}, {"setor": "Cozinha", "nome_epi": "Avental impermeável", "box": "—", "ca": "38316", "vencimento_ca": "23/06/2030", "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Cozinha", "nome_epi": "Luva térmica", "box": "—", "ca": "—", "vencimento_ca": "—", "observacao": "Proteção das mãos contra calor ao manusear panelas, formas, forno e superfícies aquecidas."}, {"setor": "Cozinha", "nome_epi": "Calçado de segurança preferencialmente impermeável e antiderrapante", "box": "—", "ca": "—", "vencimento_ca": "—", "observacao": "Proteção contra quedas em piso molhado ou engordurado, impactos leves e contato com líquidos."}, {"setor": "Cozinha", "nome_epi": "Touca", "box": "—", "ca": "—", "vencimento_ca": "—", "observacao": "Protege cabelos soltos de contato com fogo e superfícies quentes, além de obrigatória por motivo de higiene sanitária."}, {"setor": "Elétrica Predial", "nome_epi": "Cinto de segurança tipo paraquedista", "box": "", "ca": "36228", "vencimento_ca": "09/01/2026", "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."}, {"setor": "Elétrica Predial", "nome_epi": "Luva isolante de borracha", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Elétrica Predial", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Elétrica Predial", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Elétrica Predial", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Elétrica Predial", "nome_epi": "Calçado de Segurança com biqueira composite", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Elétrica Predial", "nome_epi": "Capacete de segurança classe B", "box": "", "ca": "12354", "vencimento_ca": "17/12/2026", "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"}, {"setor": "Elétrica Predial", "nome_epi": "OBS: as vestimentas de trabalho devem ser adequadas às atividades,", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Eletricista Veículo", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Eletricista Veículo", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Eletricista Veículo", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Eletricista Veículo", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Eletricista Veículo", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Eletricista Veículo", "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)", "box": "", "ca": "36228", "vencimento_ca": "09/01/2026", "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."}, {"setor": "Eletricista Veículo", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Eletricista Veículo", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Eletricista Veículo", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Eletricista Veículo", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Eletricista Veículo", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Funilaria", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Funilaria", "nome_epi": "Luva nitrílica", "box": "2879", "ca": "16314 11769", "vencimento_ca": "10/06/2030", "observacao": "LUVA PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES, CONTRA AGENTES QUÍMICOS TIPO A (HIDROCARBONETOS SATURADOS (J), BASES INORGÂNICAS (K), ÁCIDOS ORGÂNICOS (N), BASES ORGÂNICAS (O), PERÓXIDOS (P), ALDEÍDOS (T)), CONTRA AGENTES BIOLÓGICOS E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Funilaria", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Funilaria", "nome_epi": "Respirador PFF2", "box": "", "ca": "38503", "vencimento_ca": "05/01/2030", "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."}, {"setor": "Funilaria", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Funilaria", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Lavador de Chassis", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Lavador de Chassis", "nome_epi": "Luva de látex/neoprene", "box": "2832", "ca": "46049", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Lavador de Chassis", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Lavador de Chassis", "nome_epi": "Bota PVC Capataz impermeáveis", "box": "", "ca": "42291", "vencimento_ca": "11/09/2025", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Lavador de Chassis", "nome_epi": "Luva de látex", "box": "7380", "ca": "38310 36066", "vencimento_ca": "11/01/2026", "observacao": "LUVA TIPO B PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES CORTANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS, OXIDANTES (M), BASES ORGÂNICAS (O), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Lavador de Chassis", "nome_epi": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)", "box": "", "ca": "39183", "vencimento_ca": "12/07/2026", "observacao": "PROTEÇÃO DO TRONCO, MEMBROS SUPERIORES E MEMBROS INFERIORES DO USUÁRIO CONTRA RISCOS DE ORIGEM QUÍMIC"}, {"setor": "Lavador de Chassis", "nome_epi": "Roupa impermeável + Capuz", "box": "", "ca": "", "vencimento_ca": "", "observacao": "CAPA IMPERMEAVEL PRETA MOTOQUEIRO PARA CHUVA"}, {"setor": "Lavador de Chassis", "nome_epi": "Proteção Facial - Viseira Facial", "box": "", "ca": "15019", "vencimento_ca": "22/03/2030", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES FRONTAIS E CONTRA RAIOS ULTRAVIOLETA (U6)"}, {"setor": "LETRISTA", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Letrista", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Letrista", "nome_epi": "Luva de látex/neoprene", "box": "2832", "ca": "46049", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Letrista", "nome_epi": "Máscara semifacial c/ filtro mecânico", "box": "", "ca": "4115", "vencimento_ca": "06/04/2028", "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS DO USUÁRIO CONTRA A INALAÇÃO DE PARTÍCULAS SÓLIDAS, QUANDO UTILIZADO COM FILTROS MECÂNICOS OU COMBINADOS, E CONTRA GASES E VAPORES, QUANDO UTILIZADO COM FILTROS QUÍMICOS OU COMBINADOS."}, {"setor": "LETRISTA", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Lubrificação", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Lubrificação", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Lubrificação", "nome_epi": "Luva de látex/neoprene", "box": "2481", "ca": "46049 / 37900", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Lubrificação", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Lubrificação", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Lubrificação", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Manobrista", "nome_epi": "Sapato de segurança", "box": "", "ca": "13129", "vencimento_ca": "26/09/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE E CONTRA AGENTES ABRASIVOS E ESCORIANTES"}, {"setor": "Manobrista", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manobrista", "nome_epi": "Colete ou uniforme com faixas refletivas", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Manobrista", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Manutenção predial", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Manutenção predial", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Manutenção predial", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Manutenção predial", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Manutenção predial", "nome_epi": "Óculos de segurança lente cinza", "box": "", "ca": "18069", "vencimento_ca": "26/01/2026", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DA LENTE INCOLOR COM REVESTIMENTO EXTERNO DE FILME PRATEADO ESPELHADO E DA LENTE CINZA, PROTEÇÃO CONTRA LUZ INTENSA."}, {"setor": "Manutenção predial", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Manutenção predial", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Manutenção predial", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Manutenção predial", "nome_epi": "Bota PVC Capataz impermeáveis", "box": "", "ca": "42291", "vencimento_ca": "11/09/2025", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manutenção predial", "nome_epi": "Luva de látex/neoprene", "box": "2832", "ca": "46049", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Manutenção predial", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manutenção predial", "nome_epi": "Avental impermeável", "box": "", "ca": "38316", "vencimento_ca": "23/06/2030", "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manutenção predial", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Manutenção predial", "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)", "box": "", "ca": "36228", "vencimento_ca": "09/01/2026", "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."}, {"setor": "Manutenção predial", "nome_epi": "Capacete de Segurança", "box": "", "ca": "12354", "vencimento_ca": "17/12/2026", "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"}, {"setor": "Manutenção predial", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Manutenção predial", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manutenção predial", "nome_epi": "Respirador PFF2", "box": "", "ca": "38503", "vencimento_ca": "05/01/2030", "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Bota PVC Capataz impermeáveis", "box": "", "ca": "42291", "vencimento_ca": "11/09/2025", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA RISCOS DE NATUREZA LEVE, CONTRA AGENTES ABRASIVOS E ESCORIANTES E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Luva de látex/neoprene", "box": "2832", "ca": "46049", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Manutenção predial (Encanador)", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Marcenaria", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Marcenaria", "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)", "box": "", "ca": "36228", "vencimento_ca": "09/01/2026", "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."}, {"setor": "Marcenaria", "nome_epi": "Capacete de Segurança", "box": "", "ca": "12354", "vencimento_ca": "17/12/2026", "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"}, {"setor": "Marcenaria", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Marcenaria", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Mecânica", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Mecânica", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Mecânica", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Mecânica", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Mecânica", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Mecânica", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mecânica", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mecânica", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mola", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Mola", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Mola", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Mola", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mola", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Mola", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mola", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Mola", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Mola", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Motorista de Carreta", "nome_epi": "Uniforme 100% em algodão natural em duas peças, camisa manga longa aberta na frente com botões, sem bolso na camisa e usada por dentro da calça.", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Motorista de Carreta", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Motorista de Carreta", "nome_epi": "Luva de PVC", "box": "2879", "ca": "46086 / 39268", "vencimento_ca": "28/06/2026", "observacao": "LUVA TIPO “C” PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K) E ÁCIDOS MINERAIS INORGÂNICOS (L"}, {"setor": "Motorista de Carreta", "nome_epi": "Capacete com Jugular (orientar o condutor da preferência BR pelas cores verde ou marrom).", "box": "", "ca": "12354", "vencimento_ca": "17/12/2026", "observacao": "PROTEÇÃO DA CABEÇA DO USUÁRIO CONTRA IMPACTOS DE OBJETOS SOBRE O CRÂNIO E CONTRA CHOQUES ELÉTRICOS"}, {"setor": "Motorista de Carreta", "nome_epi": "Óculos de segurança, modelo: ampla visão E25", "box": "", "ca": "46049", "vencimento_ca": "", "observacao": "anti-respingo, lentes confeccionadas em policarbonato e antiembaçantes, vedação total, tirante de elástico para ajuste (sem hastes) {exceto para produtos escuros}."}, {"setor": "Motorista de Carreta", "nome_epi": "Cinto de segurança tipo paraquedista (trabalhos acima de 2 m do solo)", "box": "", "ca": "36228", "vencimento_ca": "09/01/2026", "observacao": "PROTEÇÃO DO USUÁRIO CONTRA RISCOS DE QUEDAS NOS TRABALHOS EM ALTURA."}, {"setor": "Motorista de Carreta", "nome_epi": "Luva nitrílica", "box": "2879", "ca": "16314 11769", "vencimento_ca": "10/06/2030", "observacao": "LUVA PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES, CONTRA AGENTES QUÍMICOS TIPO A (HIDROCARBONETOS SATURADOS (J), BASES INORGÂNICAS (K), ÁCIDOS ORGÂNICOS (N), BASES ORGÂNICAS (O), PERÓXIDOS (P), ALDEÍDOS (T)), CONTRA AGENTES BIOLÓGICOS E CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "Pintura", "nome_epi": "Máscara semifacial com filtro mecânico", "box": "", "ca": "4115", "vencimento_ca": "06/04/2028", "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS DO USUÁRIO CONTRA A INALAÇÃO DE PARTÍCULAS SÓLIDAS, QUANDO UTILIZADO COM FILTROS MECÂNICOS OU COMBINADOS, E CONTRA GASES E VAPORES, QUANDO UTILIZADO COM FILTROS QUÍMICOS OU COMBINADOS."}, {"setor": "Pintura", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Pintura", "nome_epi": "Luva de látex/neoprene", "box": "2832", "ca": "46049", "vencimento_ca": "21/06/2026", "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."}, {"setor": "Pintura", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Pintura", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Pintura", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Pintura", "nome_epi": "Macacão impermeável  (preferencialmente confeccionado em Tyvek)", "box": "", "ca": "39183", "vencimento_ca": "12/07/2026", "observacao": "PROTEÇÃO DO TRONCO, MEMBROS SUPERIORES E MEMBROS INFERIORES DO USUÁRIO CONTRA RISCOS DE ORIGEM QUÍMIC"}, {"setor": "Pintura", "nome_epi": "Respirador PFF1", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Pintura", "nome_epi": "Creme protetor para a pele do grupo 3 (hidroregistente)", "box": "", "ca": "10931", "vencimento_ca": "13/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS, ÁCIDO FOSFÓRICO DILUÍDO A 15%, ÁCIDO CLORÍDRICO DILUÍDO A 15%, ÁCIDO SULFÚRICO DILUÍDO A 15%, ÁCIDO ACÉTICO DILUÍDO A 10%, HIDRÓXIDO DE SÓDIO DILUÍDO A 10%)."}, {"setor": "Pista", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Pista", "nome_epi": "Colete faixas refletivas", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Pista", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "REBITADOR", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Rebitador", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Rebitador", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "REBITADOR", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Rebitador", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Rebitador", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "SOCORRISTA", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Socorrista", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Socorrista", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "SOCORRISTA", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Socorrista", "nome_epi": "Capa impermeável / chuva", "box": "", "ca": "15975", "vencimento_ca": "14/02/2027", "observacao": "PROTEÇÃO DO TRONCO E MEMBROS SUPERIORES DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM USO DE ÁGUA."}, {"setor": "SOCORRISTA", "nome_epi": "Protetor Solar", "box": "", "ca": "Não", "vencimento_ca": "", "observacao": "(quando trabalhar a céu aberto)"}, {"setor": "Socorrista", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Socorrista", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Soldador", "nome_epi": "Máscara de solda autoescurecedora", "box": "", "ca": "40486", "vencimento_ca": "31/03/2026", "observacao": "PROTEÇÃO DOS OLHOS E FACE DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, LUMINOSIDADE INTENSA E RADIAÇÕES PROVENIENTES DE SERVIÇOS DE SOLDAGEM."}, {"setor": "Soldador", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Soldador", "nome_epi": "Avental de raspa", "box": "", "ca": "13989 / 19224", "vencimento_ca": "07/04/2030", "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES E TÉRMICOS PROVENIENTES DE OPERAÇÕES DE SOLDAGEM E PROCESSOS SIMILARES."}, {"setor": "Soldador", "nome_epi": "Mangote de raspa", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Soldador", "nome_epi": "Perneira de raspa", "box": "", "ca": "16145", "vencimento_ca": "22/06/2026", "observacao": "PROTEÇÃO DAS PERNAS DO USUÁRIO CONTRA AGENTES ABRASIVOS E ESCORIANTES"}, {"setor": "Soldador", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Soldador", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "(por baixo da máscara, se necessário)"}, {"setor": "Soldador", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Soldador", "nome_epi": "Óculos de segurança (lente sombra 8)", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Soldador", "nome_epi": "Mascara para solda com lentes sombra 8 e 12", "box": "", "ca": "14198", "vencimento_ca": "15/05/2025", "observacao": "PROTEÇÃO DOS OLHOS E FACE DO USUÁRIO CONTRA RADIAÇÕES PROVENIENTES DE SERVIÇOS DE SOLDAGEM (W10)."}, {"setor": "Soldador", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Soldador", "nome_epi": "Respirador PFF2", "box": "", "ca": "38503", "vencimento_ca": "05/01/2030", "observacao": "PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2)."}, {"setor": "Tapeçaria", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Tapeçaria", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Tapeçaria", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Tapeçaria", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Tapeçaria", "nome_epi": "Luva de malha", "box": "", "ca": "41123 32845", "vencimento_ca": "", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Tapeçaria", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Torno", "nome_epi": "Bota com biqueira de aço ou equivalente", "box": "", "ca": "12844", "vencimento_ca": "14/03/2027", "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."}, {"setor": "Torno", "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)", "box": "", "ca": "4234", "vencimento_ca": "14/02/2029", "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"}, {"setor": "Torno", "nome_epi": "Luva de vaqueta", "box": "", "ca": "25368", "vencimento_ca": "20/11/2028", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Torno", "nome_epi": "Óculos de segurança", "box": "", "ca": "9722", "vencimento_ca": "14/08/2027", "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."}, {"setor": "Torno", "nome_epi": "Protetor auditivo tipo concha", "box": "", "ca": "4398", "vencimento_ca": "16/07/2028", "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."}, {"setor": "Torno", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Torno", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Funilaria", "nome_epi": "Luva de raspa punho longo", "box": "", "ca": "16074", "vencimento_ca": "18/05/2026", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."}, {"setor": "Funilaria", "nome_epi": "Luva de Raspa punho curto", "box": "", "ca": "9438", "vencimento_ca": "28/09/2025", "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."}, {"setor": "Funilaria", "nome_epi": "Avental de raspa", "box": "", "ca": "13989 / 19224", "vencimento_ca": "07/04/2030", "observacao": "PROTEÇÃO DO TRONCO DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES E TÉRMICOS PROVENIENTES DE OPERAÇÕES DE SOLDAGEM E PROCESSOS SIMILARES."}, {"setor": "Funilaria", "nome_epi": "Mangote de raspa", "box": "", "ca": "", "vencimento_ca": "", "observacao": ""}, {"setor": "Funilaria", "nome_epi": "Perneira de raspa", "box": "", "ca": "16145", "vencimento_ca": "22/06/2026", "observacao": "PROTEÇÃO DAS PERNAS DO USUÁRIO CONTRA AGENTES ABRASIVOS E ESCORIANTES"}]');
+
+// ===== MATRIZ DATA =====
+const MATRIZ_DATA = JSON.parse('{"escala": [{"valor": 1, "nivel": "Trivial"}, {"valor": 2, "nivel": "Trivial"}, {"valor": 3, "nivel": "Tolerável"}, {"valor": 4, "nivel": "Tolerável"}, {"valor": 6, "nivel": "Tolerável"}, {"valor": 8, "nivel": "Moderado"}, {"valor": 9, "nivel": "Moderado"}, {"valor": 12, "nivel": "Substancial"}, {"valor": 16, "nivel": "Intolerável"}], "severidades": [{"classificacao": "Não Prejudicial", "nivel": 1}, {"classificacao": "Levemente Prejudicial", "nivel": 2}, {"classificacao": "Prejudicial", "nivel": 3}, {"classificacao": "Extremamente Prejudicial", "nivel": 4}], "probabilidades": [{"classificacao": "Altamente improvável", "nivel": 1}, {"classificacao": "Improvável", "nivel": 2}, {"classificacao": "Provável", "nivel": 3}, {"classificacao": "Altamente Provável", "nivel": 4}], "planos": [{"nivel": "Trivial", "acao_bs8800": "", "acao_pgr": "Esses riscos são considerados aceitáveis. Nenhuma ação adicional é necessária além de garantir que os controles sejam mantidos."}, {"nivel": "Tolerável", "acao_bs8800": "", "acao_pgr": "Não são necessários controles adicionais, a menos que possam ser implementados a um custo muito baixo (em termos de tempo, dinheiro e esforço). Ações para reduzir ainda mais esses riscos são atribuídas baixa prioridade. Devem ser tomadas providências para garantir que os controles sejam mantidos."}, {"nivel": "Moderado", "acao_bs8800": "", "acao_pgr": "Considerar se os riscos podem ser reduzidos para o nível de risco tolerável ou trivial, mas levando em consideração os custos necessários. As medidas de redução de risco devem ser implementado dentro de um período de tempo definido. Devem ser tomadas providências para garantir que os controles são mantidos, principalmente se os níveis de risco estão associados a severidade prejudiciais ou extremamente prejudiciais."}, {"nivel": "Substancial", "acao_bs8800": "", "acao_pgr": "Esforços substanciais devem ser feitos para reduzir o risco. As medidas de redução de risco devem ser implementado com urgência dentro de um período de tempo definido e pode ser necessário suspender ou restringir a atividade, ou aplicar medidas provisórias de controle de risco, até que o controle adicional seja implementado. Recursos consideráveis podem ter que ser alocados. Deve-se tomar providências para garantir que os controles sejam mantidos, particularmente se os níveis de risco estiverem associados a severidade extremamente prejudiciais ou prejudiciais."}, {"nivel": "Intolerável", "acao_bs8800": "", "acao_pgr": "Esses riscos são inaceitáveis. São necessárias melhorias substanciais nos controles de risco, para que seja reduzido a um nível tolerável ou aceitável. A atividade de trabalho deve ser interrompida até que sejam implementados controles de risco que reduzam o risco para que ele deixe de ser muito alto. Se não for possível reduzir o risco, o trabalho deve permanecer proibido."}], "frequencias": ["🔹 Habitual - Exposição ao perigo de forma contínua ou rotineira, ocorrendo diariamente ou na maior parte da jornada de trabalho, sendo inerente à função exercida.", "🔹 Intermitente - Exposição ao perigo ocorre de forma alternada dentro da jornada de trabalho, em determinados períodos ou etapas da atividade, não sendo contínua, porém previsível.", "🔹 Ocasional - Exposição ao perigo ocorre eventualmente, em situações específicas ou demandas pontuais, sem regularidade definida.", "🔹 Rara - Exposição ao perigo ocorre em situações excepcionais ou extraordinárias, fora da rotina normal de trabalho, com baixa probabilidade de ocorrência.", "🔹 Inexistente - Não há exposição ao perigo avaliado dentro das atribuições da função."]}');
+
 const TIPO_BADGE_CLASS={'Físico':'tb-fisico','Ergonômico':'tb-ergonomico','Químico':'tb-quimico','Acidente':'tb-acidente','Biológico':'tb-biologico','Psicossocial':'tb-psicossocial'};
 const NIVEL_ORDER={'Trivial':1,'Tolerável':2,'Moderado':3,'Substancial':4,'Intolerável':5};
 const NIVEL_COLORS={'Trivial':'#3ddc84','Tolerável':'#f5a623','Moderado':'#f55050'};
@@ -1150,6 +1245,8 @@ function buildDataJson(nd){
     ruidoData:     nd._ruido     || [],
     ambientalData: nd._ambiental || [],
     vibracaoData:  nd._vibracao  || [],
+    epiData:       nd._epi       || EPI_DATA,
+    matrizData:    nd._matriz    || MATRIZ_DATA,
     cnpjData: (() => {
       const m = {};
       nd.forEach(g => { if(g.cnpj) m[g.unidade] = {cnpj: g.cnpj, endereco: g.endereco||''}; });
@@ -1206,6 +1303,8 @@ function processData(raw){
   result._ruido=raw.ruidoData||[];
   result._ambiental=normArr(raw.ambientalData);
   result._vibracao=normArr(raw.vibracaoData);
+  result._epi=raw.epiData||EPI_DATA;
+  result._matriz=raw.matrizData||MATRIZ_DATA;
   return result;
 }
 
@@ -1286,7 +1385,7 @@ function updateStats(){
 
 function switchView(v){
   S.view=v;
-  ['dashboard','cards','table','report','ruido','ambiental','vibracao'].forEach(n=>{
+  ['dashboard','cards','table','report','ruido','ambiental','vibracao','epi','matriz'].forEach(n=>{
     const el=document.getElementById(n+'-view');
     if(el)el.style.display='none';
     const nb=document.getElementById('nav-'+n);
@@ -1305,6 +1404,8 @@ function renderCurrentView(){
   else if(S.view==='ruido')renderRuido();
   else if(S.view==='ambiental')renderAmbiental();
   else if(S.view==='vibracao')renderVibracao();
+  else if(S.view==='epi')renderEpi();
+  else if(S.view==='matriz')renderMatriz();
 }
 
 // ===== DASHBOARD =====
@@ -1807,6 +1908,398 @@ function printSingleGES(){
   w.focus();
   setTimeout(()=>w.print(),800);
 }
+
+
+// ===== EPI VIEW =====
+let _epiState = {q:'', setor:'', venc:'todos'}; // venc: 'todos'|'vencidos'|'proximos'|'ok'|'sem'
+
+function getEpiData(){
+  // Use imported data from XLSX if available, otherwise embedded
+  return (S.data && S.data._epi && S.data._epi.length) ? S.data._epi : EPI_DATA;
+}
+
+function renderEpi(){
+  const el = document.getElementById('epi-content');
+  const isAdmin = (getCurrentUser()||{}).role === 'admin';
+  const allEpis = getEpiData();
+  if(!allEpis || !allEpis.length){
+    el.innerHTML='<div class="empty-state"><div class="es-icon">🦺</div><p>Dados de EPI não disponíveis.<br>Importe a planilha para carregar os dados.</p></div>';
+    return;
+  }
+
+  const today = new Date();
+  const in90  = new Date(today); in90.setDate(in90.getDate()+90);
+
+  function parseDate(s){
+    if(!s) return null;
+    const p = s.split('/');
+    if(p.length===3) return new Date(+p[2], +p[1]-1, +p[0]);
+    return null;
+  }
+
+  const setores = [...new Set(allEpis.map(e=>e.setor).filter(Boolean))].sort();
+  let filtered = allEpis;
+  if(_epiState.setor) filtered = filtered.filter(e=>e.setor===_epiState.setor);
+  if(_epiState.q) {
+    const q = _epiState.q.toLowerCase();
+    filtered = filtered.filter(e=>
+      (e.setor||'').toLowerCase().includes(q) ||
+      (e.nome_epi||'').toLowerCase().includes(q) ||
+      (e.ca||'').toLowerCase().includes(q) ||
+      (e.observacao||'').toLowerCase().includes(q)
+    );
+  }
+  // filtro vencimento CA
+  if(_epiState.venc && _epiState.venc !== 'todos'){
+    filtered = filtered.filter(e=>{
+      const d = parseDate(e.vencimento_ca);
+      if(_epiState.venc==='sem')      return !e.vencimento_ca || !d;
+      if(_epiState.venc==='vencidos') return d && d < today;
+      if(_epiState.venc==='proximos') return d && d >= today && d < in90;
+      if(_epiState.venc==='ok')       return d && d >= in90;
+      return true;
+    });
+  }
+
+  function vencBadge(v){
+    if(!v) return '<span style="color:var(--text3);font-size:11px">—</span>';
+    const d = parseDate(v);
+    if(!d) return `<span style="color:var(--text3);font-size:11px">${v}</span>`;
+    if(d < today) return `<span class="ca-venc-exp">⚠️ ${v} VENCIDO</span>`;
+    if(d < in90)  return `<span class="ca-venc-warn">⏰ ${v}</span>`;
+    return `<span class="ca-venc-ok">✓ ${v}</span>`;
+  }
+
+  const totSetores = setores.length;
+  const totEpis = allEpis.length;
+  const vencidos = allEpis.filter(e=>{const d=parseDate(e.vencimento_ca);return d&&d<today;}).length;
+  const prox = allEpis.filter(e=>{const d=parseDate(e.vencimento_ca);return d&&d>=today&&d<in90;}).length;
+
+  const setorOpts = setores.map(s=>`<option value="${s}" ${_epiState.setor===s?'selected':''}>${s}</option>`).join('');
+
+  const rows = filtered.map((e,i)=>{
+    const editId = `epi-edit-${i}`;
+    const editBtn = isAdmin ? `<button class="btn-edit-sm edit" onclick="toggleEpiEdit(${i},'${editId}')">✏️ Editar</button>` : '';
+    const delBtn = isAdmin ? `<button class="btn-edit-sm del" style="margin-left:4px" onclick="deleteEpiRow(${i})">🗑️</button>` : '';
+    // find global index
+    const gi = allEpis.indexOf(e);
+    const rowD = parseDate(e.vencimento_ca);
+    const rowBg = rowD && rowD < today ? 'background:rgba(245,80,80,.06);' : (rowD && rowD < in90 ? 'background:rgba(245,166,35,.05);' : '');
+    return `<tr id="epi-row-${gi}" style="${rowBg}">
+      <td><span class="epi-setor-badge">${e.setor}</span></td>
+      <td style="font-weight:600;color:var(--text);font-size:12px;max-width:260px">${e.nome_epi}</td>
+      <td style="text-align:center">${e.box?`<span style="font-size:11px;color:var(--text2)">${e.box}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
+      <td style="text-align:center"><span class="epi-ca">${e.ca||'—'}</span></td>
+      <td style="text-align:center">${vencBadge(e.vencimento_ca)}</td>
+      <td class="epi-obs">${e.observacao||'—'}</td>
+      <td style="white-space:nowrap">${editBtn}${delBtn}</td>
+    </tr>
+    <tr class="epi-edit-row" id="${editId}">
+      <td class="epi-edit-cell" colspan="7">
+        <div class="epi-edit-grid">
+          <div><div class="epi-input-lbl">Setor</div><input class="epi-input" id="ei-setor-${gi}" value="${e.setor.replace(/"/g,'&quot;')}"></div>
+          <div><div class="epi-input-lbl">Nome EPI</div><input class="epi-input" id="ei-nome-${gi}" value="${e.nome_epi.replace(/"/g,'&quot;')}"></div>
+          <div><div class="epi-input-lbl">BOX</div><input class="epi-input" id="ei-box-${gi}" value="${(e.box||'').replace(/"/g,'&quot;')}"></div>
+          <div><div class="epi-input-lbl">Nº CA</div><input class="epi-input" id="ei-ca-${gi}" value="${(e.ca||'').replace(/"/g,'&quot;')}"></div>
+          <div><div class="epi-input-lbl">Vencimento CA (dd/mm/aaaa)</div><input class="epi-input" id="ei-venc-${gi}" value="${(e.vencimento_ca||'').replace(/"/g,'&quot;')}"></div>
+          <div style="grid-column:1/-1"><div class="epi-input-lbl">Observação</div><textarea class="epi-obs-input" id="ei-obs-${gi}">${e.observacao||''}</textarea></div>
+        </div>
+        <div style="margin-top:10px;display:flex;gap:8px">
+          <button class="btn-edit-sm save" onclick="saveEpiRow(${gi},'${editId}')">💾 Salvar</button>
+          <button class="btn-edit-sm edit" onclick="toggleEpiEdit(${gi},'${editId}')">✕ Cancelar</button>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  const addBtn = isAdmin ? `<button class="btn-edit-sm add" onclick="toggleAddEpi()" style="margin-left:auto">＋ Novo EPI</button>` : '';
+  const addForm = isAdmin ? `<div class="epi-add-row-form" id="epi-add-form">
+    <div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:12px">➕ Adicionar EPI</div>
+    <div class="epi-edit-grid">
+      <div><div class="epi-input-lbl">Setor</div><input class="epi-input" id="ea-setor" placeholder="Nome do setor"></div>
+      <div><div class="epi-input-lbl">Nome EPI</div><input class="epi-input" id="ea-nome" placeholder="Descrição do EPI"></div>
+      <div><div class="epi-input-lbl">BOX</div><input class="epi-input" id="ea-box" placeholder="Nº BOX"></div>
+      <div><div class="epi-input-lbl">Nº CA</div><input class="epi-input" id="ea-ca" placeholder="Certificado de Aprovação"></div>
+      <div><div class="epi-input-lbl">Vencimento CA (dd/mm/aaaa)</div><input class="epi-input" id="ea-venc" placeholder="dd/mm/aaaa"></div>
+      <div style="grid-column:1/-1"><div class="epi-input-lbl">Observação</div><textarea class="epi-obs-input" id="ea-obs" placeholder="Proteção contra..."></textarea></div>
+    </div>
+    <div style="margin-top:12px;display:flex;gap:8px">
+      <button class="btn-edit-sm save" onclick="addEpiRow()">💾 Adicionar</button>
+      <button class="btn-edit-sm edit" onclick="toggleAddEpi()">✕ Cancelar</button>
+    </div>
+  </div>` : '';
+
+  el.innerHTML = `<div class="epi-wrap">
+    <div class="epi-header">
+      <h2>🦺 Controle de EPI por Setor</h2>
+      <div class="epi-search-row" style="flex-direction:column;align-items:flex-start;gap:8px;">
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;width:100%">
+          <input class="epi-search" placeholder="Buscar EPI, setor, CA..." value="${_epiState.q}" oninput="_epiState.q=this.value;renderEpi()">
+          <select style="width:auto;min-width:160px;margin-bottom:0;font-size:12px;padding:6px 8px;" onchange="_epiState.setor=this.value;renderEpi()">
+            <option value="">🔧 Todos os setores</option>
+            ${setorOpts}
+          </select>
+          ${(_epiState.q||_epiState.setor||_epiState.venc!=='todos')?'<button onclick="_epiState.q=\'\';_epiState.setor=\'\';_epiState.venc=\'todos\';renderEpi()" style="padding:6px 10px;background:rgba(245,80,80,.15);border:1px solid rgba(245,80,80,.4);color:var(--red);border-radius:6px;cursor:pointer;font-size:11px;">✕ Limpar</button>':''}
+          ${addBtn}
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+          <span style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-right:2px">Vencimento CA:</span>
+          <button onclick="_epiState.venc='todos';renderEpi()" style="padding:4px 10px;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid ${_epiState.venc==='todos'?'var(--accent)':'var(--border2)'};background:${_epiState.venc==='todos'?'var(--accent)':'var(--bg3)'};color:${_epiState.venc==='todos'?'#fff':'var(--text2)'}">Todos (${allEpis.length})</button>
+          <button onclick="_epiState.venc='vencidos';renderEpi()" style="padding:4px 10px;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid ${_epiState.venc==='vencidos'?'var(--red)':'var(--border2)'};background:${_epiState.venc==='vencidos'?'rgba(245,80,80,.2)':'var(--bg3)'};color:${_epiState.venc==='vencidos'?'var(--red)':'var(--text2)'}">🔴 Vencidos (${vencidos})</button>
+          <button onclick="_epiState.venc='proximos';renderEpi()" style="padding:4px 10px;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid ${_epiState.venc==='proximos'?'var(--orange)':'var(--border2)'};background:${_epiState.venc==='proximos'?'rgba(245,166,35,.2)':'var(--bg3)'};color:${_epiState.venc==='proximos'?'var(--orange)':'var(--text2)'}">⏰ Vencem em 90d (${prox})</button>
+          <button onclick="_epiState.venc='ok';renderEpi()" style="padding:4px 10px;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid ${_epiState.venc==='ok'?'var(--green)':'var(--border2)'};background:${_epiState.venc==='ok'?'rgba(61,220,132,.2)':'var(--bg3)'};color:${_epiState.venc==='ok'?'var(--green)':'var(--text2)'}">✅ Válidos</button>
+          <button onclick="_epiState.venc='sem';renderEpi()" style="padding:4px 10px;border-radius:10px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid ${_epiState.venc==='sem'?'var(--accent)':'var(--border2)'};background:${_epiState.venc==='sem'?'var(--bg3)':'var(--bg3)'};color:var(--text3)">⚪ Sem CA</button>
+        </div>
+      </div>
+    </div>
+    <div class="epi-stats">
+      <div class="epi-stat"><div class="es-val" style="color:var(--accent)">${totSetores}</div><div class="es-lbl">Setores</div></div>
+      <div class="epi-stat"><div class="es-val" style="color:var(--green)">${totEpis}</div><div class="es-lbl">Total de EPIs</div></div>
+      <div class="epi-stat"><div class="es-val" style="color:var(--red)">${vencidos}</div><div class="es-lbl">CAs Vencidos</div></div>
+      <div class="epi-stat"><div class="es-val" style="color:var(--orange)">${prox}</div><div class="es-lbl">Vencem em 90 dias</div></div>
+      <div class="epi-stat"><div class="es-val" style="color:var(--text2)">${filtered.length}</div><div class="es-lbl">Exibidos</div></div>
+    </div>
+    <div class="epi-table-wrap">
+      <table class="epi-table">
+        <thead><tr>
+          <th>Setor</th><th>Nome EPI</th><th style="text-align:center">BOX</th>
+          <th style="text-align:center">Nº CA</th><th style="text-align:center">Vencimento CA</th>
+          <th>Observação / Proteção</th><th style="text-align:center"></th>
+        </tr></thead>
+        <tbody>${rows||'<tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text3)">Nenhum EPI encontrado.</td></tr>'}</tbody>
+      </table>
+    </div>
+    ${addForm}
+  </div>`;
+}
+
+function toggleEpiEdit(gi, editId){
+  const row = document.getElementById(editId);
+  if(!row) return;
+  row.classList.toggle('open');
+}
+function saveEpiRow(gi, editId){
+  const data = getEpiData();
+  data[gi].setor       = document.getElementById('ei-setor-'+gi).value.trim();
+  data[gi].nome_epi    = document.getElementById('ei-nome-'+gi).value.trim();
+  data[gi].box         = document.getElementById('ei-box-'+gi).value.trim();
+  data[gi].ca          = document.getElementById('ei-ca-'+gi).value.trim();
+  data[gi].vencimento_ca = document.getElementById('ei-venc-'+gi).value.trim();
+  data[gi].observacao  = document.getElementById('ei-obs-'+gi).value.trim();
+  if(S.data) S.data._epi = data;
+  renderEpi();
+}
+function deleteEpiRow(gi){
+  if(!confirm('Remover este EPI?')) return;
+  getEpiData().splice(gi,1);
+  if(S.data) S.data._epi = getEpiData();
+  renderEpi();
+}
+function toggleAddEpi(){
+  const f = document.getElementById('epi-add-form');
+  if(f) f.classList.toggle('open');
+}
+function addEpiRow(){
+  const setor = document.getElementById('ea-setor').value.trim();
+  const nome = document.getElementById('ea-nome').value.trim();
+  if(!setor||!nome){alert('Setor e Nome EPI são obrigatórios.');return;}
+  getEpiData().push({
+    setor, nome_epi: nome,
+    box: document.getElementById('ea-box').value.trim(),
+    ca: document.getElementById('ea-ca').value.trim(),
+    vencimento_ca: document.getElementById('ea-venc').value.trim(),
+    observacao: document.getElementById('ea-obs').value.trim()
+  });
+  if(S.data) S.data._epi = getEpiData();
+  renderEpi();
+}
+
+// ===== MATRIZ VIEW =====
+function getMatrizData(){
+  return (S.data && S.data._matriz) ? S.data._matriz : MATRIZ_DATA;
+}
+
+function renderMatriz(){
+  const el = document.getElementById('matriz-content');
+  const isAdmin = (getCurrentUser()||{}).role === 'admin';
+  const md = getMatrizData();
+
+  // Cores por nível
+  const nivelCls = {
+    'Trivial':'mc-trivial','Tolerável':'mc-toleravel','Moderado':'mc-moderado',
+    'Substancial':'mc-substancial','Intolerável':'mc-intoleravel'
+  };
+  const badgeCls = {
+    'Trivial':'mriz-trivial','Tolerável':'mriz-toleravel','Moderado':'mriz-moderado',
+    'Substancial':'mriz-substancial','Intolerável':'mriz-intoleravel'
+  };
+
+  // Monta matriz 4x4
+  const matGrid = [
+    ['Trivial','Trivial','Tolerável','Tolerável'],
+    ['Trivial','Tolerável','Tolerável','Moderado'],
+    ['Tolerável','Tolerável','Moderado','Substancial'],
+    ['Tolerável','Moderado','Substancial','Intolerável']
+  ];
+
+  // Escala rows
+  const escalaRows = md.escala.map(e=>`<tr>
+    <td style="text-align:center"><span class="mriz-score">${e.valor}</span></td>
+    <td><span class="mriz-nivel ${badgeCls[e.nivel]||''}">${e.nivel}</span></td>
+  </tr>`).join('');
+
+  // Severidade rows
+  const sevRows = md.severidades.map((s,i)=>`<tr>
+    <td style="text-align:center"><span class="mriz-score">${s.nivel}</span></td>
+    <td style="font-weight:600;color:var(--text)">${s.classificacao}</td>
+    ${isAdmin?`<td style="white-space:nowrap">
+      <button class="btn-edit-sm edit" onclick="editMatrizRow('sev',${i},this)">✏️</button>
+    </td>`:'<td></td>'}
+  </tr>`).join('');
+
+  // Probabilidade rows
+  const probRows = md.probabilidades.map((p,i)=>`<tr>
+    <td style="text-align:center"><span class="mriz-score">${p.nivel}</span></td>
+    <td style="font-weight:600;color:var(--text)">${p.classificacao}</td>
+    ${isAdmin?`<td style="white-space:nowrap">
+      <button class="btn-edit-sm edit" onclick="editMatrizRow('prob',${i},this)">✏️</button>
+    </td>`:'<td></td>'}
+  </tr>`).join('');
+
+  // Planos de ação
+  const planoColors = {'Trivial':'#166534','Tolerável':'#78350f','Moderado':'#991b1b','Substancial':'#7f1d1d','Intolerável':'#450a0a'};
+  const planoRows = md.planos.map((p,i)=>`<div style="border:1px solid var(--border);border-radius:8px;margin-bottom:10px;overflow:hidden">
+    <div style="background:${planoColors[p.nivel]||'var(--bg3)'};padding:8px 14px;display:flex;align-items:center;justify-content:space-between">
+      <span class="mriz-nivel ${badgeCls[p.nivel]||''}" style="font-size:13px">${p.nivel}</span>
+      ${isAdmin?`<button class="btn-edit-sm edit" onclick="editPlano(${i},this)" style="font-size:11px">✏️ Editar</button>`:''}
+    </div>
+    <div style="padding:10px 14px">
+      <div style="font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text3);margin-bottom:4px">Ação (BS 8800)</div>
+      <div id="plano-bs-${i}" style="font-size:12px;color:var(--text2);line-height:1.6;margin-bottom:8px">${p.acao_bs8800}</div>
+      <div style="font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text3);margin-bottom:4px">Ação PGR</div>
+      <div id="plano-pgr-${i}" style="font-size:12px;color:var(--text);line-height:1.6;white-space:pre-wrap">${p.acao_pgr}</div>
+    </div>
+  </div>`).join('');
+
+  // Frequências
+  const freqItems = md.frequencias.map(f=>`<div style="padding:8px 12px;border-bottom:1px solid var(--border);font-size:12px;color:var(--text2);line-height:1.5">${f}</div>`).join('');
+
+  // Matriz 4x4 visual
+  const probLabels = md.probabilidades.map(p=>p.classificacao.replace(' ','<br>'));
+  const sevLabels = md.severidades.map(s=>s.classificacao.replace(' ','<br>'));
+
+  let matHtml = `<table class="mat4x4">
+    <tr>
+      <th style="width:110px;text-align:right;font-size:10px">Sev ↓ / Prob →</th>
+      ${md.probabilidades.map((p,i)=>`<th>${i+1}<br><span style="font-size:9px;font-weight:400;opacity:.8">${p.classificacao.split(' ')[0]}</span></th>`).join('')}
+    </tr>`;
+  matGrid.forEach((row,si)=>{
+    matHtml += `<tr><th style="font-size:10px;text-align:right;padding:4px 8px">${si+1}<br><span style="font-size:9px;font-weight:400;opacity:.8">${md.severidades[si].classificacao.split(' ')[0]}</span></th>`;
+    row.forEach((nivel,pi)=>{
+      const score = (si+1)*(pi+1);
+      matHtml += `<td class="${nivelCls[nivel]||''}"><span style="font-size:16px;font-weight:700">${score}</span><span>${nivel.substring(0,3)}</span></td>`;
+    });
+    matHtml += '</tr>';
+  });
+  matHtml += '</table>';
+
+  el.innerHTML = `<div class="matriz-wrap">
+    <!-- Matriz 4x4 -->
+    <div class="matriz-card matriz-card-full">
+      <div class="matriz-card-header">
+        <h3>🎯 Matriz de Risco 4×4 (BS 8800)</h3>
+        <span style="font-size:11px;color:var(--text3)">Probabilidade × Severidade</span>
+      </div>
+      <div class="mat4x4-wrap">${matHtml}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;padding:0 16px 16px;justify-content:center">
+        <span class="mriz-nivel mriz-trivial">Trivial</span>
+        <span class="mriz-nivel mriz-toleravel">Tolerável</span>
+        <span class="mriz-nivel mriz-moderado">Moderado</span>
+        <span class="mriz-nivel mriz-substancial">Substancial</span>
+        <span class="mriz-nivel mriz-intoleravel">Intolerável</span>
+      </div>
+    </div>
+
+    <!-- Escala de pontuação -->
+    <div class="matriz-card">
+      <div class="matriz-card-header"><h3>📊 Escala de Pontuação</h3></div>
+      <div class="matriz-card-body">
+        <table class="mriz-table">
+          <thead><tr><th>Pontuação</th><th>Nível</th></tr></thead>
+          <tbody>${escalaRows}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Frequência -->
+    <div class="matriz-card">
+      <div class="matriz-card-header"><h3>⏱️ Classificação de Frequência</h3></div>
+      <div>${freqItems||'<div style="padding:16px;color:var(--text3)">Sem dados</div>'}</div>
+    </div>
+
+    <!-- Severidade -->
+    <div class="matriz-card">
+      <div class="matriz-card-header"><h3>⚠️ Classificação de Severidade</h3></div>
+      <div class="matriz-card-body">
+        <table class="mriz-table">
+          <thead><tr><th>Nível</th><th>Classificação</th>${isAdmin?'<th></th>':''}</tr></thead>
+          <tbody>${sevRows}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Probabilidade -->
+    <div class="matriz-card">
+      <div class="matriz-card-header"><h3>🎲 Classificação de Probabilidade</h3></div>
+      <div class="matriz-card-body">
+        <table class="mriz-table">
+          <thead><tr><th>Nível</th><th>Classificação</th>${isAdmin?'<th></th>':''}</tr></thead>
+          <tbody>${probRows}</tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Plano de ação -->
+    <div class="matriz-card matriz-card-full">
+      <div class="matriz-card-header"><h3>📋 Plano de Ação por Nível de Risco (BS 8800)</h3></div>
+      <div class="matriz-card-body">${planoRows}</div>
+    </div>
+  </div>`;
+}
+
+function editMatrizRow(type, idx, btn){
+  const md = getMatrizData();
+  const arr = type==='sev' ? md.severidades : md.probabilidades;
+  const item = arr[idx];
+  const td = btn.closest('td');
+  const row = btn.closest('tr');
+  const nameTd = row.children[1];
+  if(btn.classList.contains('save')){
+    item.classificacao = nameTd.querySelector('input').value;
+    renderMatriz();
+  } else {
+    const orig = nameTd.innerHTML;
+    nameTd.innerHTML = `<input class="edit-field" value="${item.classificacao.replace(/"/g,'&quot;')}">`;
+    btn.textContent = '💾'; btn.classList.replace('edit','save');
+  }
+}
+
+function editPlano(idx, btn){
+  const md = getMatrizData();
+  const p = md.planos[idx];
+  const bsEl = document.getElementById('plano-bs-'+idx);
+  const pgrEl = document.getElementById('plano-pgr-'+idx);
+  if(btn.textContent.includes('Salvar')){
+    p.acao_bs8800 = bsEl.querySelector('textarea').value;
+    p.acao_pgr = pgrEl.querySelector('textarea').value;
+    renderMatriz();
+  } else {
+    bsEl.innerHTML = `<textarea class="epi-obs-input" style="width:100%;min-height:80px">${p.acao_bs8800}</textarea>`;
+    pgrEl.innerHTML = `<textarea class="epi-obs-input" style="width:100%;min-height:80px">${p.acao_pgr}</textarea>`;
+    btn.textContent = '💾 Salvar'; btn.classList.replace('edit','save');
+  }
+}
+
 
 // ===== RUÍDO =====
 let ruidoFiltro='todos';
@@ -2398,6 +2891,77 @@ function parseWorkbook(wb){
   }
   result._vibracao=vibracaoParsed.length>0?vibracaoParsed:(S.data&&S.data._vibracao?S.data._vibracao:[]);
 
+  // ===== Parse EPI =====
+  const epiSheet = wb.Sheets['EPI'];
+  let epiParsed = [];
+  if(epiSheet){
+    try{
+      const epiRows = XLSX.utils.sheet_to_json(epiSheet,{header:1,defval:''});
+      // Linha 0 = título, Linha 1 = cabeçalhos, Linha 2+ = dados
+      epiRows.slice(2).forEach(row=>{
+        const setor = String(row[0]||'').trim();
+        const nome  = String(row[1]||'').trim();
+        if(!setor || !nome) return;
+        let box = String(row[2]||'').trim(); if(box.endsWith('.0')) box=box.slice(0,-2);
+        let ca  = String(row[3]||'').trim(); if(ca.endsWith('.0'))  ca=ca.slice(0,-2);
+        let venc = '';
+        const vRaw = row[4];
+        if(vRaw !== '' && vRaw !== null && vRaw !== undefined){
+          if(typeof vRaw === 'number'){
+            // Serial date do Excel
+            const d = new Date(Math.round((vRaw - 25569) * 86400 * 1000));
+            venc = d.toLocaleDateString('pt-BR');
+          } else {
+            const ds = String(vRaw).trim();
+            // Converter yyyy-mm-dd para dd/mm/yyyy se necessário
+            if(/^\d{4}-\d{2}-\d{2}/.test(ds)){
+              const pts = ds.split('-');
+              venc = `${pts[2].substring(0,2)}/${pts[1]}/${pts[0]}`;
+            } else if(ds && ds !== 'NaT') {
+              venc = ds;
+            }
+          }
+        }
+        const obs = String(row[5]||'').trim();
+        epiParsed.push({setor, nome_epi:nome, box, ca, vencimento_ca:venc, observacao:obs});
+      });
+    }catch(err){ console.warn('Erro ao parsear EPI:',err); }
+  }
+  // Atualiza o array embutido EPI_DATA para que edições inline persistam na sessão
+  if(epiParsed.length > 0){
+    EPI_DATA.splice(0, EPI_DATA.length, ...epiParsed);
+  }
+  result._epi = epiParsed.length > 0 ? epiParsed : (S.data && S.data._epi ? S.data._epi : EPI_DATA);
+
+  // ===== Parse Matriz =====
+  const matSheet = wb.Sheets['Matriz'];
+  if(matSheet){
+    try{
+      const matRows = XLSX.utils.sheet_to_json(matSheet,{header:1,defval:''});
+      const escala=[], severidades=[], probabilidades=[], planos=[], frequencias=[];
+      for(let i=9;i<18;i++){
+        const r=matRows[i]||[]; const v=r[1], n=r[2];
+        if(v!==''&&n!==''){try{escala.push({valor:parseInt(v),nivel:String(n)});}catch(e){}}
+      }
+      for(let i=12;i<16;i++){
+        const r=matRows[i]||[];
+        if(String(r[13]||'').trim()) severidades.push({classificacao:String(r[13]).trim(),nivel:parseInt(r[14])});
+        if(String(r[16]||'').trim()) probabilidades.push({classificacao:String(r[16]).trim(),nivel:parseInt(r[17])});
+      }
+      for(let i=20;i<25;i++){
+        const r=matRows[i]||[];
+        const nv=String(r[1]||'').trim();
+        if(nv) planos.push({nivel:nv,acao_bs8800:String(r[2]||'').trim(),acao_pgr:String(r[3]||'').trim()});
+      }
+      for(let i=7;i<12;i++){
+        const t=String((matRows[i]||[])[20]||'').trim();
+        if(t.startsWith('🔹')) frequencias.push(t);
+      }
+      if(escala.length) result._matriz={escala,severidades,probabilidades,planos,frequencias};
+    }catch(err){ console.warn('Erro ao parsear Matriz:',err); }
+  }
+  if(!result._matriz) result._matriz = (S.data && S.data._matriz) ? S.data._matriz : MATRIZ_DATA;
+
   return result;
 }
 
@@ -2415,7 +2979,8 @@ function processImportedWorkbook(wb){
   const json=buildDataJson(nd);
   const ambN=(nd._ambiental||[]).length;
   const vibN=(nd._vibracao||[]).length;
-  showToast(`✅ Planilha importada: ${nd.length} GES · ${ambN} amb. · ${vibN} vib.`);
+  const epiN=(nd._epi||[]).length;
+  showToast(`✅ Planilha importada: ${nd.length} GES · ${ambN} amb. · ${vibN} vib. · ${epiN} EPIs`);
   uploadToGithub(json).then(ok=>{
     if(ok) showToast(`☁️ GitHub atualizado: ${nd.length} GES · ${ambN} amb. · ${vibN} vib.`);
   });
