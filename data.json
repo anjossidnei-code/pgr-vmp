@@ -29156,7 +29156,7 @@
           "lesoes": "Fadiga mental, queda de desempenho",
           "fontes": "Preparação de conteúdo, análise de indicadores",
           "medidas": "Planejamento, divisão de tarefas, ferramentas digitais",
-          "analise": "Suficiente",
+          "analise": "Medidas de controle consideradas suficientes para o nível de risco identificado, permanecendo monitoramento contínuo no ciclo do PGR.",
           "severidade": "Não Prejudicial",
           "probabilidade": "Improvável",
           "nivel_risco": "Trivial",
@@ -36613,6 +36613,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-28T13:47:31.094Z",
+  "timestamp": "2026-04-28T13:59:58.783Z",
   "version": "2026"
 }
