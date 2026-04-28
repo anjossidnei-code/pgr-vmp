@@ -34906,11 +34906,11 @@
     },
     {
       "setor": "Abastecimento",
-      "nome_epi": "Luva de látex/neoprene",
-      "box": "2481",
-      "ca": "46049 / 37900",
-      "vencimento_ca": "14/05/2030",
-      "observacao": "LUVA TIPO (A) PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L), ÁCIDOS ORGÂNICOS (N), PERÓXIDOS (P) E ALDEÍDOS (T))."
+      "nome_epi": "Luva de PVC",
+      "box": "2879",
+      "ca": "46086 / 39268",
+      "vencimento_ca": "27/06/2026",
+      "observacao": "LUVA TIPO “C” PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), BASES INORGÂNICAS (K) E ÁCIDOS MINERAIS INORGÂNICOS (L"
     },
     {
       "setor": "Abastecimento",
@@ -35010,14 +35010,6 @@
     },
     {
       "setor": "Borracharia",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Borracharia",
       "nome_epi": "Luva de vaqueta",
       "box": "",
       "ca": "25368",
@@ -35039,14 +35031,6 @@
       "ca": "4398",
       "vencimento_ca": "15/07/2028",
       "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
-    },
-    {
-      "setor": "Borracharia",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
       "setor": "Carreta",
@@ -35126,22 +35110,6 @@
       "box": "",
       "ca": "25368",
       "vencimento_ca": "19/11/2028",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
-      "setor": "Conservação e Limpeza",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Conservação e Limpeza",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
@@ -35326,22 +35294,6 @@
       "box": "",
       "ca": "25368",
       "vencimento_ca": "19/11/2028",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
-      "setor": "Eletricista Veículo",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Eletricista Veículo",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
@@ -35850,14 +35802,6 @@
     },
     {
       "setor": "Mecânica",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Mecânica",
       "nome_epi": "Creme protetor para a pele do grupo 2 (óleo resistente)",
       "box": "",
       "ca": "4234",
@@ -35886,14 +35830,6 @@
       "box": "",
       "ca": "41123 32845",
       "vencimento_ca": "",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
-      "setor": "Mecânica",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
@@ -35946,26 +35882,10 @@
     },
     {
       "setor": "Mola",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Mola",
       "nome_epi": "Luva de vaqueta",
       "box": "",
       "ca": "25368",
       "vencimento_ca": "19/11/2028",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
-      "setor": "Mola",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
@@ -36137,14 +36057,6 @@
       "observacao": "PROTEÇÃO DOS MEMBROS SUPERIORES DO USUÁRIO CONTRA RISCOS PROVENIENTES DE PRODUTOS QUÍMICOS (TOLUENO, XILENO, BENZINA, QUEROSENE, AGUARRÁS, THINNER, METILETILCETONA, GASOLINA, ÓLEO MINERAL, ÓLEO DIESEL, ACETONA, PÓS EM GERAL, PERCLOROETILENO, CLORETO DE METILENO, TINTAS, ADESIVOS)"
     },
     {
-      "setor": "Rebitador",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
       "setor": "REBITADOR",
       "nome_epi": "Protetor auditivo tipo concha",
       "box": "",
@@ -36161,28 +36073,12 @@
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
-      "setor": "Rebitador",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
       "setor": "SOCORRISTA",
       "nome_epi": "Óculos de segurança",
       "box": "",
       "ca": "9722",
       "vencimento_ca": "13/08/2027",
       "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
-    },
-    {
-      "setor": "Socorrista",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
     },
     {
       "setor": "Socorrista",
@@ -36222,14 +36118,6 @@
       "box": "",
       "ca": "25368",
       "vencimento_ca": "19/11/2028",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
-      "setor": "Socorrista",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
       "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
     },
     {
@@ -36417,22 +36305,6 @@
       "observacao": "PROTEÇÃO DO SISTEMA AUDITIVO DO USUÁRIO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR 15, ANEXOS I E II, CONFORME TABELA DE ATENUAÇÃO ABAIXO."
     },
     {
-      "setor": "Torno",
-      "nome_epi": "Luva de raspa punho longo",
-      "box": "",
-      "ca": "16074",
-      "vencimento_ca": "24/03/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO, CONVECTIVO, RADIANTE E METAIS FUNDIDOS)."
-    },
-    {
-      "setor": "Torno",
-      "nome_epi": "Luva de Raspa punho curto",
-      "box": "",
-      "ca": "9438",
-      "vencimento_ca": "25/02/2031",
-      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
-    },
-    {
       "setor": "Funilaria",
       "nome_epi": "Luva de raspa punho longo",
       "box": "",
@@ -36613,6 +36485,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-28T17:28:10.209Z",
+  "timestamp": "2026-04-28T17:48:43.320Z",
   "version": "2026"
 }
