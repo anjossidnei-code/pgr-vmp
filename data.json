@@ -36343,6 +36343,38 @@
       "ca": "16145",
       "vencimento_ca": "21/06/2026",
       "observacao": "PROTEÇÃO DAS PERNAS DO USUÁRIO CONTRA AGENTES ABRASIVOS E ESCORIANTES"
+    },
+    {
+      "setor": "Marcenaria",
+      "nome_epi": "Bota com biqueira de aço ou equivalente",
+      "box": "",
+      "ca": "12844",
+      "vencimento_ca": "13/03/2027",
+      "observacao": "PROTEÇÃO DOS PÉS DO USUÁRIO CONTRA IMPACTOS DE QUEDAS DE OBJETOS SOBRE OS ARTELHOS E CONTRA AGENTES ABRASIVOS E ESCORIANTES."
+    },
+    {
+      "setor": "Marcenaria",
+      "nome_epi": "Luva de vaqueta",
+      "box": "",
+      "ca": "25368",
+      "vencimento_ca": "19/11/2028",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Marcenaria",
+      "nome_epi": "Luva de malha",
+      "box": "",
+      "ca": "41123 32845",
+      "vencimento_ca": "",
+      "observacao": "PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES."
+    },
+    {
+      "setor": "Marcenaria",
+      "nome_epi": "Óculos de segurança",
+      "box": "",
+      "ca": "9722",
+      "vencimento_ca": "13/08/2027",
+      "observacao": "PROTEÇÃO DOS OLHOS DO USUÁRIO CONTRA IMPACTOS DE PARTÍCULAS VOLANTES, CONTRA RAIOS ULTRAVIOLETA (U6) E, NO CASO DAS LENTES CINZA, LUZ INTENSA (L3)."
     }
   ],
   "matrizData": {
@@ -36485,6 +36517,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-28T17:48:43.320Z",
+  "timestamp": "2026-04-28T17:52:04.397Z",
   "version": "2026"
 }
