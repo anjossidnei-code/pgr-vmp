@@ -31302,8 +31302,8 @@
     {
       "unidade": "BRAS",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
@@ -33278,48 +33278,48 @@
     {
       "unidade": "IMPERADOR",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
     {
       "unidade": "ITAIM",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
     {
       "unidade": "AEC",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
     {
       "unidade": "IGUATEMI",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
     {
       "unidade": "PINEDO",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     },
     {
       "unidade": "MBOI",
       "setor": "PLANTÃO OPERACIONAL",
-      "nivel_db": null,
-      "protetor": "obrigatorio",
+      "nivel_db": 65,
+      "protetor": "nao_obrigatorio",
       "dose_pct": null,
       "tempo_medicao": null
     }
@@ -37086,6 +37086,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-04-30T11:54:27.590Z",
+  "timestamp": "2026-04-30T11:57:10.952Z",
   "version": "2026"
 }
