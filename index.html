@@ -471,6 +471,8 @@ tbody td{padding:9px 14px;font-size:12px;}
 .admin-only{display:block;}
 body.role-user .admin-only{display:none!important;}
 body.role-user #btn-print-ges{display:none!important;}
+body.role-user{-webkit-user-select:none!important;-moz-user-select:none!important;-ms-user-select:none!important;user-select:none!important;}
+body.role-user *{-webkit-user-select:none!important;-moz-user-select:none!important;user-select:none!important;}
 </style>
 </head>
 <body>
@@ -1050,7 +1052,8 @@ function setMetroLogos(){
   const lll = document.getElementById('login-metro-logo');
   if(lll) lll.src = src;
 }
-// Interceptar window.print para bloquear usuário VMP
+// ===== PROTEÇÕES DE SEGURANÇA PARA USUÁRIO VMP =====
+// Interceptar window.print
 const _origPrint = window.print.bind(window);
 window.print = function(){
   if(window._printBlocked){
@@ -1059,6 +1062,59 @@ window.print = function(){
   }
   _origPrint();
 };
+// Bloquear beforeprint (Ctrl+P via menu do browser / diálogo nativo)
+window.addEventListener('beforeprint', function(e){
+  if(window._printBlocked){
+    e.stopImmediatePropagation();
+    alert('⚠️ Seu perfil não possui permissão para imprimir.\nContate o administrador do sistema.');
+  }
+});
+// Bloquear atalhos de teclado para usuário VMP
+document.addEventListener('keydown', function(e){
+  if(!window._printBlocked) return;
+  var k = e.key;
+  var ctrl = e.ctrlKey || e.metaKey;
+  if(ctrl && (k==='p'||k==='P')){
+    e.preventDefault(); e.stopPropagation();
+    alert('⚠️ Impressão bloqueada para este perfil.');
+    return;
+  }
+  if(ctrl && (k==='c'||k==='C'||k==='x'||k==='X')){
+    e.preventDefault(); e.stopPropagation(); return;
+  }
+  if(ctrl && (k==='a'||k==='A')){
+    e.preventDefault(); e.stopPropagation(); return;
+  }
+  if(k==='PrintScreen'){
+    e.preventDefault(); e.stopPropagation();
+    try{ navigator.clipboard.writeText(''); }catch(ex){}
+    return;
+  }
+  if(k==='F12'){
+    e.preventDefault(); e.stopPropagation(); return;
+  }
+  if(ctrl && e.shiftKey && (k==='i'||k==='I')){
+    e.preventDefault(); e.stopPropagation(); return;
+  }
+  if(ctrl && (k==='u'||k==='U')){
+    e.preventDefault(); e.stopPropagation(); return;
+  }
+}, true);
+// Bloquear eventos de cópia e corte
+document.addEventListener('copy', function(e){
+  if(window._printBlocked){ e.preventDefault(); e.stopPropagation(); }
+}, true);
+document.addEventListener('cut', function(e){
+  if(window._printBlocked){ e.preventDefault(); e.stopPropagation(); }
+}, true);
+// Bloquear menu de contexto (botão direito)
+document.addEventListener('contextmenu', function(e){
+  if(window._printBlocked){ e.preventDefault(); e.stopPropagation(); }
+}, true);
+// Bloquear seleção de texto via JS
+document.addEventListener('selectstart', function(e){
+  if(window._printBlocked){ e.preventDefault(); }
+});
 function applyUserRole(user){
   // Set body class
   document.body.classList.remove('role-admin','role-user');
