@@ -588,6 +588,7 @@ body.role-user *{-webkit-user-select:none!important;-moz-user-select:none!import
     <button class="nav-btn" onclick="switchView('ruido')" id="nav-ruido"><span class="nav-icon">🔊</span>Planilha de Ruído</button>
     <button class="nav-btn" onclick="switchView('ambiental')" id="nav-ambiental"><span class="nav-icon">🧪</span>Avaliação Ambiental</button>
     <button class="nav-btn" onclick="switchView('vibracao')" id="nav-vibracao"><span class="nav-icon">📳</span>Avaliação de Vibração</button>
+    <button class="nav-btn" onclick="switchView('frota')" id="nav-frota"><span class="nav-icon">🚌</span>Frota</button>
     <button class="nav-btn" onclick="switchView('epi')" id="nav-epi"><span class="nav-icon">🦺</span>Controle de EPI</button>
     <button class="nav-btn" onclick="switchView('matriz')" id="nav-matriz"><span class="nav-icon">🎯</span>Matriz de Risco</button>
   </div>
@@ -725,6 +726,29 @@ Sidnei Martins dos Anjos – Eng. de Segurança do Trab.</textarea>
     <!-- VIBRACAO VIEW -->
     <div id="vibracao-view" style="display:none">
       <div id="vibracao-content"></div>
+    </div>
+    <!-- FROTA VIEW -->
+    <div id="frota-view" style="display:none">
+      <!-- filtros frota -->
+      <div id="frota-filters" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;align-items:center">
+        <select id="frota-f-unidade" onchange="renderFrota()" style="padding:7px 12px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:8px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer">
+          <option value="">Todas as Unidades</option>
+        </select>
+        <select id="frota-f-ano" onchange="renderFrota()" style="padding:7px 12px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:8px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer">
+          <option value="">Todos os Anos/Mod</option>
+        </select>
+        <select id="frota-f-motor" onchange="renderFrota()" style="padding:7px 12px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:8px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer">
+          <option value="">Posição do Motor</option>
+          <option value="DIANTEIRO">Dianteiro</option>
+          <option value="TRASEIRO">Traseiro</option>
+        </select>
+        <select id="frota-f-chassis" onchange="renderFrota()" style="padding:7px 12px;background:var(--bg3);border:1px solid var(--border2);color:var(--text);border-radius:8px;font-size:12px;font-family:'Inter',sans-serif;cursor:pointer">
+          <option value="">Tipo de Chassis</option>
+        </select>
+        <button onclick="clearFrotaFilters()" style="padding:7px 14px;background:var(--bg3);border:1px solid var(--border2);color:var(--text3);border-radius:8px;font-size:12px;cursor:pointer;font-family:'Inter',sans-serif">✕ Limpar Filtros</button>
+        <span id="frota-count-badge" style="margin-left:auto;padding:5px 14px;background:var(--bg3);border:1px solid var(--border2);border-radius:20px;font-size:12px;color:var(--text2)"></span>
+      </div>
+      <div id="frota-content"></div>
     </div>
     <!-- EPI VIEW -->
     <div id="epi-view" style="display:none">
@@ -1301,6 +1325,7 @@ function buildDataJson(nd){
     ruidoData:     nd._ruido     || [],
     ambientalData: nd._ambiental || [],
     vibracaoData:  nd._vibracao  || [],
+    frotaData:     nd._frota     || [],
     epiData:       nd._epi       || EPI_DATA,
     matrizData:    nd._matriz    || MATRIZ_DATA,
     cnpjData: (() => {
@@ -1359,6 +1384,7 @@ function processData(raw){
   result._ruido=raw.ruidoData||[];
   result._ambiental=normArr(raw.ambientalData);
   result._vibracao=normArr(raw.vibracaoData);
+  result._frota=raw.frotaData||[];
   result._epi=raw.epiData||EPI_DATA;
   result._matriz=raw.matrizData||MATRIZ_DATA;
   return result;
@@ -1441,7 +1467,7 @@ function updateStats(){
 
 function switchView(v){
   S.view=v;
-  ['dashboard','cards','table','report','ruido','ambiental','vibracao','epi','matriz'].forEach(n=>{
+  ['dashboard','cards','table','report','ruido','ambiental','vibracao','epi','matriz','frota'].forEach(n=>{
     const el=document.getElementById(n+'-view');
     if(el)el.style.display='none';
     const nb=document.getElementById('nav-'+n);
@@ -1462,6 +1488,7 @@ function renderCurrentView(){
   else if(S.view==='vibracao')renderVibracao();
   else if(S.view==='epi')renderEpi();
   else if(S.view==='matriz')renderMatriz();
+  else if(S.view==='frota'){populateFrotaFilters();renderFrota();}
 }
 
 // ===== DASHBOARD =====
@@ -1755,7 +1782,7 @@ function buildPGRPage(g){
       <td class="td-sev" style="width:5%"><span class="sev-cell ${sevCls}">${r.severidade||'—'}</span></td>
       <td class="td-prob" style="width:5%"><span class="prob-cell ${probCls}">${r.probabilidade||'—'}</span></td>
       <td class="td-nivel" style="width:4%"><span class="nivel-cell ${nivCls}">${r.nivel_risco||'—'}</span></td>
-      <td style="width:17%;line-height:1.4;font-size:7pt">${(r.cronograma||'—').replace(/\n/g,'<br>')}</td>
+      <td style="width:17%;line-height:1.4;font-size:9pt">${(r.cronograma||'—').replace(/\n/g,'<br>')}</td>
     </tr>`;
   });
   return `<div class="pgr-page">
@@ -2664,6 +2691,150 @@ function renderVibTable(){
   </table>`;
 }
 
+// ===== FROTA =====
+function populateFrotaFilters(){
+  const dados=S.data&&S.data._frota?S.data._frota:[];
+  if(!dados.length)return;
+  // Unidade
+  const selU=document.getElementById('frota-f-unidade');
+  if(selU.options.length<=1){
+    const uns=[...new Set(dados.map(r=>r.unidade).filter(Boolean))].sort();
+    uns.forEach(u=>{const o=document.createElement('option');o.value=u;o.textContent=u;selU.appendChild(o);});
+  }
+  // Ano/Mod
+  const selA=document.getElementById('frota-f-ano');
+  if(selA.options.length<=1){
+    const anos=[...new Set(dados.map(r=>r.ano_mod).filter(Boolean))].sort();
+    anos.forEach(a=>{const o=document.createElement('option');o.value=a;o.textContent=a;selA.appendChild(o);});
+  }
+  // Tipo de Chassis
+  const selC=document.getElementById('frota-f-chassis');
+  if(selC.options.length<=1){
+    const chs=[...new Set(dados.map(r=>r.tipo_chassis).filter(Boolean))].sort();
+    chs.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;selC.appendChild(o);});
+  }
+}
+
+function clearFrotaFilters(){
+  ['frota-f-unidade','frota-f-ano','frota-f-motor','frota-f-chassis'].forEach(id=>{
+    const el=document.getElementById(id);if(el)el.value='';
+  });
+  renderFrota();
+}
+
+function renderFrota(){
+  const dados=S.data&&S.data._frota?S.data._frota:[];
+  const el=document.getElementById('frota-content');
+  if(!dados.length){
+    el.innerHTML='<div style="text-align:center;padding:60px;color:var(--text3)"><div style="font-size:40px;margin-bottom:12px">🚌</div><p>Nenhum dado de Frota disponível.<br>Importe a planilha para carregar os dados.</p></div>';
+    return;
+  }
+  const fU=document.getElementById('frota-f-unidade')?.value||'';
+  const fA=document.getElementById('frota-f-ano')?.value||'';
+  const fM=document.getElementById('frota-f-motor')?.value||'';
+  const fC=document.getElementById('frota-f-chassis')?.value||'';
+
+  const filtered=dados.filter(r=>{
+    if(fU&&r.unidade!==fU)return false;
+    if(fA&&r.ano_mod!==fA)return false;
+    if(fM&&r.posicao_motor!==fM)return false;
+    if(fC&&r.tipo_chassis!==fC)return false;
+    return true;
+  });
+
+  // KPI cards
+  const totalFrota=filtered.length;
+  const dianteiro=filtered.filter(r=>r.posicao_motor==='DIANTEIRO').length;
+  const traseiro=filtered.filter(r=>r.posicao_motor==='TRASEIRO').length;
+  const tiposChassis=[...new Set(filtered.map(r=>r.tipo_chassis).filter(Boolean))];
+  const byUnidade={};
+  filtered.forEach(r=>{const u=r.unidade||'—';byUnidade[u]=(byUnidade[u]||0)+1;});
+
+  // Badge cor por tipo de chassis
+  const chassisCor=t=>{
+    if(!t)return{bg:'var(--bg3)',color:'var(--text3)',border:'var(--border)'};
+    if(t.includes('ARTICULADO23M'))return{bg:'#1e1040',color:'#c4b5fd',border:'#7c3aed'};
+    if(t.includes('ARTICULADO'))return{bg:'#1e3a5f',color:'#93c5fd',border:'#3b82f6'};
+    if(t.includes('PADRON'))return{bg:'#052e16',color:'#3ddc84',border:'#22c55e'};
+    if(t.includes('BASICO'))return{bg:'#3a2500',color:'#f5a623',border:'#f59e0b'};
+    return{bg:'var(--bg3)',color:'var(--text2)',border:'var(--border)'};
+  };
+  const motorCor=m=>{
+    if(m==='DIANTEIRO')return{bg:'#1e3a5f',color:'#93c5fd',border:'#3b82f6'};
+    if(m==='TRASEIRO')return{bg:'#3a0a0a',color:'#f87171',border:'#ef4444'};
+    return{bg:'var(--bg3)',color:'var(--text3)',border:'var(--border)'};
+  };
+
+  const badge=(text,cl)=>`<span style="display:inline-block;padding:2px 9px;border-radius:6px;font-size:10px;font-weight:700;background:${cl.bg};color:${cl.color};border:1px solid ${cl.border};white-space:nowrap">${text}</span>`;
+
+  el.innerHTML=`
+    <div style="margin-bottom:16px">
+      <h2 style="font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;margin-bottom:4px">🚌 Gestão de Frota</h2>
+      <div style="font-size:12px;color:var(--text3);margin-bottom:16px">Viação Metrópole Paulista S/A — VMP 2026</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px">
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 20px;min-width:130px">
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px">Total Veículos</div>
+          <div style="font-size:30px;font-weight:700;color:var(--accent);font-family:'Rajdhani',sans-serif">${totalFrota.toLocaleString('pt-BR')}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #3b82f6;border-radius:10px;padding:14px 20px;min-width:130px">
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px">Motor Dianteiro</div>
+          <div style="font-size:30px;font-weight:700;color:#93c5fd;font-family:'Rajdhani',sans-serif">${dianteiro}</div>
+        </div>
+        <div style="background:var(--card);border:1px solid #ef4444;border-radius:10px;padding:14px 20px;min-width:130px">
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px">Motor Traseiro</div>
+          <div style="font-size:30px;font-weight:700;color:#f87171;font-family:'Rajdhani',sans-serif">${traseiro}</div>
+        </div>
+        ${Object.entries(byUnidade).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([u,n])=>`
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 20px;min-width:130px">
+          <div style="font-size:10px;color:var(--text3);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${u.replace(/^\d+\s*-\s*/,'').replace(/\s*\(.*\)/,'')}</div>
+          <div style="font-size:26px;font-weight:700;color:var(--text);font-family:'Rajdhani',sans-serif">${n}</div>
+        </div>`).join('')}
+      </div>
+    </div>
+    <div style="overflow-x:auto;border-radius:10px;border:1px solid var(--border)">
+      <table style="width:100%;border-collapse:collapse;font-size:12px">
+        <thead>
+          <tr style="background:var(--bg3)">
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);white-space:nowrap">Prefixo</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Placa</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Unidade</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Fabricação</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Tipo</th>
+            <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Ano/Mod</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Carroceria</th>
+            <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Pos. Motor</th>
+            <th style="padding:9px 12px;text-align:center;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Tipo Chassis</th>
+            <th style="padding:9px 12px;text-align:left;color:var(--text3);font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border)">Chassis</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${filtered.length===0
+            ?'<tr><td colspan="10" style="text-align:center;padding:40px;color:var(--text3)">Nenhum veículo encontrado com os filtros aplicados.</td></tr>'
+            :filtered.map((r,i)=>{
+              const mc=motorCor(r.posicao_motor);
+              const cc=chassisCor(r.tipo_chassis);
+              return `<tr style="border-bottom:1px solid var(--border);${i%2===1?'background:rgba(30,35,50,.4)':''}">
+                <td style="padding:8px 12px;font-family:'Rajdhani',sans-serif;font-size:15px;font-weight:700;color:var(--accent)">${r.prefixo||'—'}</td>
+                <td style="padding:8px 12px;font-weight:600;color:var(--text);letter-spacing:1px">${r.placa||'—'}</td>
+                <td style="padding:8px 12px;font-size:11px;color:var(--text2);max-width:160px">${r.unidade.replace(/^\d+\s*-\s*/,'')}</td>
+                <td style="padding:8px 12px;color:var(--text)">${r.fabricacao||'—'}</td>
+                <td style="padding:8px 12px;font-size:11px;color:var(--text2)">${r.tipo||'—'}</td>
+                <td style="padding:8px 12px;text-align:center;font-family:'Rajdhani',sans-serif;font-weight:700;font-size:14px;color:var(--text)">${r.ano_mod||'—'}</td>
+                <td style="padding:8px 12px;font-size:11px;color:var(--text2)">${r.carroceria||'—'}</td>
+                <td style="padding:8px 12px;text-align:center">${r.posicao_motor?badge(r.posicao_motor,mc):'—'}</td>
+                <td style="padding:8px 12px;text-align:center">${r.tipo_chassis?badge(r.tipo_chassis,cc):'—'}</td>
+                <td style="padding:8px 12px;font-size:10px;color:var(--text3);font-family:monospace;letter-spacing:.5px">${r.chassis||'—'}</td>
+              </tr>`;
+            }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+
+  // Update count badge
+  const cb=document.getElementById('frota-count-badge');
+  if(cb)cb.textContent=`🚌 ${filtered.length.toLocaleString('pt-BR')} veículo${filtered.length!==1?'s':''}`;
+}
+
 const SETOR_MAP={'COBRADOR':'COBRADOR ONIBUS','ADMINISTRAÇÃO':'ADMINISTRATIVO','AJ. DE MANUTENÇÃO':'AJ. MANUTENÇÃO','CONS E LIMPEZA':'CONSERV E LIMPEZA','CONS E LIMPEZA - LIMPEZA DE CHASSI COM ÁGUA PRESSURIZADA':'LIMPEZA DE CHASSIS','ELETRCISTA PREDIAL':'ELETRICA PREDIAL','ELETRICISTA DE VEICULO (ELÉTRICO)':'ELETRICISTA DE VEICULO','ENC DE OFICINA':'ENC. OFICINA','LAVADOR DE PEÇA':'LAVADOR','PISTA (CATRACARIA)':'PISTA','TEC. SEGURANÇA TRAB':'TST','PEDREIRO DE MANUTENÇÃO E CONSERVAÇÃO':'CONSERV E LIMPEZA'};
 const UN_MAP={'AE CARVALHO':'AEC','BRÁS':'BRAS','BRAS':'BRAS','M BOI':'MBOI','M BOI MIRIM':'MBOI','ITAIM':'ITAIM','IGUATEMI':'IGUATEMI','IMPERADOR':'IMPERADOR','PINEDO':'PINEDO','MATRIZ':'MATRIZ'};
 
@@ -2672,11 +2843,13 @@ function parseWorkbook(wb){
   // Find ruido sheet by checking multiple possible names
   const ruidoSheetName=wb.SheetNames.find(n=>/ru[ií]do/i.test(n))||wb.SheetNames.find(n=>/ruido/i.test(n));
   const rS=ruidoSheetName?wb.Sheets[ruidoSheetName]:null;
-  // Find ambiental and vibracao sheets
+  // Find ambiental, vibracao and frota sheets
   const ambientalSheetName=wb.SheetNames.find(n=>/ambiental/i.test(n));
   const vibracaoSheetName=wb.SheetNames.find(n=>/vibra/i.test(n));
+  const frotaSheetName=wb.SheetNames.find(n=>/frota/i.test(n));
   const ambS=ambientalSheetName?wb.Sheets[ambientalSheetName]:null;
   const vibS=vibracaoSheetName?wb.Sheets[vibracaoSheetName]:null;
+  const frotaS=frotaSheetName?wb.Sheets[frotaSheetName]:null;
   if(!pS){alert('Planilha PGR não encontrada!');return null;}
   const pR=XLSX.utils.sheet_to_json(pS,{header:1,defval:''}),
         eR=eS?XLSX.utils.sheet_to_json(eS,{header:1,defval:''}):[],
@@ -2902,7 +3075,42 @@ function parseWorkbook(wb){
   }
   result._vibracao=vibracaoParsed.length>0?vibracaoParsed:(S.data&&S.data._vibracao?S.data._vibracao:[]);
 
-  // ===== Parse EPI =====
+  // ===== PARSE FROTA =====
+  let frotaParsed=[];
+  if(frotaS){
+    try{
+      const fR=XLSX.utils.sheet_to_json(frotaS,{header:1,defval:''});
+      // Linha 1 (índice 1) = cabeçalho, dados a partir da linha 2 (índice 2)
+      // A=UNIDADE, B=Lote, C=Prefixo, D=Placa, E=Fabricação, F=Tipo, G=Chassis,
+      // H=Ano Mod, I=Renavam, J=Entre Eixos, K=Data Cadastro, L=Carroceria,
+      // M=Tipo Carroceria, N=Cor, O=Data Cadastro2, P=Posição Motor, Q=Tipo de Chassis
+      const toStr=v=>String(v||'').trim();
+      fR.slice(2).forEach(row=>{
+        const unidade=toStr(row[0]);
+        if(!unidade||unidade.toUpperCase().includes('UNIDADE'))return;
+        frotaParsed.push({
+          unidade:       unidade,
+          lote:          toStr(row[1]),
+          prefixo:       toStr(row[2]),
+          placa:         toStr(row[3]),
+          fabricacao:    toStr(row[4]),
+          tipo:          toStr(row[5]),
+          chassis:       toStr(row[6]),
+          ano_mod:       toStr(row[7]),
+          renavam:       toStr(row[8]),
+          entre_eixos:   toStr(row[9]),
+          carroceria:    toStr(row[11]),
+          tipo_carroceria: toStr(row[12]),
+          cor:           toStr(row[13]),
+          posicao_motor: toStr(row[15]).toUpperCase(),
+          tipo_chassis:  toStr(row[16]).toUpperCase(),
+        });
+      });
+    }catch(err){console.warn('Erro ao parsear Frota:',err);}
+  }
+  result._frota=frotaParsed.length>0?frotaParsed:(S.data&&S.data._frota?S.data._frota:[]);
+
+
   const epiSheet = wb.Sheets['EPI'];
   let epiParsed = [];
   if(epiSheet){
@@ -2991,9 +3199,10 @@ function processImportedWorkbook(wb){
   const ambN=(nd._ambiental||[]).length;
   const vibN=(nd._vibracao||[]).length;
   const epiN=(nd._epi||[]).length;
-  showToast(`✅ Planilha importada: ${nd.length} GES · ${ambN} amb. · ${vibN} vib. · ${epiN} EPIs`);
+  const frotaN=(nd._frota||[]).length;
+  showToast(`✅ Planilha importada: ${nd.length} GES · ${ambN} amb. · ${vibN} vib. · ${frotaN} veículos`);
   uploadToGithub(json).then(ok=>{
-    if(ok) showToast(`☁️ GitHub atualizado: ${nd.length} GES · ${ambN} amb. · ${vibN} vib.`);
+    if(ok) showToast(`☁️ GitHub atualizado: ${nd.length} GES · ${ambN} amb. · ${vibN} vib. · ${frotaN} veículos`);
   });
 }
 
