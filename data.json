@@ -60114,6 +60114,23 @@
       "cor": "PRATA",
       "posicao_motor": "TRASEIRO",
       "tipo_chassis": "ARTICULADO AR"
+    },
+    {
+      "unidade": "58 - BRAS METROPOLE (G9)",
+      "lote": "3",
+      "prefixo": "2670",
+      "placa": "TLU4J10",
+      "fabricacao": "M.BENZ",
+      "tipo": "EO500U - MOTOR",
+      "chassis": "9BM382190SB362477",
+      "ano_mod": "24/25",
+      "renavam": "01408167732",
+      "entre_eixos": "5.95",
+      "carroceria": "Induscar",
+      "tipo_carroceria": "Millennium V Eletric C/Ar",
+      "cor": "VERDE",
+      "posicao_motor": "TRASEIRO",
+      "tipo_chassis": "PADRON ELETRICO"
     }
   ],
   "epiData": [
@@ -61738,6 +61755,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-05-06T16:58:09.482Z",
+  "timestamp": "2026-05-06T17:01:05.624Z",
   "version": "2026"
 }
