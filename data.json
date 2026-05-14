@@ -10783,6 +10783,32 @@
         },
         {
           "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de estresse crônico, pressão operacional, atenção contínua ao trânsito, contato com usuários e risco de violência durante a condução do ônibus",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse crônico, ansiedade, fadiga mental, exaustão emocional, burnout, adoecimento psíquico, distúrbios do sono e risco de acidentes por comprometimento atencional",
+          "fontes": "Atenção intensa e contínua ao trânsito durante toda a jornada; contato direto com passageiros; risco de assaltos e agressões; pressão por cumprimento de horários; jornada prolongada; eventos imprevisíveis em via pública; escalas com baixa flexibilidade; sensação de impotência e desvalorização (Pesquisa de Riscos Psicossociais 2026 — 938 respondentes)",
+          "medidas": "Programa de Prevenção de Riscos Psicossociais (em implantação); canais de escuta ativa; suporte psicológico via SESMT/RH; treinamentos em autocontrole emocional e gestão de conflitos; protocolos de apoio pós-ocorrência (assaltos, agressões); revisão de escalas; pausas operacionais conforme legislação",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sensação de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado pela gestão",
+          "frequencia": "Intermitente",
+          "lesoes": "Desmotivação, sofrimento psíquico, adoecimento emocional, queda de desempenho, aumento de absenteísmo e rotatividade",
+          "fontes": "Relatos de desvalorização do tempo de serviço e esforço diário; percepção de frieza administrativa; dificuldade de diálogo com liderança; sensação de 'ser apenas um número'; estratégias de enfrentamento individuais predominantes (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Ações de reconhecimento profissional; comunicação humanizada; reuniões periódicas de escuta com equipes operacionais; canal de sugestões com retorno institucional; capacitação de lideranças em gestão de pessoas",
+          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
+        },
+        {
+          "tipo": "Psicossocial",
           "perigo": "Risco psicossocial decorrente de sobrecarga de jornada, escalas com baixa flexibilidade e impacto na saúde e vida pessoal",
           "frequencia": "Intermitente",
           "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional e acidentes por fadiga",
@@ -10799,7 +10825,7 @@
       "atividade": "",
       "cnpj": "31.974.104/0001-20",
       "endereco": "AVENIDA RAGUEB CHOHFI, 6.300 - JARDIM PEDRA BRANCA - SÃO PAULO - SP",
-      "num_riscos": 13
+      "num_riscos": 15
     },
     {
       "unidade": "IGUATEMI",
@@ -14825,6 +14851,19 @@
         },
         {
           "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de estresse crônico, pressão operacional, atenção contínua ao trânsito, contato com usuários e risco de violência durante a condução do ônibus",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse crônico, ansiedade, fadiga mental, exaustão emocional, burnout, adoecimento psíquico, distúrbios do sono e risco de acidentes por comprometimento atencional",
+          "fontes": "Atenção intensa e contínua ao trânsito durante toda a jornada; contato direto com passageiros; risco de assaltos e agressões; pressão por cumprimento de horários; jornada prolongada; eventos imprevisíveis em via pública; escalas com baixa flexibilidade; sensação de impotência e desvalorização (Pesquisa de Riscos Psicossociais 2026 — 938 respondentes)",
+          "medidas": "Programa de Prevenção de Riscos Psicossociais (em implantação); canais de escuta ativa; suporte psicológico via SESMT/RH; treinamentos em autocontrole emocional e gestão de conflitos; protocolos de apoio pós-ocorrência (assaltos, agressões); revisão de escalas; pausas operacionais conforme legislação",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
           "perigo": "Risco psicossocial decorrente de sensação de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado pela gestão",
           "frequencia": "Intermitente",
           "lesoes": "Desmotivação, sofrimento psíquico, adoecimento emocional, queda de desempenho, aumento de absenteísmo e rotatividade",
@@ -14854,7 +14893,7 @@
       "atividade": "",
       "cnpj": "31.974.104/0003-92",
       "endereco": "AVENIDA ÁGUIA DE HAIA, 2970 - CIDADE A.E. CARVALHO - SÃO PAULO - SP",
-      "num_riscos": 14
+      "num_riscos": 15
     },
     {
       "unidade": "IMPERADOR",
@@ -16764,13 +16803,52 @@
           "probabilidade": "Provável",
           "nivel_risco": "Moderado",
           "cronograma": "Ação\r\nManter e fortalecer o Programa de Riscos Psicossociais com aplicação periódica de questionário validado; realizar treinamentos em gestão de conflitos, comunicação não violenta e inteligência emocional; disponibilizar canal de escuta ativa e apoio psicológico (EAP); avaliar rodízio de linhas com maior índice de conflito e violência; acompanhar indicadores de absenteísmo, afastamentos e queixas relacionadas a saúde mental mensalmente; garantir suporte imediato a trabalhadores vítimas de violência no trabalho.\r\nResponsável\r\nRH + Medicina do Trabalho (SESMT) + Gerência Operacional\r\nPrazo\r\nImplementação imediata das ações de suporte; reavaliação semestral dos indicadores; revisão anual no ciclo do PGR\r\nIndicador\r\nTaxa de afastamentos por transtornos mentais; resultado de questionário psicossocial; número de ocorrências de violência registradas\r\nStatus\r\nMonitorado"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de contato direto e constante com passageiros, conflitos interpessoais, risco de violência e pressão operacional contínua",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse mental, ansiedade, tensão emocional aguda, adoecimento psíquico, risco de transtornos mentais relacionados ao trabalho (TMRT)",
+          "fontes": "Atendimento contínuo de passageiros em espaço reduzido; conflitos interpessoais frequentes; risco de assaltos e agressões físicas ou verbais; pressão por resultados operacionais; rotina monótona com alta demanda emocional; percepção de falta de suporte institucional em situações de conflito (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Protocolo de suporte ao cobrador em situações de conflito e violência; treinamento em desescalada e gestão de conflitos; canal de comunicação direta com supervisão durante ocorrências; acompanhamento psicológico pós-incidente; Programa de Prevenção de Riscos Psicossociais (NR-01)",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 evidenciam risco elevado para cobradores: desvalorização, conflitos com passageiros, sobrecarga emocional e normalização do sofrimento. As medidas atuais são parciais. Necessária implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Levemente Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Tolerável",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado",
+          "frequencia": "Intermitente",
+          "lesoes": "Desmotivação, sofrimento psíquico, queda de desempenho, aumento de absenteísmo e adoecimento emocional",
+          "fontes": "Percepção de desvalorização do tempo de serviço e esforço; relatos de frieza administrativa; dificuldade de diálogo com liderança; normalização do sofrimento — 'não tem o que fazer'; estratégias individuais de enfrentamento como mecanismo principal (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Programa de reconhecimento profissional direcionado ao operacional; treinamento de lideranças em comunicação humanizada; ações de valorização da função; retorno institucional às manifestações dos colaboradores; grupos de escuta e rodas de conversa",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 evidenciam risco elevado para cobradores: desvalorização, conflitos com passageiros, sobrecarga emocional e normalização do sofrimento. As medidas atuais são parciais. Necessária implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Levemente Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Tolerável",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sobrecarga emocional por escalas, jornada e impacto na saúde e vida pessoal",
+          "frequencia": "Intermitente",
+          "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional",
+          "fontes": "Dificuldade com trocas de escala; falta de flexibilidade operacional; impacto da jornada sobre saúde e vida pessoal; sensação de punição após afastamentos médicos; ausência de tempo para lazer e recuperação (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Revisão da política de trocas de escala com critérios claros e transparentes; eliminação de práticas punitivas relacionadas a afastamentos; suporte psicológico e programa de retorno ao trabalho; orientações sobre higiene do sono e equilíbrio trabalho-vida",
+          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Levemente Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Tolerável",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
         }
       ],
       "num_emp": 201,
       "atividade": "Cabe ao cobrador da empresa a realização das atividades abaixo descrita: a - quando em início de suas atividades na empresa, permanecia à disposição do encarregado de tráfego junto a um banco, onde aguardava ordens para cobrir a falta ou férias de um dos diversos cobradores da empresa; b - havendo a necessidade de cobrir tal falta, recebia a ordem da chefia imediata para realizar o procedimento de cobrança no ônibus destinado ao cobrador substituído; c - enquanto o ônibus circula apenas nas ruas e avenidas da cidade de são Paulo, tanto o cobrador mais antigo como o mais novo na empresa, executa suas atividades de receber o dinheiro ou passe do passageiro, realiza o troco do dinheiro quando necessário, faz o fechamento da féria e presta conta na recebedoria da garagem.",
       "cnpj": "31.974.104/0007-16",
       "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 8
+      "num_riscos": 11
     },
     {
       "unidade": "BRAS",
@@ -18606,13 +18684,52 @@
           "probabilidade": "Altamente Improvável",
           "nivel_risco": "Trivial",
           "cronograma": "Ação: Manter controles existentes e monitoramento periódico.\r\nResponsável: Técnico de Segurança do Trabalho responsável pela unidade\r\nPrazo: Contínuo — revisão anual no ciclo do PGR\r\nIndicador: Ausência de registros de agravos relacionados / inspeções sem não conformidades\r\nStatus: Controlado"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de estresse crônico, pressão operacional, atenção contínua ao trânsito, contato com usuários e risco de violência durante a condução do ônibus",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse crônico, ansiedade, fadiga mental, exaustão emocional, burnout, adoecimento psíquico, distúrbios do sono e risco de acidentes por comprometimento atencional",
+          "fontes": "Atenção intensa e contínua ao trânsito durante toda a jornada; contato direto com passageiros; risco de assaltos e agressões; pressão por cumprimento de horários; jornada prolongada; eventos imprevisíveis em via pública; escalas com baixa flexibilidade; sensação de impotência e desvalorização (Pesquisa de Riscos Psicossociais 2026 — 938 respondentes)",
+          "medidas": "Programa de Prevenção de Riscos Psicossociais (em implantação); canais de escuta ativa; suporte psicológico via SESMT/RH; treinamentos em autocontrole emocional e gestão de conflitos; protocolos de apoio pós-ocorrência (assaltos, agressões); revisão de escalas; pausas operacionais conforme legislação",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sensação de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado pela gestão",
+          "frequencia": "Intermitente",
+          "lesoes": "Desmotivação, sofrimento psíquico, adoecimento emocional, queda de desempenho, aumento de absenteísmo e rotatividade",
+          "fontes": "Relatos de desvalorização do tempo de serviço e esforço diário; percepção de frieza administrativa; dificuldade de diálogo com liderança; sensação de 'ser apenas um número'; estratégias de enfrentamento individuais predominantes (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Ações de reconhecimento profissional; comunicação humanizada; reuniões periódicas de escuta com equipes operacionais; canal de sugestões com retorno institucional; capacitação de lideranças em gestão de pessoas",
+          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sobrecarga de jornada, escalas com baixa flexibilidade e impacto na saúde e vida pessoal",
+          "frequencia": "Intermitente",
+          "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional e acidentes por fadiga",
+          "fontes": "Dificuldade com trocas de escala; falta de flexibilidade operacional; impacto da jornada sobre saúde física e mental; sensação de punição após afastamentos médicos; ausência de tempo para lazer e recuperação (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Revisão da política de escalas e trocas; eliminação de práticas punitivas relacionadas a afastamentos médicos (NR-01); suporte psicológico pós-retorno ao trabalho; orientações sobre higiene do sono; gestão de jornada conforme CLT",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
         }
       ],
       "num_emp": 233,
       "atividade": "",
       "cnpj": "31.974.104/0007-16",
       "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 12
+      "num_riscos": 15
     },
     {
       "unidade": "BRAS",
@@ -22548,6 +22665,32 @@
         },
         {
           "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de estresse crônico, pressão operacional, atenção contínua ao trânsito, contato com usuários e risco de violência durante a condução do ônibus",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse crônico, ansiedade, fadiga mental, exaustão emocional, burnout, adoecimento psíquico, distúrbios do sono e risco de acidentes por comprometimento atencional",
+          "fontes": "Atenção intensa e contínua ao trânsito durante toda a jornada; contato direto com passageiros; risco de assaltos e agressões; pressão por cumprimento de horários; jornada prolongada; eventos imprevisíveis em via pública; escalas com baixa flexibilidade; sensação de impotência e desvalorização (Pesquisa de Riscos Psicossociais 2026 — 938 respondentes)",
+          "medidas": "Programa de Prevenção de Riscos Psicossociais (em implantação); canais de escuta ativa; suporte psicológico via SESMT/RH; treinamentos em autocontrole emocional e gestão de conflitos; protocolos de apoio pós-ocorrência (assaltos, agressões); revisão de escalas; pausas operacionais conforme legislação",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sensação de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado pela gestão",
+          "frequencia": "Intermitente",
+          "lesoes": "Desmotivação, sofrimento psíquico, adoecimento emocional, queda de desempenho, aumento de absenteísmo e rotatividade",
+          "fontes": "Relatos de desvalorização do tempo de serviço e esforço diário; percepção de frieza administrativa; dificuldade de diálogo com liderança; sensação de 'ser apenas um número'; estratégias de enfrentamento individuais predominantes (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Ações de reconhecimento profissional; comunicação humanizada; reuniões periódicas de escuta com equipes operacionais; canal de sugestões com retorno institucional; capacitação de lideranças em gestão de pessoas",
+          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
+        },
+        {
+          "tipo": "Psicossocial",
           "perigo": "Risco psicossocial decorrente de sobrecarga de jornada, escalas com baixa flexibilidade e impacto na saúde e vida pessoal",
           "frequencia": "Intermitente",
           "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional e acidentes por fadiga",
@@ -22564,7 +22707,7 @@
       "atividade": "",
       "cnpj": "31.974.104/0006-35",
       "endereco": "AVENIDA DE PINEDO, 414 - SOCORRO - SÃO PAULO - SP",
-      "num_riscos": 13
+      "num_riscos": 15
     },
     {
       "unidade": "PINEDO",
@@ -26229,6 +26372,32 @@
         },
         {
           "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de estresse crônico, pressão operacional, atenção contínua ao trânsito, contato com usuários e risco de violência durante a condução do ônibus",
+          "frequencia": "Intermitente",
+          "lesoes": "Estresse crônico, ansiedade, fadiga mental, exaustão emocional, burnout, adoecimento psíquico, distúrbios do sono e risco de acidentes por comprometimento atencional",
+          "fontes": "Atenção intensa e contínua ao trânsito durante toda a jornada; contato direto com passageiros; risco de assaltos e agressões; pressão por cumprimento de horários; jornada prolongada; eventos imprevisíveis em via pública; escalas com baixa flexibilidade; sensação de impotência e desvalorização (Pesquisa de Riscos Psicossociais 2026 — 938 respondentes)",
+          "medidas": "Programa de Prevenção de Riscos Psicossociais (em implantação); canais de escuta ativa; suporte psicológico via SESMT/RH; treinamentos em autocontrole emocional e gestão de conflitos; protocolos de apoio pós-ocorrência (assaltos, agressões); revisão de escalas; pausas operacionais conforme legislação",
+          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
+        },
+        {
+          "tipo": "Psicossocial",
+          "perigo": "Risco psicossocial decorrente de sensação de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado pela gestão",
+          "frequencia": "Intermitente",
+          "lesoes": "Desmotivação, sofrimento psíquico, adoecimento emocional, queda de desempenho, aumento de absenteísmo e rotatividade",
+          "fontes": "Relatos de desvalorização do tempo de serviço e esforço diário; percepção de frieza administrativa; dificuldade de diálogo com liderança; sensação de 'ser apenas um número'; estratégias de enfrentamento individuais predominantes (Pesquisa de Riscos Psicossociais 2026)",
+          "medidas": "Ações de reconhecimento profissional; comunicação humanizada; reuniões periódicas de escuta com equipes operacionais; canal de sugestões com retorno institucional; capacitação de lideranças em gestão de pessoas",
+          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
+          "severidade": "Prejudicial",
+          "probabilidade": "Provável",
+          "nivel_risco": "Moderado",
+          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
+        },
+        {
+          "tipo": "Psicossocial",
           "perigo": "Risco psicossocial decorrente de sobrecarga de jornada, escalas com baixa flexibilidade e impacto na saúde e vida pessoal",
           "frequencia": "Intermitente",
           "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional e acidentes por fadiga",
@@ -26245,7 +26414,7 @@
       "atividade": "",
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
-      "num_riscos": 12
+      "num_riscos": 14
     },
     {
       "unidade": "MBOI",
@@ -31361,82 +31530,6 @@
       "cnpj": "31.974.104/0005-54",
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela",
       "num_riscos": 4
-    },
-    {
-      "unidade": "BRAS",
-      "setor": "MOTORISTA ONIBUS",
-      "ges": 27,
-      "riscos": [
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco psicossocial decorrente de sobrecarga de jornada, escalas com baixa flexibilidade e impacto na saúde e vida pessoal",
-          "frequencia": "Intermitente",
-          "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional e acidentes por fadiga",
-          "fontes": "Dificuldade com trocas de escala; falta de flexibilidade operacional; impacto da jornada sobre saúde física e mental; sensação de punição após afastamentos médicos; ausência de tempo para lazer e recuperação (Pesquisa de Riscos Psicossociais 2026)",
-          "medidas": "Revisão da política de escalas e trocas; eliminação de práticas punitivas relacionadas a afastamentos médicos (NR-01); suporte psicológico pós-retorno ao trabalho; orientações sobre higiene do sono; gestão de jornada conforme CLT",
-          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 (938 respondentes) evidenciam risco elevado para motoristas: estresse crônico, desgaste emocional acumulado, conflitos com usuários e sobrecarga de jornada. As medidas atuais são parciais e necessitam de implementação urgente do Programa de Gestão de Riscos Psicossociais, com suporte psicológico, revisão de escalas e treinamento de lideranças.",
-          "severidade": "Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Moderado",
-          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
-        }
-      ],
-      "num_emp": 233,
-      "atividade": "",
-      "cnpj": "31.974.104/0007-16",
-      "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 1
-    },
-    {
-      "unidade": "BRAS",
-      "setor": "COBRADOR",
-      "ges": 10,
-      "riscos": [
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco psicossocial decorrente de contato direto e constante com passageiros, conflitos interpessoais, risco de violência e pressão operacional contínua",
-          "frequencia": "Intermitente",
-          "lesoes": "Estresse mental, ansiedade, tensão emocional aguda, adoecimento psíquico, risco de transtornos mentais relacionados ao trabalho (TMRT)",
-          "fontes": "Atendimento contínuo de passageiros em espaço reduzido; conflitos interpessoais frequentes; risco de assaltos e agressões físicas ou verbais; pressão por resultados operacionais; rotina monótona com alta demanda emocional; percepção de falta de suporte institucional em situações de conflito (Pesquisa de Riscos Psicossociais 2026)",
-          "medidas": "Protocolo de suporte ao cobrador em situações de conflito e violência; treinamento em desescalada e gestão de conflitos; canal de comunicação direta com supervisão durante ocorrências; acompanhamento psicológico pós-incidente; Programa de Prevenção de Riscos Psicossociais (NR-01)",
-          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 evidenciam risco elevado para cobradores: desvalorização, conflitos com passageiros, sobrecarga emocional e normalização do sofrimento. As medidas atuais são parciais. Necessária implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Implementar Programa de Gestão de Riscos Psicossociais (NR-01, Anexo I) com: (1) atendimento psicológico individual e coletivo; (2) capacitação de lideranças em gestão humanizada; (3) canais de escuta ativa e sigilo; (4) revisão de escalas e política de afastamentos; (5) ações de reconhecimento profissional.  Responsável: RH / SESMT / Gestão Operacional  Prazo: Implantação em até 90 dias; monitoramento contínuo  Indicador: Redução de absenteísmo / afastamentos por saúde mental; indicadores de clima organizacional  Status: PRIORITÁRIO — Implementação imediata"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco psicossocial decorrente de desvalorização profissional, falta de reconhecimento e percepção de tratamento pouco humanizado",
-          "frequencia": "Intermitente",
-          "lesoes": "Desmotivação, sofrimento psíquico, queda de desempenho, aumento de absenteísmo e adoecimento emocional",
-          "fontes": "Percepção de desvalorização do tempo de serviço e esforço; relatos de frieza administrativa; dificuldade de diálogo com liderança; normalização do sofrimento — 'não tem o que fazer'; estratégias individuais de enfrentamento como mecanismo principal (Pesquisa de Riscos Psicossociais 2026)",
-          "medidas": "Programa de reconhecimento profissional direcionado ao operacional; treinamento de lideranças em comunicação humanizada; ações de valorização da função; retorno institucional às manifestações dos colaboradores; grupos de escuta e rodas de conversa",
-          "analise": "⚠️ RISCO MONITORADO — MEDIDAS INSUFICIENTES. Os fatores psicossociais identificados na Pesquisa 2026 evidenciam risco elevado para cobradores: desvalorização, conflitos com passageiros, sobrecarga emocional e normalização do sofrimento. As medidas atuais são parciais. Necessária implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
-        },
-        {
-          "tipo": "Psicossocial",
-          "perigo": "Risco psicossocial decorrente de sobrecarga emocional por escalas, jornada e impacto na saúde e vida pessoal",
-          "frequencia": "Intermitente",
-          "lesoes": "Fadiga crônica, distúrbios do sono, comprometimento da vida familiar, maior risco de adoecimento ocupacional",
-          "fontes": "Dificuldade com trocas de escala; falta de flexibilidade operacional; impacto da jornada sobre saúde e vida pessoal; sensação de punição após afastamentos médicos; ausência de tempo para lazer e recuperação (Pesquisa de Riscos Psicossociais 2026)",
-          "medidas": "Revisão da política de trocas de escala com critérios claros e transparentes; eliminação de práticas punitivas relacionadas a afastamentos; suporte psicológico e programa de retorno ao trabalho; orientações sobre higiene do sono e equilíbrio trabalho-vida",
-          "analise": "🟡 RISCO MONITORADO — As medidas de controle existentes são adequadas para manter o risco psicossocial em nível aceitável, sendo necessário monitoramento contínuo. Os riscos identificados possuem caráter ocupacional relevante e foram evidenciados pela Pesquisa de Riscos Psicossociais 2026, exigindo implementação estruturada do Programa de Gestão de Riscos Psicossociais conforme NR-01, Anexo I.",
-          "severidade": "Levemente Prejudicial",
-          "probabilidade": "Provável",
-          "nivel_risco": "Tolerável",
-          "cronograma": "Ação: Implementar ações do Programa de Gestão de Riscos Psicossociais: (1) grupos de escuta e rodas de conversa periódicas; (2) treinamento em gestão de conflitos e comunicação assertiva; (3) protocolos de apoio em situações de violência/conflito; (4) campanhas de valorização e reconhecimento.  Responsável: RH / SESMT / Gestão de Operações  Prazo: Avaliação em até 180 dias; monitoramento contínuo  Indicador: Dados epidemiológicos / indicadores de satisfação / ausência de queixas recorrentes  Status: Monitorado"
-        }
-      ],
-      "num_emp": 201,
-      "atividade": "Cabe ao cobrador da empresa a realização das atividades abaixo descrita: a - quando em início de suas atividades na empresa, permanecia à disposição do encarregado de tráfego junto a um banco, onde aguardava ordens para cobrir a falta ou férias de um dos diversos cobradores da empresa; b - havendo a necessidade de cobrir tal falta, recebia a ordem da chefia imediata para realizar o procedimento de cobrança no ônibus destinado ao cobrador substituído; c - enquanto o ônibus circula apenas nas ruas e avenidas da cidade de são Paulo, tanto o cobrador mais antigo como o mais novo na empresa, executa suas atividades de receber o dinheiro ou passe do passageiro, realiza o troco do dinheiro quando necessário, faz o fechamento da féria e presta conta na recebedoria da garagem.",
-      "cnpj": "31.974.104/0007-16",
-      "endereco": "RUA JOSÉ DE ALENCAR, 25 - BRÁS - SÃO PAULO - SP",
-      "num_riscos": 3
     }
   ],
   "ruidoData": [
@@ -62191,6 +62284,6 @@
       "endereco": "Estrada do M’Boi Mirim, nº 10.100 – Jardim Capela"
     }
   },
-  "timestamp": "2026-05-14T18:05:06.214Z",
+  "timestamp": "2026-05-14T18:53:47.172Z",
   "version": "2026"
 }
